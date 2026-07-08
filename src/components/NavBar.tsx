@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useNavigate } from 'react-router';
-import logo from '@/assets/readylab-logo.jpg';
+import logo from '@/assets/logos/readylab-logo.jpg';
 
 export default function NavBar() {
     const navigate = useNavigate();

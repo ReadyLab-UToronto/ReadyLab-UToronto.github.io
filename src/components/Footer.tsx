@@ -1,5 +1,5 @@
-import lab_logo from '@/assets/readylab-logo-footer.png';
-import uoft_logo from '@/assets/UofT_logo-white.png';
+import lab_logo from '@/assets/logos/readylab-logo-footer.png';
+import uoft_logo from '@/assets/logos/UofT_logo-white.png';
 
 
 export default function Footer() {
