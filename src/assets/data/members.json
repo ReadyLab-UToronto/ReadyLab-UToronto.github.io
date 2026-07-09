@@ -1,0 +1,34 @@
+{
+    "members": [
+        {
+            "name": "Dr. Pelin Tanberg",
+            "active": true,
+            "graduationYear": -1,
+            "imageUrl": "pelin_tanberg.jpg", 
+            "role": "postdoc", 
+            "description": "Dr. Pelin Tanberg is an NSERC-funded postdoctoral fellow at the Ready Lab. Her research investigates how teams develop transactive memory systems: shared mental maps of who knows what and how they update these maps overtime. A central question in her work is how introducing new human or AI team members affects this collective knowledge structure, collaboration, and idea generation. She received her MSc from Queen’s University in cognitive neuroscience and her PhD from the University of Waterloo in cognitive psychology. She holds a cross-appointment with Dr. Michael Inzlicht in the Department of Psychology, where she studies how effort and memory shape empathy-seeking behaviour and how people seek or delegate emotional support to AI companions.",
+            "linkedinUrl": "https://www.linkedin.com/in/pelintanberg/",
+            "googlescholarUrl": "https://scholar.google.com/citations?user=WAZQ05cAAAAJ&hl=en&oi=ao"
+        }, 
+        {
+            "name": "Yuanzhe (Felix) Deng",
+            "active": true,
+            "graduationYear": -1,
+            "imageUrl": "felix_deng.jpg", 
+            "role": "phd", 
+            "description": "Felix is a PhD student at Ready Lab, co-supervised by Prof. Shurui Zhou from FORCOLAB. He holds a BASc in Mechanical Engineering from the University of Toronto. He completed his undergraduate thesis at the Microrobotics Lab, working on magnetically actuated surgical robotics, and previously conducted research at Ready Lab on the efficiency of engineering collaboration in multi-user CAD. Felix’s current research focuses on enhancing the human-computer interaction of modern CAD systems with artificial intelligence.",
+            "linkedinUrl": "https://www.linkedin.com/in/felix-deng-b845331b3/",
+            "googlescholarUrl": "https://scholar.google.com/citations?user=NCexN38AAAAJ&hl=en"
+        }, 
+        {
+            "name": "Dr. Kathy Cheng",
+            "active": false,
+            "graduationYear": 2026,
+            "imageUrl": "kathy_cheng.jpg", 
+            "role": "phd", 
+            "description": "Kathy is a PhD candidate at Ready Lab, co-advised by Dr. Shurui Zhou from FORCOLAB. She holds a BASc in Mechanical Engineering from the University of Toronto. She spent an award-winning Professional Experience Year at Scotiabank as a technology consultant, which sparked her interest in human-centred design. Kathy’s doctoral research aims to understand and address collaboration challenges with CAD (computer-aided design) tools using software development best practices and insight.",
+            "linkedinUrl": "https://www.linkedin.com/in/kathy-cheng/",
+            "googlescholarUrl": "https://scholar.google.ca/citations?user=cwrLbXkAAAAJ&hl=en"
+        }
+    ]
+}

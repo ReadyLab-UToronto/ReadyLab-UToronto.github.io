@@ -1,7 +1,3 @@
-import lab_logo from '@/assets/readylab-logo-footer.png';
-import uoft_logo from '@/assets/UofT_logo-white.png';
-
-
 export default function Footer() {
     return (
         <footer className="bg-[#3B57F3] mt-16">
@@ -10,12 +6,12 @@ export default function Footer() {
                 {/* Lab information */}
                 <div className="flex items-center md:items-start gap-20">
                     <img 
-                        src={uoft_logo}
+                        src={`src/assets/logos/UofT_logo-white.png`}
                         alt="University of Toronto logo"
                         className="h-30 w-auto mb-4"
                     />
                     <img
-                        src={lab_logo}
+                        src={`src/assets/logos/readylab-logo-footer.png`}
                         alt="READY Lab logo"
                         className="h-20 w-auto mb-4"
                     />
