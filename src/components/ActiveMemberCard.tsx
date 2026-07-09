@@ -13,7 +13,7 @@ type MemberCardProps = {
 
 export default function ActiveMemberCard({ name, role, imageUrl, description, linkedinUrl, googlescholarUrl }: MemberCardProps) {
     return (
-        <div className="flex flex-col md:flex-row h-full px-40">
+        <div className="flex flex-col md:flex-row h-full px-60">
                 <Avatar className="h-60 w-60">
                     <AvatarImage src={`src/assets/headshots/${imageUrl}`} alt={name} />
                     <AvatarFallback>{name}</AvatarFallback>
