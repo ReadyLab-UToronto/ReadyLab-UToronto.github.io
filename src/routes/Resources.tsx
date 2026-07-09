@@ -30,6 +30,16 @@ const researchOutputs = [
         linkText: 'The Hackathon Archive of Collaboration Knowledge and Engineering Design (HACKED): Hackathon 1 Transcript Sample',
         description: 'is an open-source dataset of transcript data from a hackathon event.',
     },
+    // To add more resources here, use THIS template:
+    // Images are located in the /src/assets/resources folder.
+    
+    // {
+    //     image: 'resource5_example.png',
+    //     alt: 'Example resource',
+    //     href: 'https://example.com',
+    //     linkText: 'Text to be hyperlinked',
+    //     description: 'Text to go after the hyperlink',
+    // },
 ];
 
 export default function Resources() {
