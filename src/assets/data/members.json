@@ -29,6 +29,16 @@
             "description": "Kathy is a PhD candidate at Ready Lab, co-advised by Dr. Shurui Zhou from FORCOLAB. She holds a BASc in Mechanical Engineering from the University of Toronto. She spent an award-winning Professional Experience Year at Scotiabank as a technology consultant, which sparked her interest in human-centred design. Kathy’s doctoral research aims to understand and address collaboration challenges with CAD (computer-aided design) tools using software development best practices and insight.",
             "linkedinUrl": "https://www.linkedin.com/in/kathy-cheng/",
             "googlescholarUrl": "https://scholar.google.ca/citations?user=cwrLbXkAAAAJ&hl=en"
+        }, 
+        {
+            "name": "Dr. Chuma Asuzu",
+            "active": false,
+            "graduationYear": 2026,
+            "imageUrl": "chuma_asuzu.jpg", 
+            "role": "phd", 
+            "description": "Chuma is a PhD Student at Ready Lab. His research explores the development of aesthetics in people and how customer data can be used to inform engineering design. Outside of the lab, he can be found watching old TV shows and rom-coms.",
+            "linkedinUrl": "https://ca.linkedin.com/in/chuma-asuzu",
+            "googlescholarUrl": "https://scholar.google.com/citations?user=60FIoRYAAAAJ&hl=en&oi=sra"
         }
     ]
 }

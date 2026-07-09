@@ -65,20 +65,21 @@ export default function Team() {
 
             {/* Active lab members */}
             <div className="flex flex-col space-y-10 py-20">
-            {teamMembers.filter(member => member.active).sort(
-                (a, b) => roleOrder[a.role] - roleOrder[b.role]
-                ).map(member => ActiveMemberCard(member))
-            }
+                {teamMembers.filter(member => member.active).sort(
+                    (a, b) => roleOrder[a.role] - roleOrder[b.role]
+                    ).map(member => ActiveMemberCard(member))
+                }
             </div>
 
             {/* Lab alumni */}
-            <h2>Lab Alumni</h2>
-            {teamMembers.filter(member => !member.active).sort(
+            <h2 className="text-2xl font-bold mb-4 px-12">Lab Alumni</h2>
+            <div className="grid grid-cols-1 gap-6 px-6 md:grid-cols-3">
+                {teamMembers.filter(member => !member.active).sort(
                     (a, b) => roleOrder[a.role] - roleOrder[b.role]
                 ).sort(
                     (a, b) => a.graduationYear - b.graduationYear
                 ).map(member => AlumniMemberCard(member))}
-
+            </div>
             <Footer />
         </div>
     )
