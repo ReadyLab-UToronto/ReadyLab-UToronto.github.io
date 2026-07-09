@@ -33,7 +33,18 @@ export default function Team() {
     return (
         <div>
             <Navbar />
-            <div className="text-4xl font-bold text-center my-8">THE READY LAB TEAM</div>
+            <div className="relative mb-10">
+                <img 
+                    src={`src/assets/website_images/whiteboard.png`} 
+                    alt="Background"
+                    className="w-full h-[250px] object-cover object-[center_100%]"
+                />
+                <div className="absolute inset-0 bg-[#3B57F3]/30"></div>
+                <div className="absolute inset-0 flex items-center justify-center text-white">
+                    <div className="text-5xl font-bold text-center my-8">THE READY LAB TEAM</div>
+                </div>
+            </div>
+            
             
             {/* Alison's profile */}
             <div className="flex flex-col md:flex-row h-full px-60">

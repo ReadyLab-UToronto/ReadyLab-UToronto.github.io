@@ -41,7 +41,17 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <div className="text-4xl font-bold text-center my-8">READY FOR THE FUTURE OF DESIGN</div>
+            <div className="relative mb-10">
+                <img 
+                    src={`src/assets/website_images/whiteboard.png`} 
+                    alt="Background"
+                    className="w-full h-[250px] object-cover object-[center_60%]"
+                />
+                <div className="absolute inset-0 bg-[#3B57F3]/30"></div>
+                <div className="absolute inset-0 flex items-center justify-center text-white">
+                    <div className="text-5xl font-bold text-center my-8">READY FOR THE FUTURE OF DESIGN</div>
+                </div>
+            </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-50">
                 <div className="flex flex-col gap-4">
@@ -98,7 +108,7 @@ export default function Home() {
                     .sort((a, b) => roleOrder[a.role] - roleOrder[b.role])
                     .map((member) => (
                         <div className=" flex flex-col gap-4 justify-center items-center" key={member.name}>
-                            <Avatar className="h-40 w-40">
+                            <Avatar className="h-50 w-50">
                                 <AvatarImage src={`src/assets/headshots/${member.imageUrl}`} alt={member.name} />
                                 <AvatarFallback>{member.name}</AvatarFallback>
                             </Avatar>

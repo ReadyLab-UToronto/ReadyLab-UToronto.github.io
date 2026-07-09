@@ -34,7 +34,17 @@ export default function Publications() {
     return (
         <div>
             <Navbar />
-            <div className="text-4xl font-bold text-center my-8">RESEARCH PUBLICATIONS</div>
+            <div className="relative mb-10">
+                <img 
+                    src={`src/assets/website_images/whiteboard.png`} 
+                    alt="Background"
+                    className="w-full h-[250px] object-cover object-[center_18%]"
+                />
+                <div className="absolute inset-0 bg-[#3B57F3]/30"></div>
+                <div className="absolute inset-0 flex items-center justify-center text-white">
+                    <div className="text-5xl font-bold text-center my-8">RESEARCH PUBLICATIONS</div>
+                </div>
+            </div>
 
             {/* Filters */}
             <div className="flex w-full flex-wrap justify-center gap-4">
