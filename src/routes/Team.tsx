@@ -36,7 +36,7 @@ export default function Team() {
             <div className="text-4xl font-bold text-center my-8">THE READY LAB TEAM</div>
             
             {/* Alison's profile */}
-            <div className="flex flex-col md:flex-row h-full px-40">
+            <div className="flex flex-col md:flex-row h-full px-60">
                 <Avatar className="h-60 w-60">
                     <AvatarImage src={`src/assets/headshots/alison_olechowski.jpg`} alt="Alison Olechowski" />
                     <AvatarFallback>Alison Olechowski</AvatarFallback>
@@ -72,8 +72,8 @@ export default function Team() {
             </div>
 
             {/* Lab alumni */}
-            <h2 className="text-2xl font-bold mb-4 px-12">Lab Alumni</h2>
-            <div className="grid grid-cols-1 gap-6 px-6 md:grid-cols-3">
+            <h2 className="text-2xl font-bold mb-4 px-20">Lab Alumni</h2>
+            <div className="grid grid-cols-1 gap-6 px-20 md:grid-cols-3">
                 {teamMembers.filter(member => !member.active).sort(
                     (a, b) => roleOrder[a.role] - roleOrder[b.role]
                 ).sort(
