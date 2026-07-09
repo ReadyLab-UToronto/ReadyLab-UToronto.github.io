@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"; 
-
+import linkedinImage from '@/assets/icons/linkedin.png';
+import googlescholarImage from '@/assets/icons/google_scholar.png';
 
 type MemberCardProps = {
     name: string;
@@ -10,7 +11,7 @@ type MemberCardProps = {
     googlescholarUrl?: string;
 };
 
-export default function MemberCard({ name, role, imageUrl, description, linkedinUrl, googlescholarUrl }: MemberCardProps) {
+export default function AlumniMemberCard({ name, role, imageUrl, description, linkedinUrl, googlescholarUrl }: MemberCardProps) {
     return (
         <div></div>
     )

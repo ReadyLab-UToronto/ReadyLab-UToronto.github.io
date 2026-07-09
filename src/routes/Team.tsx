@@ -2,11 +2,36 @@ import Navbar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-import alisonImage from '@/assets/headshots/alison_olechowski.jpg';
+import ActiveMemberCard from '@/components/ActiveMemberCard';
+import AlumniMemberCard from '@/components/AlumniMemberCard';
+
+import members from '@/assets/data/members.json'; 
 import linkedinImage from '@/assets/icons/linkedin.png';
 import googlescholarImage from '@/assets/icons/google_scholar.png';
 
+
+const roleOrder = {
+    postdoc: 0, 
+    phd: 1, 
+    masc: 2, 
+    meng: 3, 
+    undergrad: 4, 
+}
+
+type memberProp = {
+    name: string; 
+    active: boolean;
+    graduationYear: number; 
+    imageUrl: string; 
+    role: "postdoc" | "phd" | "masc" | "meng" | "undergrad";
+    description: string; 
+    linkedinUrl?: string; 
+    googlescholarUrl?: string;
+}
+
 export default function Team() {
+    const teamMembers = members.members as memberProp[];
+
     return (
         <div>
             <Navbar />
@@ -15,7 +40,7 @@ export default function Team() {
             {/* Alison's profile */}
             <div className="flex flex-col md:flex-row h-full px-40">
                 <Avatar className="h-60 w-60">
-                    <AvatarImage src={alisonImage} alt="Alison Olechowski" />
+                    <AvatarImage src={`src/assets/headshots/alison_olechowski.jpg`} alt="Alison Olechowski" />
                     <AvatarFallback>Alison Olechowski</AvatarFallback>
                 </Avatar>
                 <div className="flex flex-col py-2">
@@ -41,10 +66,20 @@ export default function Team() {
             </div>
 
             {/* Active lab members */}
-
+            <div className="flex flex-col space-y-10 py-20">
+            {teamMembers.filter(member => member.active).sort(
+                (a, b) => roleOrder[a.role] - roleOrder[b.role]
+                ).map(member => ActiveMemberCard(member))
+            }
+            </div>
 
             {/* Lab alumni */}
-
+            <h2>Lab Alumni</h2>
+            {teamMembers.filter(member => !member.active).sort(
+                    (a, b) => roleOrder[a.role] - roleOrder[b.role]
+                ).sort(
+                    (a, b) => a.graduationYear - b.graduationYear
+                ).map(member => AlumniMemberCard(member))}
 
             <Footer />
         </div>

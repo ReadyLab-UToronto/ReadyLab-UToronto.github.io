@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useNavigate } from 'react-router';
-import logo from '@/assets/logos/readylab-logo.jpg';
+
 
 export default function NavBar() {
     const navigate = useNavigate();
@@ -20,7 +20,7 @@ export default function NavBar() {
         <div className="flex w-full items-center justify-between py-6 px-16 sticky top-0 bg-white z-50 shadow-md">
             {/* Logo */}
             <div>
-                <img src={logo} alt="ReadyLab Logo" className="h-18 w-auto" />
+                <img src={`src/assets/logos/readylab-logo.jpg`} alt="ReadyLab Logo" className="h-18 w-auto" />
             </div>
 
             {/* Desktop Navigation Bar */}
