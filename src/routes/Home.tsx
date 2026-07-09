@@ -83,7 +83,7 @@ export default function Home() {
                     <CarouselContent>
                         {lab_photos.map((image) => (
                             <CarouselItem key={image}>
-                                <img src={`src/assets/lab_photos/${image}`} alt={image} className="w-full h-auto" />
+                                <img src={`src/assets/lab_photos/${image}`} alt={image} className="w-full h-[900px] object-contain" />
                             </CarouselItem>
                         ))}
                     </CarouselContent>
@@ -92,7 +92,7 @@ export default function Home() {
                 </Carousel>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-20 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-20 mt-20">
                 {teamMembers
                     .filter((member) => member.active)
                     .sort((a, b) => roleOrder[a.role] - roleOrder[b.role])
@@ -118,7 +118,7 @@ export default function Home() {
             </div>
             
             <div className="text-4xl font-bold text-center my-20">Partners</div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-10 mt-5">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-10 mt-5 justify-items-center">
                 <img src={`src/assets/logos/safran.png`} alt="Safran Logo" className="w-auto h-16" />
                 <img src={`src/assets/logos/SSHRC.png`} alt="SSHRC Logo" className="w-auto h-16" />
                 <img src={`src/assets/logos/CFI.png`} alt="CFI Logo" className="w-auto h-16" />
@@ -134,7 +134,7 @@ export default function Home() {
             </div>
             
             <div className="text-4xl font-bold text-center my-20">Collaborators</div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-10 mt-5">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-10 mt-5 justify-items-center">
                 <img src={`src/assets/logos/waterloo.png`} alt="University of Waterloo Logo" className="w-auto h-16" />
                 <img src={`src/assets/logos/TUM.png`} alt="Technical University of Munich Logo" className="w-auto h-16" />
                 <img src={`src/assets/logos/Tufts.png`} alt="Tufts University Logo" className="w-auto h-16" />
