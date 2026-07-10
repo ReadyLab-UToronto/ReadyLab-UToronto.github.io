@@ -29,6 +29,7 @@ export default function Join() {
                     <div className="text-lg">In the next application cycle, we will seek students to apply to the UofT Mechanical & Industrial Engineering graduate program to join our lab. We are looking for strong graduate candidates who might have:</div>
                     <ul className="list-disc list-inside px-8 space-y-1">
                         <li>Experience with computer-aided design or model-based systems engineering software</li>
+                        <li>Interest in engineering design, human-computer interaction and/or systems engineering</li>
                         <li>Strong background in statistics and data analytics</li>
                         <li>Motivation to improve communication skills</li>
                         <li>Ability to design and run human subject experiments</li>
