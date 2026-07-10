@@ -5,9 +5,17 @@ export default function Join() {
     return (
         <div>
             <Navbar />
-            {/* Page title */}
-            <div className="text-4xl font-bold text-center my-20">Open Research Opportunities</div>
-            <div className="border-t border-[#000000] mx-auto max-w-5xl my-8" />
+            <div className="relative mb-10">
+                <img
+                    src={`src/assets/website_images/whiteboard.png`}
+                    alt="Background"
+                    className="w-full h-[250px] object-cover object-[center_40%]"
+                />
+                <div className="absolute inset-0 bg-[#3B57F3]/30"></div>
+                <div className="absolute inset-0 flex items-center justify-center text-white">
+                    <div className="text-5xl font-bold text-center my-8">OPEN RESEARCH OPPORTUNITIES</div>
+                </div>
+            </div>
 
             {/* Section 1: Current opportunities */}
             <div className="flex flex-col justify-center px-50 gap-6">
@@ -26,7 +34,7 @@ export default function Join() {
 
                     {/* How to apply */}
                     <div className="text-2xl font-bold">How to apply</div>
-                    <div className="text-lg">Please email Prof. Olechowski with your CV and include the phrase “We The North” in the subject.</div>
+                    <div className="text-lg">Please email Prof. Olechowski with your CV and Transcript, and include the phrase “We The North” in the subject.</div>
             </div>
 
             {/* Diversity statement */}

@@ -46,9 +46,17 @@ export default function Resources() {
     return (
         <div>
             <Navbar />
-
-            <div className="text-4xl font-bold text-center my-20">RESOURCES</div>
-            <div className="border-t border-[#000000] mx-auto max-w-5xl my-8" />
+            <div className="relative mb-10">
+                <img
+                    src={`src/assets/website_images/whiteboard.png`}
+                    alt="Background"
+                    className="w-full h-[250px] object-cover object-[center_80%]"
+                />
+                <div className="absolute inset-0 bg-[#3B57F3]/30"></div>
+                <div className="absolute inset-0 flex items-center justify-center text-white">
+                    <div className="text-5xl font-bold text-center my-8">RESOURCES</div>
+                </div>
+            </div>
 
             <div className="flex flex-col justify-center px-50 gap-10">
                 <div className="text-2xl font-bold">Research Outputs</div>
