@@ -16,7 +16,6 @@ All publications are managed in the file `src/assets/data/publications.json`. Sp
     "venue": "required -- name of the journal or the conference proceeding", 
     "year": "required -- a number year for sorting", 
     "tags": ["a list of tags that the paper should be filtered with"], 
-    "image": "an image that highlights the findings or contributions of the paper", 
     "links": {
         "doi": "required", 
         "pdf": "optional", 
@@ -30,7 +29,6 @@ All publications are managed in the file `src/assets/data/publications.json`. Sp
 
 **Notes**: 
 - For the `tags`, the website will automatically find all unique tags assigned to all papers listed in `publications.json` and generate the filter options. Please be careful with spelling and cases to avoid duplicates. 
-- For the `image`, **add instructions**
 - For the `links`, only the `doi` is required. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `src/assets/`, and enter the corresponding file name in the paper entry in `publications.json`. 
 - For the `abstract`, double check the content being pasted in `publications.json`. Note that any special typesetting and hyperlinks are currently not supported. 
 
