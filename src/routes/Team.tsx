@@ -44,15 +44,15 @@ export default function Team() {
                     <AvatarFallback>Alison Olechowski</AvatarFallback>
                 </Avatar>
                 <div className="flex flex-col py-2">
-                    <div className="flex flex-col space-y-1 ml-8 w-full">
+                    <div className="flex flex-col space-y-4 ml-8 w-full">
                         <div className="text-2xl font-bold">Professor Alison Olechowski, PhD, P.Eng.</div>
-                        <div className="text-lg text-semibold">
+                        <div className="text-lg font-bold">
                             Associate Professor <br />
                             Department of Mechanical & Industrial Engineering <br />
                             Institute for Studies in Transdisciplinary Engineering Education and Practice (ISTEP)
                         </div>
                     </div>
-                    <div className="mt-4 ml-8 w-full text-md space-y-4">
+                    <div className="mt-8 ml-8 w-full text-md space-y-4">
                         <p>Alison Olechowski is an Associate Professor in the Department of Mechanical & Industrial Engineering and the Institute for Studies in Transdisciplinary Engineering Education & Practice (ISTEP) at the University of Toronto. Dr. Olechowski and her team study the processes and tools that teams of engineers use in industry as they design innovative new products. She has studied engineering products and projects in the automotive, electronics, aerospace, medical device and oil & gas industries.</p>
                         <p>Dr. Olechowski completed her PhD in Mechanical Engineering at the Massachusetts Institute of Technology. Her doctoral research involved the study of technology development in complex product and systems engineering with her advisor Prof. <a href="https://mitmgmtfaculty.mit.edu/eppinger/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Steven Eppinger</a> (MIT Sloan School of Management) and collaborator Prof. <a href="https://smgapps.bu.edu/mgmt_new/profiles/Joglekarnitin.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Nitin Joglekar</a> (BU School of Management).</p>
                         <p>Dr. Olechowski received her master's degree in Mechanical Engineering from MIT, advised by Prof. <a href="https://meche.mit.edu/people/faculty/Seering@MIT.edu" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Warren Seering</a>. Her master's research focused on product development processes, particularly investigating uncertainty and risk in engineering design. She received a B.S. in Mechanical Engineering from <a href="https://www.queensu.ca/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Queen's University</a> in Kingston, Ontario.</p>

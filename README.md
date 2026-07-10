@@ -13,16 +13,16 @@ All publications are managed in the file `src/assets/data/publications.json`. Sp
 {
     "title": "required", 
     "authors": "required", 
-    "venue": "required -- name of the journal or the conference proceeding", 
-    "year": "required -- a number year for sorting", 
+    "venue": "required - name of the journal or the conference proceeding", 
+    "year": "required - a number year for sorting", 
     "tags": ["a list of tags that the paper should be filtered with"], 
     "links": {
         "doi": "required", 
         "pdf": "optional", 
         "slides": "optional", 
-        "code": "optional -- a link to e.g. a GitHub code repository"
+        "code": "optional - a link to e.g. a GitHub code repository"
     }, 
-    "award": "optional -- name of the award associated with the paper", 
+    "award": "optional - name of the award associated with the paper", 
     "abstract": "required" 
 }
 ```
@@ -39,13 +39,13 @@ All members, including active members and alumni, are managed in the file `src/a
 ```json 
 {
     "name": "required", 
-    "active": "required -- either true or false", 
-    "graduationYear": "a number year is required -- any number if active", 
-    "imageUrl": "required -- file name for the headshot in src/assets/headshots", 
-    "role": "one of postdoc, phd, masc, meng, undergrad", 
+    "active": "required - either true or false", 
+    "graduationYear": "a number year is required - any number if active", 
+    "imageUrl": "required - file name for the headshot in src/assets/headshots", 
+    "role": "required - one of postdoc, phd, masc, meng, undergrad", 
     "description": "required", 
-    "linkedinUrl": "required -- use empty string if none", 
-    "googlescholarUrl": "required -- use empty string if none"
+    "linkedinUrl": "optional", 
+    "googlescholarUrl": "optional"
 }
 ```
 
@@ -53,7 +53,8 @@ All members, including active members and alumni, are managed in the file `src/a
 - If `active` is set to `true`, number entered for `graduationYear` is ignored, but a number is still required for data type consistency. 
 - When an active lab member graduates, simply change `active` to `false` and enter the correct `graduationYear`. 
 - Please rename the headshot image with a meaningful filename for sustainable file management in `src/assets/headshots/`. Crop the image to square to avoid unintended cut off when being presented on the website. 
-- If a `linkedinUrl` or a `googlescholarUrl` is entered, an hyperlinked icon will automatically show up in your profile. If an URL is not available, please keep the entries and use an empty string `""` instead. 
+- The `description` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). However, all text will be formatted in black, even if text is linked to external webpages. 
+- If a `linkedinUrl` or a `googlescholarUrl` is entered, an hyperlinked icon will automatically show up in your profile. If an URL is not available, please remove the field. 
 
 ### News 
 
@@ -70,7 +71,7 @@ All news are managed in the file `src/assets/data/news.json`. Specifications of 
 
 **Note**:
 - If a new `type` that is not in the currently supported list is used, **add instructions** 
-- For content entered in `content`, any special typesetting and hyperlinks are currently not supported. 
+- The `content` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). However, all text will be formatted in black, even if text is linked to external webpages. 
 
 ## Setup Guide 
 
