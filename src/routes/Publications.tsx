@@ -1,8 +1,9 @@
-import Navbar from '@/components/NavBar';
-import Footer from '@/components/Footer';
-
 import { useState } from 'react';
 import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
+
+import Navbar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 import PublicationCard from '@/components/PublicationCard';
 import publicationData from '@/assets/data/publications.json';
 import type { Publication } from '@/type';
@@ -11,20 +12,31 @@ import type { Publication } from '@/type';
 export default function Publications() {
     const publications = publicationData.publications as Publication[]; 
     const tags = [...new Set(publications.flatMap(pub => pub.tags))].sort();
+    
     const [selectedTag, setSelectedTag] = useState<string | null>(null);
+    const [searchQuery, setSearchQuery] = useState<string>("");
 
-    const filteredPublications = selectedTag === null
-        ? publications
-        : publications.filter((publication) =>
-            publication.tags.includes(selectedTag)
-        );
+    const filteredPublications = publications.filter((p) => {
+        const query = searchQuery.toLowerCase();
+
+        const matchesSearch =
+            p.title.toLowerCase().includes(query) ||
+            p.abstract.toLowerCase().includes(query) ||
+            p.authors.toLowerCase().includes(query);
+
+        const matchesTag =
+            selectedTag === null ||
+            p.tags.includes(selectedTag);
+
+        return matchesSearch && matchesTag;
+    });
     const years = [...new Set(filteredPublications.map(p => p.year))].sort((a, b) => b - a);
 
 
     return (
         <div>
             <Navbar />
-            <div className="relative mb-10">
+            <div className="relative">
                 <img 
                     src={`src/assets/website_images/whiteboard.png`} 
                     alt="Background"
@@ -36,40 +48,78 @@ export default function Publications() {
                 </div>
             </div>
 
-            {/* Filters */}
-            <div className="flex w-full flex-wrap justify-center gap-4 mb-6">
-                <strong className="text-xl">Filters:</strong>
-                <Badge 
-                    variant={selectedTag === null ? "default" : "secondary"}
-                    onClick={() => setSelectedTag(null)}
-                    className="text-xl"
-                >
-                    All
-                </Badge>
-                {tags.map((tag) => (
+            <div className="sticky top-30 py-4 bg-muted">
+                {/* Year navigation */}
+                <div className="flex w-full justify-center items-center gap-4 mb-4">
+                    {years.map((year) => (
+                        <button
+                            key={year}
+                            onClick={() =>
+                                document
+                                    .getElementById(`year-${year}`)
+                                    ?.scrollIntoView({ behavior: "smooth" })
+                            }
+                            className="
+                                px-5 py-2 rounded-full text-md
+                                bg-secondary hover:bg-secondary/80
+                                transition-transform hover:scale-105
+                            "
+                        >
+                            {year}
+                        </button>
+                    ))}
+                </div>
+
+                {/* Filters */}
+                <div className="flex w-full flex-wrap justify-center items-center gap-4 mt-4 mb-2">
+                    <strong className="text-lg">Filters:</strong>
                     <Badge 
-                        variant={selectedTag === tag ? "default" : "secondary"}
-                        onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
-                        className="text-xl"
+                        variant={selectedTag === null ? "default" : "secondary"}
+                        onClick={() => setSelectedTag(null)}
+                        className="text-md px-5 h-auto cursor-pointer hover:scale-105 transition-transform"
                     >
-                        {tag}
+                        All
                     </Badge>
-                ))}
+                    {tags.map((tag) => (
+                        <Badge 
+                            variant={selectedTag === tag ? "default" : "secondary"}
+                            onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+                            className="text-md px-5 h-auto cursor-pointer hover:scale-105 transition-transform"
+                        >
+                            {tag}
+                        </Badge>
+                    ))}
+                </div>
+
+                {/* Search bar */}
+                <div className="flex justify-center mb-2">
+                    <Input
+                        placeholder="Search publications..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="w-1/2 text-md py-6"
+                    />
+                </div>
             </div>
             
             {/* Publications grouped by years */}
-            {years.map((year) => (
-                <section key={year}>
-                    <h2 className="mb-6 text-3xl font-bold px-20">
-                        {year}
-                    </h2>
+            {years.map((year) => {
+                const yearPublications = filteredPublications.filter(
+                    (p) => p.year === year
+                );
 
-                    {publications
-                        .filter((p) => p.year === year)
-                        .map((publication) => PublicationCard({publication})
+                if (yearPublications.length === 0) return null;
+
+                return (
+                    <section key={year} id={`year-${year}`} className="scroll-mt-80">
+                        <h2 className="mt-6 mb-6 text-3xl font-bold px-20">{year}</h2>
+
+                        {yearPublications.map((publication) =>
+                            PublicationCard({ publication })
                         )}
-                </section>
-            ))}
+                    </section>
+                );
+            })}
 
             <Footer />
         </div>

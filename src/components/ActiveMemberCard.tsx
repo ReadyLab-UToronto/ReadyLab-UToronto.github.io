@@ -1,3 +1,4 @@
+import ReactMarkdown from "react-markdown";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"; 
 import type { Member } from "@/type";
 
@@ -9,12 +10,11 @@ export default function ActiveMemberCard({ member }: { member: Member }) {
                     <AvatarImage src={`src/assets/headshots/${member.imageUrl}`} alt={member.name} />
                     <AvatarFallback>{member.name}</AvatarFallback>
                 </Avatar>
-                <div className="flex flex-col py-2">
-                    <div className="flex flex-col space-y-1 ml-8 w-full">
-                        <div className="text-2xl font-bold">{member.name}</div>
-                        <div className="text-lg text-semibold">{member.role}</div>
+                <div className="flex flex-col py-8">
+                    <div className="text-2xl font-bold ml-8">{member.name}</div>
+                    <div className="mt-4 ml-8 w-full space-y-4">
+                        <ReactMarkdown>{member.description}</ReactMarkdown>
                     </div>
-                    <div className="mt-4 ml-8 w-full text-md space-y-4">{member.description}</div>
                     <div className="flex flex-row space-x-4 mt-4 ml-8">
                         { member.linkedinUrl && (
                             <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
