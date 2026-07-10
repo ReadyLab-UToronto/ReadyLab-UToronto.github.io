@@ -5,31 +5,21 @@ import { useState } from 'react';
 import { Badge } from "@/components/ui/badge";
 import PublicationCard from '@/components/PublicationCard';
 import publicationData from '@/assets/data/publications.json';
+import type { Publication } from '@/type';
 
-
-type publicationProp = {
-    title: string;
-    authors: string;
-    venue: string;
-    year: number;
-    tags: string[];
-    image?: string;
-    links: {
-        doi: string;
-        pdf?: string;
-        slides?: string;
-        code?: string;
-    }; 
-    award?: string;
-    abstract: string;
-}
 
 export default function Publications() {
-    const publications = publicationData.publications as publicationProp[];
-    const sortedPublications = publications.sort((a, b) => b.year - a.year);
-
+    const publications = publicationData.publications as Publication[]; 
     const tags = [...new Set(publications.flatMap(pub => pub.tags))].sort();
     const [selectedTag, setSelectedTag] = useState<string | null>(null);
+
+    const filteredPublications = selectedTag === null
+        ? publications
+        : publications.filter((publication) =>
+            publication.tags.includes(selectedTag)
+        );
+    const years = [...new Set(filteredPublications.map(p => p.year))].sort((a, b) => b - a);
+
 
     return (
         <div>
@@ -47,7 +37,7 @@ export default function Publications() {
             </div>
 
             {/* Filters */}
-            <div className="flex w-full flex-wrap justify-center gap-4">
+            <div className="flex w-full flex-wrap justify-center gap-4 mb-6">
                 <strong className="text-xl">Filters:</strong>
                 <Badge 
                     variant={selectedTag === null ? "default" : "secondary"}
@@ -66,6 +56,21 @@ export default function Publications() {
                     </Badge>
                 ))}
             </div>
+            
+            {/* Publications grouped by years */}
+            {years.map((year) => (
+                <section key={year}>
+                    <h2 className="mb-6 text-3xl font-bold px-20">
+                        {year}
+                    </h2>
+
+                    {publications
+                        .filter((p) => p.year === year)
+                        .map((publication) => PublicationCard({publication})
+                        )}
+                </section>
+            ))}
+
             <Footer />
         </div>
     )

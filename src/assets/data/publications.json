@@ -6,11 +6,56 @@
             "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)", 
             "year": 2026, 
             "tags": ["HCI", "CAD"], 
-            "image": "", 
             "links": {
                 "doi": "https://doi.org/10.1145/3772318.3791061"
             }, 
             "abstract": "Version control is critical in mechanical computer-aided design (CAD) to enable traceability, manage product variation, and support collaboration. Yet, its implementation in modern CAD software as an essential information infrastructure for product development remains plagued by issues due to the complexity and interdependence of design data. This paper presents a systematic review of user-reported challenges with version control in modern CAD tools. Analyzing 170 online forum threads, we identify recurring socio-technical issues that span the management, continuity, scope, and distribution of versions. Our findings inform a broader reflection on how version control should be designed and improved for CAD and motivate opportunities for tools and mechanisms that better support articulation work, facilitate cross-boundary collaboration, and operate with infrastructural reflexivity. This study offers actionable insights for CAD software providers and highlights opportunities for researchers to rethink version control."
+        }, 
+        {
+            "title": "CADModelScope: Revealing the Dependency Structure Behind Parametric Computer-Aided Design Models", 
+            "authors": "Yuanzhe Deng, Zhijing Zhang, Shurui Zhou, and Alison Olechowski", 
+            "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)", 
+            "year": 2026, 
+            "tags": ["HCI", "CAD"],
+            "links": {
+                "doi": "https://doi.org/10.1145/3772318.3791062"
+            },
+            "abstract": "Parametric computer-aided design (CAD) models are constructed by a sequence of operations, where each operation may reference geometries created by earlier operations. This network of dependencies enables efficient modelling of complex geometry but also results in fragile models, where small modifications can trigger cascading errors. These interdependencies are obscured in commercial CAD systems, leaving users to rely on trial and error when navigating, modularizing, and debugging unfamiliar and complex models. In this paper, we motivate, present, and pilot CADModelScope, a multi-level graph-based visualization of operation dependencies integrated into a commercial CAD platform. In a qualitative lab study, we observed how participants locate and interpret operations, and how CADModelScope enhances awareness of hidden interdependencies and supports more structured navigation. Our findings highlight the potential of using the network of operation dependency as an effective representation for understanding and interacting with parametric CAD models, and we discuss implications for future tool design."
+        }, 
+        {
+            "title": "What Sets Proficient and Expert Users Apart? Results of a Computer-Aided Design Experiment", 
+            "authors": "Yuanzhe Deng, James Chen, and Alison Olechowski",
+            "venue": "ASME Journal of Mechanical Design",
+            "year": 2024,
+            "tags": ["Design"],
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4063360"
+            },
+            "abstract": "As computer-aided design (CAD) tools have become an essential aspect of modern mechanical engineering design, the demand for CAD experts has increased significantly. The development from novice, to proficient, to expert user is of particular interest to the industrial and academic design communities. Yet little is known about the development of modeling choices, strategies, and patterns that characterize expert CAD skills; much of the past work that reports user action data is based on student or novice data. We compared the CAD modeling process across nine proficient and ten expert designers as they were tested to complete the same design task. Under identical conditions—the same time constraints in the same CAD platform and with the same task—the expert users were able to complete a larger proportion of the task with higher dimensional accuracy. While the experts were able to dissect and retrieve geometries from manufacturing drawings more efficiently than proficient users, they were also able to plan a modeling strategy that required less effort and revisions. With our experimental findings, we identify the demand for procedural knowledge-building for young engineers, with the ultimate goal of more effectively developing experts in engineering design with CAD."
+        }, 
+        {
+            "title": "Connecting design iterations to performance in engineering design", 
+            "authors": "Ademir-Paolo Vrolijk, Yuanzhe Deng, and Alison Olechowski", 
+            "venue": "Proceedings of the Design Society: International Conference on Engineering Design (ICED23)",
+            "year": 2023,
+            "tags": ["Design", "CAD"],
+            "links": {
+                "doi": "https://doi.org/10.1017/pds.2023.107"
+            },
+            "award": "Reviewers' Favourite Award",
+            "abstract": "No matter a system's size, complexity, or domain, iterations are fundamental to its design process. However, there is a duality: iterations are both signs of usefully exploring the system's design space and failure to find an appropriate solution. This ambiguity means that we have not been able to connect teams' iterating behavior to their design's performance, potentially obscuring a way to influence the design process. As such, our exploratory study unpacks the relationship between design iterations and performance. We observed 88 teams in the 2020 Robots to the Rescue Competition in rich detail. Using logs of 7,956 iterations on a Computer-Aided Design platform, we analyzed how high- and low-performing teams revised their submissions, searching for consistent differences in their behavior. We found significant differences in the iterations' number, scale, and cadence between these groups of teams. These findings emphasized the correlation between certain iteration patterns and the success of a design: the best teams will likely revise differently than the worst ones. It also showed the importance of a fine-grained, time-dependent view of the design process to resolve open questions in the literature."
+        }, 
+        {
+            "title": "The multi-user computer-aided design collaborative learning framework", 
+            "authors": "Yuanzhe Deng, Matthew Mueller, Chris Rogers, and Alison Olechowski", 
+            "venue": "Advanced Engineering Informatics", 
+            "year": 2022,
+            "tags": ["CAD", "Education"],
+            "links": {
+                "doi": "https://doi.org/10.1016/j.aei.2021.101446", 
+                "code": "https://github.com/ReadyLab-UToronto/MUCAD-CLF"
+            },
+            "abstract": "Collaborative design is a critical aspect of modern engineering practice, yet the tools and methods for supporting multi-user collaboration in computer-aided design (CAD) remain limited. In this paper, we present a multi-user CAD collaborative learning framework that integrates real-time communication, shared workspace, and adaptive learning techniques. Our framework supports seamless collaboration among multiple users, enabling them to share knowledge, coordinate tasks, and learn from each other's experiences. We evaluate the effectiveness of our framework through a series of user studies and demonstrate its potential to enhance collaborative design processes and outcomes."
         }
     ]
 }

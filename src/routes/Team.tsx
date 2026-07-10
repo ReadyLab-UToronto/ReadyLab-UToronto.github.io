@@ -2,6 +2,7 @@ import Navbar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
+import type { Member } from '@/type';
 import ActiveMemberCard from '@/components/ActiveMemberCard';
 import AlumniMemberCard from '@/components/AlumniMemberCard';
 
@@ -16,19 +17,9 @@ const roleOrder = {
     undergrad: 4, 
 }
 
-type memberProp = {
-    name: string; 
-    active: boolean;
-    graduationYear: number; 
-    imageUrl: string; 
-    role: "postdoc" | "phd" | "masc" | "meng" | "undergrad";
-    description: string; 
-    linkedinUrl?: string; 
-    googlescholarUrl?: string;
-}
 
 export default function Team() {
-    const teamMembers = members.members as memberProp[];
+    const teamMembers = members.members as Member[];
 
     return (
         <div>
@@ -78,7 +69,7 @@ export default function Team() {
             <div className="flex flex-col space-y-10 py-20">
                 {teamMembers.filter(member => member.active).sort(
                     (a, b) => roleOrder[a.role] - roleOrder[b.role]
-                    ).map(member => ActiveMemberCard(member))
+                    ).map(member => ActiveMemberCard({member}))
                 }
             </div>
 
@@ -89,7 +80,7 @@ export default function Team() {
                     (a, b) => roleOrder[a.role] - roleOrder[b.role]
                 ).sort(
                     (a, b) => a.graduationYear - b.graduationYear
-                ).map(member => AlumniMemberCard(member))}
+                ).map(member => AlumniMemberCard({member}))}
             </div>
             <Footer />
         </div>
