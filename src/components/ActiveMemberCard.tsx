@@ -13,7 +13,20 @@ export default function ActiveMemberCard({ member }: { member: Member }) {
                 <div className="flex flex-col py-8">
                     <div className="text-2xl font-bold ml-8">{member.name}</div>
                     <div className="mt-4 ml-8 w-full space-y-4">
-                        <ReactMarkdown>{member.description}</ReactMarkdown>
+                        <ReactMarkdown
+                            components={{
+                                a: ({node, ...props}) => (
+                                <a
+                                    {...props}
+                                    className="text-blue-600 hover:underline"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                />
+                                )
+                            }}
+                            >
+                            {member.description}
+                        </ReactMarkdown>
                     </div>
                     <div className="flex flex-row space-x-4 mt-4 ml-8">
                         { member.linkedinUrl && (

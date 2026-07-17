@@ -29,7 +29,7 @@ All publications are managed in the file `src/assets/data/publications.json`. Sp
 
 **Notes**: 
 - For the `tags`, the website will automatically find all unique tags assigned to all papers listed in `publications.json` and generate the filter options. Please be careful with spelling and cases to avoid duplicates. 
-- For the `links`, only the `doi` is required. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `src/assets/`, and enter the corresponding file name in the paper entry in `publications.json`. 
+- For the `links`, only the `doi` is required. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `src/assets/pdfs` and `src/assets/slides`, and enter the corresponding file name in the paper entry in `publications.json` (file name only, no directory). 
 - For the `abstract`, double check the content being pasted in `publications.json`. Note that any special typesetting and hyperlinks are currently not supported. 
 
 ### Team Members
@@ -53,7 +53,7 @@ All members, including active members and alumni, are managed in the file `src/a
 - If `active` is set to `true`, number entered for `graduationYear` is ignored, but a number is still required for data type consistency. 
 - When an active lab member graduates, simply change `active` to `false` and enter the correct `graduationYear`. 
 - Please rename the headshot image with a meaningful filename for sustainable file management in `src/assets/headshots/`. Crop the image to square to avoid unintended cut off when being presented on the website. 
-- The `description` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). However, all text will be formatted in black, even if text is linked to external webpages. 
+- The `description` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). 
 - If a `linkedinUrl` or a `googlescholarUrl` is entered, an hyperlinked icon will automatically show up in your profile. If an URL is not available, please remove the field. 
 
 ### News 
@@ -71,7 +71,7 @@ All news are managed in the file `src/assets/data/news.json`. Specifications of 
 
 **Note**:
 - If a new `type` that is not in the currently supported list is used, **add instructions** 
-- The `content` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). However, all text will be formatted in black, even if text is linked to external webpages. 
+- The `content` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). 
 
 ## Setup Guide 
 
