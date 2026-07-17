@@ -94,7 +94,14 @@ export default function Home() {
                     <CarouselContent>
                         {lab_photos.map((image) => (
                             <CarouselItem key={image}>
-                                <img src={`src/assets/lab_photos/${image}`} alt={image} className="w-full h-[600px] object-contain" />
+                                <div className="relative">
+                                    <img 
+                                        src={`src/assets/lab_photos/${image}`} alt={image} 
+                                        className="w-full h-[600px] object-contain select-none pointer-events-none" 
+                                        draggable={false} onContextMenu={(e) => e.preventDefault()}
+                                    />
+                                    <div className="absolute inset-0 bg-transparent"/>
+                                </div>
                             </CarouselItem>
                         ))}
                     </CarouselContent>
