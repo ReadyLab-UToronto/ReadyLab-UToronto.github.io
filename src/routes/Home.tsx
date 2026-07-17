@@ -9,6 +9,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import members from '@/assets/data/members.json'; 
 
 const lab_photos = [
+    "2026.jpeg",
     "2024.png", 
     "2023.png",
     "2022.png",
@@ -89,11 +90,11 @@ export default function Home() {
 
             <div className="text-4xl font-bold text-center my-20">Meet the team!</div>
             <div className="px-6 md:px-40">
-                <Carousel className="w-full">
+                <Carousel className="w-[70%] mx-auto relative">
                     <CarouselContent>
                         {lab_photos.map((image) => (
                             <CarouselItem key={image}>
-                                <img src={`src/assets/lab_photos/${image}`} alt={image} className="w-full h-[900px] object-contain" />
+                                <img src={`src/assets/lab_photos/${image}`} alt={image} className="w-full h-[600px] object-contain" />
                             </CarouselItem>
                         ))}
                     </CarouselContent>
@@ -102,7 +103,7 @@ export default function Home() {
                 </Carousel>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-20 mt-20">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-30 mt-20">
                 {teamMembers
                     .filter((member) => member.active)
                     .sort((a, b) => roleOrder[a.role] - roleOrder[b.role])
