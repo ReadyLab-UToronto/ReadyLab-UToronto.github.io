@@ -79,7 +79,7 @@ export default function Team() {
                 {teamMembers.filter(member => !member.active).sort(
                     (a, b) => roleOrder[a.role] - roleOrder[b.role]
                 ).sort(
-                    (a, b) => a.graduationYear - b.graduationYear
+                    (a, b) => b.graduationYear - a.graduationYear
                 ).map(member => AlumniMemberCard({member}))}
             </div>
             <Footer />

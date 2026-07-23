@@ -11,16 +11,6 @@
             "googlescholarUrl": "https://scholar.google.com/citations?user=WAZQ05cAAAAJ&hl=en&oi=ao"
         }, 
         {
-            "name": "Yuanzhe (Felix) Deng",
-            "active": true,
-            "graduationYear": -1,
-            "imageUrl": "felix_deng.jpg", 
-            "role": "phd", 
-            "description": "Felix is a PhD student at Ready Lab, co-supervised by Prof. Shurui Zhou from [FORCOLAB](https://www.eecg.utoronto.ca/~shuruiz/forcolab/index.html). He holds a BASc in Mechanical Engineering from the University of Toronto. He completed his undergraduate thesis at the [Microrobotics Lab](https://microrobotics.mie.utoronto.ca/), working on magnetically actuated surgical robotics, and previously conducted research at Ready Lab on the efficiency of engineering collaboration in multi-user CAD. Felix's current research focuses on enhancing the human-computer interaction of modern CAD systems with artificial intelligence.",
-            "linkedinUrl": "https://www.linkedin.com/in/felix-deng-b845331b3/",
-            "googlescholarUrl": "https://scholar.google.com/citations?user=NCexN38AAAAJ&hl=en"
-        }, 
-        {
             "name": "Dr. Kathy Cheng",
             "active": false,
             "graduationYear": 2026,
@@ -31,6 +21,16 @@
             "googlescholarUrl": "https://scholar.google.ca/citations?user=cwrLbXkAAAAJ&hl=en"
         }, 
         {
+            "name": "Liz DaMaren", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "liz_damaren.jpg", 
+            "role": "phd", 
+            "description": "Liz is a PhD candidate at Ready Lab. She holds a Bachelor of Mechatronics Engineering & Society from McMaster University, where she also completed an Interdisciplinary Minor in Sustainability. Her research focuses on team dynamics and gender considerations in computer-aided design group settings, with applications for educators and industry alike. Outside the lab, she loves grabbing a canoe and heading into the Algonquin backcountry or exploring the city and seeing what the latest vegetarian restaurant has in store.", 
+            "linkedinUrl": "https://www.linkedin.com/in/elizabeth-damaren/", 
+            "googlescholarUrl": "https://scholar.google.ca/citations?user=4HV3CFAAAAAJ&hl=en"
+        }, 
+        {
             "name": "Dr. Chuma Asuzu",
             "active": false,
             "graduationYear": 2026,
@@ -39,6 +39,363 @@
             "description": "Chuma is a PhD Student at Ready Lab. His research explores the development of aesthetics in people and how customer data can be used to inform engineering design. Outside of the lab, he can be found watching old TV shows and rom-coms.",
             "linkedinUrl": "https://ca.linkedin.com/in/chuma-asuzu",
             "googlescholarUrl": "https://scholar.google.com/citations?user=60FIoRYAAAAJ&hl=en&oi=sra"
+        }, 
+        {
+            "name": "Yuanzhe (Felix) Deng",
+            "active": true,
+            "graduationYear": -1,
+            "imageUrl": "felix_deng.jpg", 
+            "role": "phd", 
+            "description": "Felix is a PhD student at Ready Lab, co-supervised by Prof. Shurui Zhou from [FORCOLAB](https://www.eecg.utoronto.ca/~shuruiz/forcolab/index.html). He holds a BASc in Mechanical Engineering from the University of Toronto. He completed his undergraduate thesis at the [Microrobotics Lab](https://microrobotics.mie.utoronto.ca/), working on magnetically actuated surgical robotics, and previously conducted research at Ready Lab on the efficiency of engineering collaboration in multi-user CAD. Felix's current research focuses on enhancing the human-computer interaction of modern CAD systems with artificial intelligence.",
+            "linkedinUrl": "https://www.linkedin.com/in/felix-deng-b845331b3/",
+            "googlescholarUrl": "https://scholar.google.com/citations?user=NCexN38AAAAJ&hl=en"
+        }, 
+        {
+            "name": "Alden Sova", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "alden_sova.png", 
+            "role": "phd", 
+            "description": "Alden is a PhD student at the Ready Lab. He holds a BS in Industrial Engineering from Oregon State University. His past research focused on driver distraction and external human-machine interfaces for autonomous vehicles. Prior to joining U of T, Alden worked in systems engineering and project management roles at Intel and Daimler. Outside of his studies, he enjoys biking, exploring Toronto, STEM outreach, and reading.", 
+            "linkedinUrl": "https://www.linkedin.com/in/alden-sova", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=5RKciAoAAAAJ&hl=en"
+        }, 
+        {
+            "name": "Marjan Naghshbandi", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "marjan_naghshbandi.jpg", 
+            "role": "masc", 
+            "description": "Marjan is a MASc student at Ready Lab. Funded by NSERC's Canada Graduate Scholarship, her research looks at leveraging social science methods and digital trace data to support remote and hybrid product development teams' innovation processes and collaboration. Marjan works closely with Dr. Sharon Ferguson at the University of Waterloo on this work. Before her Master's, she graduated from the University of Toronto's Industrial Engineering program with certificates in AI and business, and held a Program Manager position at Intel Corporation. She also completed her undergraduate thesis with Ready Lab, on the topic of underrepresented students' persistence in Computer Science.", 
+            "linkedinUrl": "https://www.linkedin.com/in/marjan-nagh/" 
+        }, 
+        {
+            "name": "Kevin Zhang", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "kevin_zhang.jpg", 
+            "role": "masc", 
+            "description": "Kevin is a MASc student at Ready Lab, studying CAD and engineering collaboration. He holds a BASc in Mechanical Engineering from the University of Toronto. His undergraduate thesis was completed with Ready Lab, studying CAD user archetypes based on user data, and has presented his work at the 2024 CAD and IDETC conferences. He has previously completed internships at Pratt and Whitney, Bombardier, and Zebra Technologies, and his current research at Ready Lab focuses on studying CAD interoperability and interdisciplinary collaboration in the engineering design process.", 
+            "linkedinUrl": "https://www.linkedin.com/in/kzhangto/" 
+        }, 
+        {
+            "name": "Sean Huang", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "sean_huang.jpg", 
+            "role": "masc", 
+            "description": "Sean is a MASc student at Ready Lab, studying model-based systems engineering and multidisciplinary design optimization. He hold a BASc in Engineering Science, major in Aerospace Engineering, from the University of Toronto. He previously completed an internship at MDA Space as a Systems Design Student, with a focus on the implementation of MBSE and the management of requirements on the Canadarm3 Project. His future research will focus on how MBSE and MDO can be effectively implemented together in real-world engineering projects.", 
+            "linkedinUrl": "http://www.linkedin.com/in/seanhuang2002" 
+        }, 
+        {
+            "name": "Lia Mitsui Campbell", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "lia_campbell.jpeg", 
+            "role": "undergrad", 
+            "description": "Lia is an NSERC-funded undergraduate research student at the Ready Lab. Majoring in Robotics at the University of Toronto’s Engineering Science Program, she conducted a research exchange in Singapore which sparked her interest in mechatronics design. Combining this with her commitment to social justice, she hopes to explore her interests in human-computer interaction, ethical AI and robotics, and using technology for good.", 
+            "linkedinUrl": "https://www.linkedin.com/in/lia-m-campbell/" 
+        }, 
+        {
+            "name": "Shuo Yin", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "shuo_yin.png", 
+            "role": "undergrad", 
+            "description": "Shuo is an undergraduate research student at the READY Lab and a Computer Engineering student at the University of Toronto, focusing on applied artificial intelligence and machine learning. Funded by the Data Sciences Institute, he is currently working on machine learning based feature recommendation for CAD. His interests include software development, applied AI, and computational tools that support engineering design and collaboration.", 
+            "linkedinUrl": "https://www.linkedin.com/in/jshuoyin/" 
+        }, 
+        {
+            "name": "Ivy (Jiaying) Zhang", 
+            "active": false, 
+            "graduationYear": 2025, 
+            "imageUrl": "ivy_zhang.jpg", 
+            "role": "undergrad", 
+            "description": "Ivy is a fourth-year undergraduate student at the University of Toronto, studying Psychology, Applied Data Science, and IRHR. She is an Individual Project student supervised by Prof. Alison Olechowski and Prof. Suzanne Wood, contributing to research on cognitive and neural processes during early-stage design, with a focus on EEG and eye-tracking methods. Ivy’s research interests lie in mental health and well-being and the intersection of human-computer interaction and cognitive neuroscience." 
+        }, 
+        {
+            "name": "Jiayun (Lucy) Kang", 
+            "active": false, 
+            "graduationYear": 2025, 
+            "imageUrl": "jiayun_kang.jpg", 
+            "role": "undergrad", 
+            "description": ""
+        }, 
+        {
+            "name": "Genevieve Beirne", 
+            "active": false, 
+            "graduationYear": 2024, 
+            "imageUrl": "genevieve_beirne.jpg", 
+            "role": "undergrad", 
+            "description": "" 
+        }, 
+        {
+            "name": "Dr. Peiying Jian", 
+            "active": false, 
+            "graduationYear": 2026, 
+            "imageUrl": "peiying_jian.jpg", 
+            "role": "phd", 
+            "description": "", 
+            "linkedinUrl": "https://ca.linkedin.com/in/peiying-freda-jian-2b6a54a4", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=BKaFtrsAAAAJ"
+        }, 
+        {
+            "name": "Dr. Sharon Ferguson", 
+            "active": false, 
+            "graduationYear": 2024, 
+            "imageUrl": "sharon_ferguson.jpeg", 
+            "role": "phd", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/sharon-ferguson", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=TXXTPIkAAAAJ&hl=en&oi=ao"
+        }, 
+        {
+            "name": "Dr. Meagan Flus", 
+            "active": false, 
+            "graduationYear": 2025, 
+            "imageUrl": "meagan_flus.png", 
+            "role": "phd", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/meagan-flus-phd-a211aa19b/", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=P6VH73sAAAAJ"
+        }, 
+        {
+            "name": "Dr. Pranav Khanolkar", 
+            "active": false, 
+            "graduationYear": 2024, 
+            "imageUrl": "pranav_khanolkar.jpg", 
+            "role": "phd", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/pranav-milind-khanolkar-a71a89128/", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=ryD0aOMAAAAJ"
+        }, 
+        {
+            "name": "Dr. Elisa Kwon", 
+            "active": false, 
+            "graduationYear": 2025, 
+            "imageUrl": "elisa_kwon.jpg", 
+            "role": "postdoc", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/elisakwon/", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=K3sddnoAAAAJ"
+        }, 
+        {
+            "name": "Jordan Epp", 
+            "active": false, 
+            "graduationYear": 2024, 
+            "imageUrl": "jordan_epp.jpeg", 
+            "role": "masc", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/jordan-epp/", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=gbQqmWwAAAAJ"
+        }, 
+        {
+            "name": "Lucas Crupi", 
+            "active": false, 
+            "graduationYear": 2023, 
+            "imageUrl": "lucas_crupi.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/lucas-crupi-4a7037177" 
+        }, 
+        {
+            "name": "Avelyn Wong", 
+            "active": false, 
+            "graduationYear": 2024, 
+            "imageUrl": "avelyn_wong.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/avelyn-wong/" 
+        }, 
+        {
+            "name": "Victoria Velikonja", 
+            "active": false, 
+            "graduationYear": 2023, 
+            "imageUrl": "victoria_velikonja.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/victoria-velikonja/"
+        }, 
+        {
+            "name": "Dr. Ademir Vrolijk", 
+            "active": false, 
+            "graduationYear": 2023, 
+            "imageUrl": "ademir_vrolijk.jpg", 
+            "role": "postdoc", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/ademir-vrolijk/", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=3TvkajUAAAAJ"
+        }, 
+        {
+            "name": "Alexander Lyakishev", 
+            "active": false, 
+            "graduationYear": 2023, 
+            "imageUrl": "alexander_lyakishev.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/alexander-lyakishev/" 
+        }, 
+        {
+            "name": "Ainsley Ross-Howe", 
+            "active": false, 
+            "graduationYear": 2023, 
+            "imageUrl": "ainsley_ross_howe.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/ainsley-ross-howe-19a357227/" 
+        }, 
+        {
+            "name": "Kimberly Lai", 
+            "active": false, 
+            "graduationYear": 2023, 
+            "imageUrl": "kimberly_lai.jpeg", 
+            "role": "masc", 
+            "description": "required", 
+            "linkedinUrl": "https://www.linkedin.com/in/kimberly-lai-043024134/" 
+        }, 
+        {
+            "name": "James Chen", 
+            "active": false, 
+            "graduationYear": 2021, 
+            "imageUrl": "james_chen.png", 
+            "role": "masc", 
+            "description": "James completed his MASc (2021) with Ready Lab. He previously graduated from the University of Toronto with a BASc in Mechanical Engineering. He worked at Zebra Technologies as a mechanical engineering intern during undergrad, where he gained valuable experience in product design and handheld electronics manufacturing. He is a big car enthusiast, and likely spends too much time reading and learning about automobiles. He now works at Tesla.", 
+            "linkedinUrl": "https://www.linkedin.com/in/james-chen-7040b290/" 
+        }, 
+        {
+            "name": "Phil Cuvin", 
+            "active": false, 
+            "graduationYear": 2022, 
+            "imageUrl": "phil_cuvin.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/phil-cuvin-2861571a5/" 
+        }, 
+        {
+            "name": "Jiacheng (Jason) Chen", 
+            "active": false, 
+            "graduationYear": 2022, 
+            "imageUrl": "jiacheng_chen.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/jiachengjasonchen/"
+        }, 
+        {
+            "name": "Evelyn Sham", 
+            "active": false, 
+            "graduationYear": 2022, 
+            "imageUrl": "evelyn_sham.png", 
+            "role": "meng", 
+            "description": "required", 
+            "linkedinUrl": "https://www.linkedin.com/in/evelynsham/" 
+        }, 
+        {
+            "name": "Safa Faidi", 
+            "active": false, 
+            "graduationYear": 2021, 
+            "imageUrl": "safa_faidi.jpg", 
+            "role": "masc", 
+            "description": "Safa Faidi was a MASc (2021) student at Ready Lab at the University of Toronto. She holds a BEng in Biomedical Engineering from Ryerson University. Before returning for her MASc, Safa gained industry experience working at a medical device company and later at a software testing startup. Safa is interested in product development and product management.", 
+            "linkedinUrl": "https://www.linkedin.com/in/safa-faidi/" 
+        }, 
+        {
+            "name": "Eric van Velzen", 
+            "active": false, 
+            "graduationYear": 2021, 
+            "imageUrl": "eric_van_velzen.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/eric-van-velzen/" 
+        }, 
+        {
+            "name": "Kevin Leonardo", 
+            "active": false, 
+            "graduationYear": 2021, 
+            "imageUrl": "kevin_leonardo.jpg", 
+            "role": "masc", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/kevin-leonardo-a197a2b6" 
+        }, 
+        {
+            "name": "Cacia Ploeg", 
+            "active": false, 
+            "graduationYear": 2021, 
+            "imageUrl": "cacia_ploeg.jpg", 
+            "role": "undergrad", 
+            "description": "Cacia graduated with a BASc (2021) from the Engineering Science Robotics program at the University of Toronto. She completed her undergrad thesis with Prof. Olechowski on the topic of improving the adoption of model-based systems engineering (MBSE) in the workforce. She completed her Professional Experience Year as a systems engineer at Zebra Technologies and was inspired to research ways to advance the adoption of MBSE. Besides her passion for systems engineering, she is also an aerialist and fosters cats!", 
+            "linkedinUrl": "https://www.linkedin.com/in/cacia-ploeg-804574157/" 
+        }, 
+        {
+            "name": "Lauren Adolphe", 
+            "active": false, 
+            "graduationYear": 2020, 
+            "imageUrl": "lauren_adolphe.jpg", 
+            "role": "undergrad", 
+            "description": "required", 
+            "linkedinUrl": "https://www.linkedin.com/in/lauren-adolphe" 
+        }, 
+        {
+            "name": "Dr. Vrushank Phadnis", 
+            "active": false, 
+            "graduationYear": 2020, 
+            "imageUrl": "vrushank_phadnis.png", 
+            "role": "phd", 
+            "description": "Vrushank graduated with a PhD (2020) in the mechanical engineering department from MIT, co-advised by Prof. Olechowski. Vrushank spent a year as a visiting researcher at Ready Lab, working on his doctoral project looking at design affordances of multi-user CAD systems. His academic and professional experience is in the general area of Engineering design and Manufacturing operations.", 
+            "linkedinUrl": "https://www.linkedin.com/in/vrushankphadnis", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=zzsLzREAAAAJ&hl=en&oi=ao"
+        }, 
+        {
+            "name": "Meaghan Vella", 
+            "active": false, 
+            "graduationYear": 2020, 
+            "imageUrl": "meaghan_vella.jpg", 
+            "role": "undergrad", 
+            "description": "", 
+            "linkedinUrl": "https://www.linkedin.com/in/meaghan-vella/" 
+        }, 
+        {
+            "name": "Arash Nourimand", 
+            "active": false, 
+            "graduationYear": 2020, 
+            "imageUrl": "arash_nourimand.png", 
+            "role": "undergrad", 
+            "description": "Arash graduated with a BEng (2020) in mechanical engineering at the University of Toronto. During his degree, he engaged in different professional roles spanning a diverse set of industries and geographies. He was involved in the U of T community as the Co-Executive Director of the Volunteer Engineering Experience Program, a member of the U of T Aerospace Team, and as a part of the ILead student team. Arash's undergrad thesis focused on how different engineering demographics and organizations use technology, both to enhance their product development processes and improve end-product value.", 
+            "linkedinUrl": "https://www.linkedin.com/in/arash-nourimand/"
+        }, 
+        {
+            "name": "Hamza Arshad", 
+            "active": false, 
+            "graduationYear": 2019, 
+            "imageUrl": "hamza_arshad.jpg", 
+            "role": "undergrad", 
+            "description": "Hamza Arshad is a graduate of the UofT Mechanical Engineering program. He was a summer student (2019) working on the collaborative CAD project at Ready Lab. He also works with [University of Toronto Aerospace Team's Space Systems team](https://www.utat.ca/space-systems) on their Heron Mk. II satellite. He plans to pursue a career in the aerospace industry.", 
+            "linkedinUrl": "https://www.linkedin.com/in/hamza-arshad-71847b157" 
+        }, 
+        {
+            "name": "Kimberly Ren", 
+            "active": false, 
+            "graduationYear": 2020, 
+            "imageUrl": "kimberly_ren.jpg", 
+            "role": "undergrad", 
+            "description": "Kimberly graduated with a BASc (2020) after working as an undergraduate thesis student at the Ready Lab. She graduated with honours from the Engineering Science program in 2020 with a specialization in Biomedical Systems Engineering. She is passionate about leadership in engineering and advocating for underrepresented groups in engineering. She is currently pursuing her law degree at McGill University which she hopes to use to impact policy and regulations in innovation and technology.", 
+            "linkedinUrl": "https://www.linkedin.com/in/kimberly-ren/" 
+        }, 
+        {
+            "name": "Janice Zhou", 
+            "active": false, 
+            "graduationYear": 2019, 
+            "imageUrl": "janice_zhou.jpg", 
+            "role": "undergrad", 
+            "description": "Janice Zhou was a 4th year Mechanical Engineering student who completed her undergraduate thesis with Prof. Olechowski. Janice worked during her Professional Experience Year at a toy company called [Spin Master](https://www.spinmaster.com/) as a Product Development Engineer. She was the Co-President of [Spark Design Club](http://sparkuoft.wixsite.com/sparkuoft), an engineering student club that creates electro-mechanical interactive displays. Janice next pursued a Master's Degree at MIT." 
+        }, 
+        {
+            "name": "Zeping Sun", 
+            "active": false, 
+            "graduationYear": 2019, 
+            "imageUrl": "zeping_sun.jpg", 
+            "role": "undergrad", 
+            "description": "Zeping Sun graduated with a BASc (2019) in mechanical engineering at the University of Toronto and completed his undergraduate thesis with Prof. Olechowski. Zeping is passionate about systems engineering and space exploration. He’s previously conducted research in rocket propulsion (German Aerospace Center), fluid-structure interaction simulations (Defence R&amp;D Canada), and fluid physics (University of Waterloo). Additionally, he’s played various roles in the University of Toronto Aerospace Team’s Rocketry Division, one such role was Chief Engineer which drew him to systems engineering.", 
+            "linkedinUrl": "https://www.linkedin.com/in/zeping-sun" 
         }
     ]
 }
