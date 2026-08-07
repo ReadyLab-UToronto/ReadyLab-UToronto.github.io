@@ -23,14 +23,14 @@ All publications are managed in the file `src/assets/data/publications.json`. Sp
         "code": "optional - a link to e.g. a GitHub code repository"
     }, 
     "award": "optional - name of the award associated with the paper", 
-    "abstract": "required" 
+    "abstract": "optional" 
 }
 ```
 
 **Notes**: 
 - For the `tags`, the website will automatically find all unique tags assigned to all papers listed in `publications.json` and generate the filter options. Please be careful with spelling and cases to avoid duplicates. 
 - For the `links`, only the `doi` is required. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `src/assets/pdfs` and `src/assets/slides`, and enter the corresponding file name in the paper entry in `publications.json` (file name only, no directory). 
-- For the `abstract`, double check the content being pasted in `publications.json`. Note that any special typesetting and hyperlinks are currently not supported. 
+- If an `abstract` is added, double check the content being pasted in `publications.json`. Note that any special typesetting and hyperlinks are currently not supported. 
 
 ### Team Members
 

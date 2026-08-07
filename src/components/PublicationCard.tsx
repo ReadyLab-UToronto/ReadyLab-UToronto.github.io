@@ -68,14 +68,16 @@ export default function PublicationCard({ publication }: { publication: Publicat
             </div>
 
             {/* Collapsible abstract */}
-            <Collapsible className="mt-2">
-                <CollapsibleTrigger className="text-sm font-medium text-[#3B57F3] hover:underline">
-                    Show abstract
-                </CollapsibleTrigger>
-                <CollapsibleContent className="mt-3 text-sm text-gray-600">
-                    {publication.abstract}
-                </CollapsibleContent>
-            </Collapsible>
+            {publication.abstract && 
+                <Collapsible className="mt-2">
+                    <CollapsibleTrigger className="text-sm font-medium text-[#3B57F3] hover:underline">
+                        Show abstract
+                    </CollapsibleTrigger>
+                    <CollapsibleContent className="mt-3 text-sm text-gray-600">
+                        {publication.abstract}
+                    </CollapsibleContent>
+                </Collapsible>
+            }
         </div>
     )
 }
