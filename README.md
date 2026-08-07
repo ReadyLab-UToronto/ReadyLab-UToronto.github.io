@@ -64,13 +64,13 @@ All news are managed in the file `src/assets/data/news.json`. Specifications of 
 {
     "year": "required", 
     "month": "required -- number month between 1 and 12", 
-    "type": "required -- one of ...", 
+    "type": "required -- one of Member, Award, Publication, Graduation, Other", 
     "content": "required"
 }
 ```
 
 **Note**:
-- If a new `type` that is not in the currently supported list is used, **add instructions** 
+- If a new `type` that is not in the currently supported list is needed, modify the corresponding data type in `src/type.tsx`. Then, add a corresponding icon to the new news type under `src/assets/icons/` and define the path in `src/components/NewsCard.tsx` accordingly. 
 - The `content` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). 
 
 ## Setup Guide 

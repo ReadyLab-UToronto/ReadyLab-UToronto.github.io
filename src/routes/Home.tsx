@@ -55,13 +55,15 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-50">
-                <div className="flex flex-col gap-4">
+                <div className="basis-3/5 flex flex-col gap-4">
                     <div className="text-3xl font-semibold">Understanding collaborative engineering design work</div>
                     <div className="text-lg">
                         Our research aims to discover how engineering design teams can collaborate more efficiently and effectively using modern design tools, in the context of new product development and systems engineering. We use an interdisciplinary approach that combines our engineering design knowledge with concepts from human-computer interaction, psychology, software engineering, and management science. We extend the implications of our findings not just to engineering practice but also to engineering education, where we recommend updates to curricula to better prepare our students for an impactful future!
                     </div>
                 </div>
-                <img src={`src/assets/website_images/rocket-image.png`} alt="Rocket Image" className="w-auto h-100" />
+                <div className="basis-2/5 flex justify-center shrink-0">
+                    <img src={`src/assets/website_images/rocket-image.png`} alt="Rocket Image" className="w-auto h-100" />
+                </div>
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-50 mt-20">
@@ -79,8 +81,10 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-50 mt-20">
-                <img src={`src/assets/website_images/sticky-notes.png`} alt="Sticky Notes" className="w-auto h-100" />
-                <div className="flex flex-col gap-4">
+                <div className="basis-2/5 flex justify-center shrink-0">
+                    <img src={`src/assets/website_images/sticky-notes.png`} alt="Sticky Notes" className="w-auto h-100" />
+                </div>
+                <div className="basis-3/5 flex flex-col gap-4">
                     <div className="text-3xl font-semibold">Improving engineering design process and methods</div>
                     <div className="text-lg">
                         We seek to answer questions such as: what are best practices for collaborating in modern Computer-Aided Design? Do effective engineering teams communicate differently than ineffective teams? How can teams reach reliable decisions when assessing new technologies? How should Model-Based Systems Engineering tools be integrated with existing methods and analysis? How can we improve productivity and attitude on distributed engineering teams while working-from-home? Why are some identity groups under-represented in the engineering profession?

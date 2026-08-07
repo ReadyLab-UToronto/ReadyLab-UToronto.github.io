@@ -82,6 +82,21 @@ export default function Team() {
                     (a, b) => b.graduationYear - a.graduationYear
                 ).map(member => AlumniMemberCard({member}))}
             </div>
+
+            <h2 className="text-2xl font-bold mt-12 mb-12 px-20">In Memoriam</h2>
+            <div className="flex flex-col md:flex-row h-full px-30">
+                <Avatar className="h-60 w-60">
+                    <AvatarImage src={`src/assets/headshots/janice_zhou.jpg`} alt="Janice Zhou" />
+                    <AvatarFallback>Janice Zhou</AvatarFallback>
+                </Avatar>
+                <div className="flex flex-col py-2">
+                    <div className="text-2xl ml-8 font-bold">Janice Zhou</div>
+                    <div className="flex flex-row space-x-4 mt-4 ml-8">
+                        <p>Janice Zhou was a 4th year Mechanical Engineering student who completed her undergraduate thesis with Prof. Olechowski. Janice worked during her Professional Experience Year at a toy company called <a href="https://www.spinmaster.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Spin Master</a> as a Product Development Engineer. She was the Co-President of <a href="http://sparkuoft.wixsite.com/sparkuoft" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Spark Design Club</a>, an engineering student club that creates electro-mechanical interactive displays. Janice next pursued a Master's Degree at MIT.</p>
+                    </div>
+                </div>
+            </div>
+
             <Footer />
         </div>
     )

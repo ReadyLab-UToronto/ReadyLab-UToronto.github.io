@@ -381,14 +381,6 @@
             "linkedinUrl": "https://www.linkedin.com/in/kimberly-ren/" 
         }, 
         {
-            "name": "Janice Zhou", 
-            "active": false, 
-            "graduationYear": 2019, 
-            "imageUrl": "janice_zhou.jpg", 
-            "role": "undergrad", 
-            "description": "Janice Zhou was a 4th year Mechanical Engineering student who completed her undergraduate thesis with Prof. Olechowski. Janice worked during her Professional Experience Year at a toy company called [Spin Master](https://www.spinmaster.com/) as a Product Development Engineer. She was the Co-President of [Spark Design Club](http://sparkuoft.wixsite.com/sparkuoft), an engineering student club that creates electro-mechanical interactive displays. Janice next pursued a Master's Degree at MIT." 
-        }, 
-        {
             "name": "Zeping Sun", 
             "active": false, 
             "graduationYear": 2019, 

@@ -24,3 +24,10 @@ export type Member = {
     linkedinUrl?: string; 
     googlescholarUrl?: string;
 }
+
+export type NewsItem = {
+    year: number; 
+    month: number;
+    type: "Member" | "Graduation" | "Award" | "Publication" | "Other"; 
+    content: string; 
+}

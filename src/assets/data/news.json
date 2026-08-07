@@ -2,9 +2,27 @@
     "news": [
         {
             "year": 2026, 
-            "month": 1, 
-            "type": "publication", 
-            "content": ""
+            "month": 8, 
+            "type": "Member", 
+            "content": "Ready Lab welcomes visiting student Iris Huić from the University of Zagreb"
+        }, 
+        {
+            "year": 2026, 
+            "month": 7, 
+            "type": "Graduation", 
+            "content": "Marjan Naghshbandi successfully defended her MASc thesis"
+        }, 
+        {
+            "year": 2026, 
+            "month": 6, 
+            "type": "Graduation", 
+            "content": "Chuma Asuzu successfully defended his PhD thesis"
+        }, 
+        {
+            "year": 2026, 
+            "month": 6, 
+            "type": "Award", 
+            "content": "Liz DaMaren awarded the CEEA Engineering Education Student Award"
         }
     ] 
 }

@@ -1,11 +1,30 @@
+import { useState } from 'react';
+import { Badge } from "@/components/ui/badge";
 import Navbar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 
+import NewsCard from '@/components/NewsCard';
+import type { NewsItem } from '@/type';
+import newsData from '@/assets/data/news.json';
+
+
 export default function News() {
+
+    const news: NewsItem[] = newsData.news as NewsItem[];
+    const tags = [...new Set(news.flatMap(n => n.type))].sort();
+    
+    const [selectedType, setSelectedType] = useState<string | null>(null);
+    
+    const filteredNews = [...news]
+        .filter((n) => selectedType === null || n.type === selectedType)
+        .sort((a, b) => (b.year - a.year) || (b.month - a.month));
+    const years = [...new Set(filteredNews.map(n => n.year))].sort((a, b) => b - a);
+
+
     return (
         <div>
             <Navbar />
-            <div className="relative mb-10">
+            <div className="relative">
                 <img 
                     src={`src/assets/website_images/whiteboard.png`} 
                     alt="Background"
@@ -17,7 +36,69 @@ export default function News() {
                 </div>
             </div>
 
-            <div>This is the news page</div>
+            <div className="sticky top-30 py-4 bg-muted">
+                {/* Year navigation */}
+                <div className="flex w-full justify-center items-center gap-4 mb-4">
+                    {years.map((year) => (
+                        <button
+                            key={year}
+                            onClick={() =>
+                                document
+                                    .getElementById(`year-${year}`)
+                                    ?.scrollIntoView({ behavior: "smooth" })
+                            }
+                            className="
+                                px-5 py-2 rounded-full text-md
+                                bg-secondary hover:bg-secondary/80
+                                transition-transform hover:scale-105
+                            "
+                        >
+                            {year}
+                        </button>
+                    ))}
+                </div>
+
+                {/* Filters */}
+                <div className="flex w-full flex-wrap justify-center items-center gap-4 mt-4 mb-2">
+                    <strong className="text-lg">Filters:</strong>
+                    <Badge 
+                        variant={selectedType === null ? "default" : "secondary"}
+                        onClick={() => setSelectedType(null)}
+                        className="text-md px-5 h-auto cursor-pointer hover:scale-105 transition-transform"
+                    >
+                        All
+                    </Badge>
+                    {tags.map((tag) => (
+                        <Badge 
+                            variant={selectedType === tag ? "default" : "secondary"}
+                            onClick={() => setSelectedType(selectedType === tag ? null : tag)}
+                            className="text-md px-5 h-auto cursor-pointer hover:scale-105 transition-transform"
+                        >
+                            {tag}
+                        </Badge>
+                    ))}
+                </div>
+
+            </div>
+            
+            {/* News grouped by years */}
+            {years.map((year) => {
+                const yearNews = filteredNews.filter(
+                    (p) => p.year === year
+                );
+
+                if (yearNews.length === 0) return null;
+
+                return (
+                    <section key={year} id={`year-${year}`} className="scroll-mt-80">
+                        <h2 className="mt-6 mb-6 text-3xl font-bold px-20">{year}</h2>
+
+                        {yearNews.map((news) =>
+                            NewsCard({ news })
+                        )}
+                    </section>
+                );
+            })}
 
             <Footer />
         </div>
