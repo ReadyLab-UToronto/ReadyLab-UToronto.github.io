@@ -23,6 +23,30 @@
             "month": 6, 
             "type": "Award", 
             "content": "Liz DaMaren awarded the CEEA Engineering Education Student Award"
+        }, 
+        {
+            "year": 2026, 
+            "month": 5, 
+            "type": "Member", 
+            "content": "Shuo Yin and Lia Campbell joined Ready Lab as undergraduate summer research students"
+        }, 
+        {
+            "year": 2025, 
+            "month": 1, 
+            "type": "Publication", 
+            "content": "Meagan Flus published an open-access dataset of transcript data collected from a hackathon team, titled *“Hackathon Archive of Collaboration Knowledge and Engineering Design (HACKED): Hackathon 1 Transcript Sample.”* You can access the data here: [https://doi.org/10.5683/SP3/7CCTYU](https://doi.org/10.5683/SP3/7CCTYU)"
+        }, 
+        {
+            "year": 2025, 
+            "month": 1, 
+            "type": "Publication", 
+            "content": "Meagan Flus published the paper, [Presenting Hackathon Data for Design Research: A Transcript Dataset](https://doi.org/10.1115/1.4067866) in the Journal of Mechanical Design with co-author Gregory Litster and supervised by Alison Olechowski."
+        }, 
+        {
+            "year": 2025, 
+            "month": 1, 
+            "type": "Member", 
+            "content": "Elisa Kwon joined Ready Lab as a Postdoctoral Fellow and Kevin Zhang joined as a MASc student."
         }
     ] 
 }

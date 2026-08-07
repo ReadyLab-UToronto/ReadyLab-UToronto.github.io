@@ -1,3 +1,5 @@
+import ReactMarkdown from "react-markdown";
+
 import { useNavigate } from 'react-router';
 import Navbar from '@/components/NavBar';
 import Footer from '@/components/Footer';
@@ -7,6 +9,8 @@ import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 import members from '@/assets/data/members.json'; 
+import newsData from '@/assets/data/news.json';
+import type { NewsItem, Member } from '@/type';
 
 const lab_photos = [
     "2026.jpeg",
@@ -24,20 +28,15 @@ const roleOrder = {
     undergrad: 4, 
 }
 
-type memberProp = {
-    name: string; 
-    active: boolean;
-    graduationYear: number; 
-    imageUrl: string; 
-    role: "postdoc" | "phd" | "masc" | "meng" | "undergrad";
-    description: string; 
-    linkedinUrl?: string; 
-    googlescholarUrl?: string;
-}
-
 export default function Home() {
     const navigate = useNavigate(); 
-    const teamMembers = members.members as memberProp[];
+
+    const teamMembers = members.members as Member[];
+    
+    const news = newsData.news as NewsItem[];
+    const latestNews = [...news]
+        .sort((a, b) => (b.year - a.year) || (b.month - a.month))
+        .slice(0, 10); // Get the latest 10 news items
 
     return (
         <div>
@@ -54,7 +53,40 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-50">
+            {/* News Section */}
+            <div className="flex flex-col justify-center px-50 py-16">
+                <div className="flex justify-between items-center mb-6">
+                    <h2 className="text-3xl font-bold">
+                        Latest News
+                    </h2>
+                    <Button variant="outline" className="w-30 h-10 mt-4 border-[#3B57F3] text-[#3B57F3]" onClick={() => navigate(`/news`)}>View More</Button>
+                </div>
+
+                <div className="h-[250px] overflow-y-auto rounded-2xl border border-border/60 shadow-sm px-6 divide-y">
+                    {latestNews.map((item) => (
+                        <div key={`${item.year}-${item.month}-${item.content}`} className="flex py-4 gap-4 transition-colors hover:bg-muted/40 rounded-lg">
+                        <p className="font-bold">{item.month}/{item.year}</p>
+                        <ReactMarkdown
+                            components={{
+                                a: ({node, ...props}) => (
+                                <a
+                                    {...props}
+                                    className="text-blue-600 hover:underline"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                />
+                                )
+                            }}
+                            >
+                            {item.content}
+                        </ReactMarkdown>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            {/* Lab description */}
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30">
                 <div className="basis-3/5 flex flex-col gap-4">
                     <div className="text-3xl font-semibold">Understanding collaborative engineering design work</div>
                     <div className="text-lg">
@@ -66,7 +98,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-50 mt-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30 mt-20">
                 <Avatar className="h-70 w-70">
                     <AvatarImage src={`src/assets/headshots/alison_olechowski.jpg`} alt="Alison Olechowski" />
                     <AvatarFallback>Alison Olechowski</AvatarFallback>
@@ -80,7 +112,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-50 mt-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30 mt-20">
                 <div className="basis-2/5 flex justify-center shrink-0">
                     <img src={`src/assets/website_images/sticky-notes.png`} alt="Sticky Notes" className="w-auto h-100" />
                 </div>
@@ -92,6 +124,7 @@ export default function Home() {
                 </div>
             </div>
 
+            {/* Team Section */}
             <div className="text-4xl font-bold text-center my-20">Meet the team!</div>
             <div className="px-6 md:px-40">
                 <Carousel className="w-[70%] mx-auto relative">
@@ -131,7 +164,8 @@ export default function Home() {
             <div className="flex justify-center mt-10">
                 <Button variant="outline" className="w-30 h-10 mt-4 border-[#3B57F3] text-[#3B57F3]" onClick={() => navigate(`/team`)}>Read Team Bios</Button>
             </div>
-
+            
+            {/* Logos */}
             <div className="text-4xl font-bold text-center my-20">Affliciated with</div>
             <div className="flex flex-col lg:flex-row items-center justify-center gap-1 px-5 mt-10">
                 <img src={`src/assets/logos/mie_logo.jpg`} alt="MIE Logo" className="w-auto h-16" />

@@ -10,7 +10,7 @@ import newsData from '@/assets/data/news.json';
 
 export default function News() {
 
-    const news: NewsItem[] = newsData.news as NewsItem[];
+    const news = newsData.news as NewsItem[];
     const tags = [...new Set(news.flatMap(n => n.type))].sort();
     
     const [selectedType, setSelectedType] = useState<string | null>(null);
