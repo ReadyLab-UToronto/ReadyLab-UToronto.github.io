@@ -1,5 +1,11 @@
-# ReadyLab-UToronto.github.io
-Ready Lab website 
+# Ready Lab website 
+
+This webpage was built using the [Vite](https://vite.dev/guide/) build tool as a React JavaScript project. Some UI components (under `src/components/ui/`) were adopted from [Shadcn UI](https://ui.shadcn.com). The website is deployed as a static webpage on GitHub Pages, and then redirected to the MIE domain. 
+
+- [Maintenance Guide](#maintenance-guide)
+- [Setup Guide](#setup-guide)
+- [Local Testing Guide](#local-testing-guide)
+- [Deployment Guide](#deployment-guide)
 
 ## Maintenance Guide 
 
@@ -75,20 +81,30 @@ All news are managed in the file `src/assets/data/news.json`. Specifications of 
 
 ## Setup Guide 
 
-Install all required pacakges and dependencies listed in `package.json`: 
+Install all required pacakges and dependencies listed in `package.json` by running the following command in the terminal window: 
 
 ```
 npm install 
 ``` 
 
-After making edits to the code, run the following command to launch the dev version: 
+A new folder named `node_modules/` should then be created in your repository's root directory. This folder is not tracked by Git (added in `.gitignore`). 
+
+## Local Testing Guide 
+
+After making edits to the code, and before pushing any changes to the cloud, you may launch a development version of the website locally by running the following command in the terminal window: 
 
 ```
 npm run dev 
 ``` 
 
-The website should now be locally available at: 
+The website should now be locally available at the following URL through any web browser: 
 
 ```
 http://localhost:5173
 ```
+
+While the local dev version is running, you may still make changes to the code. Every time you save your changes in a file (e.g., `Cmd` + `S` or `Ctrl` + `S`), the webpage will be automatically updated and reloaded with the new changes. 
+
+## Deployment Guide 
+
+To be written 
