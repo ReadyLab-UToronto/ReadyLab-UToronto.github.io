@@ -1,65 +1,827 @@
 {
     "publications": [
         {
-            "title": "Untangling the Timeline: Challenges and Opportunities in Supporting Version Control in Modern Computer-Aided Design", 
-            "authors": "Yuanzhe Deng, Shutong Zhang, Kathy Cheng, Alison Olechowski, and Shurui Zhou", 
-            "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)", 
-            "year": 2026, 
-            "tags": ["HCI", "CAD"], 
-            "links": {
-                "doi": "https://doi.org/10.1145/3772318.3791061", 
-                "pdf": "chi26_version.pdf", 
-                "slides": "chi26_version.pdf"
-            }, 
-            "abstract": "Version control is critical in mechanical computer-aided design (CAD) to enable traceability, manage product variation, and support collaboration. Yet, its implementation in modern CAD software as an essential information infrastructure for product development remains plagued by issues due to the complexity and interdependence of design data. This paper presents a systematic review of user-reported challenges with version control in modern CAD tools. Analyzing 170 online forum threads, we identify recurring socio-technical issues that span the management, continuity, scope, and distribution of versions. Our findings inform a broader reflection on how version control should be designed and improved for CAD and motivate opportunities for tools and mechanisms that better support articulation work, facilitate cross-boundary collaboration, and operate with infrastructural reflexivity. This study offers actionable insights for CAD software providers and highlights opportunities for researchers to rethink version control."
-        }, 
-        {
-            "title": "CADModelScope: Revealing the Dependency Structure Behind Parametric Computer-Aided Design Models", 
-            "authors": "Yuanzhe Deng, Zhijing Zhang, Shurui Zhou, and Alison Olechowski", 
-            "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)", 
-            "year": 2026, 
-            "tags": ["HCI", "CAD"],
-            "links": {
-                "doi": "https://doi.org/10.1145/3772318.3791062", 
-                "pdf": "chi26_scope.pdf", 
-                "slides": "chi26_scope.pdf"
-            },
-            "abstract": "Parametric computer-aided design (CAD) models are constructed by a sequence of operations, where each operation may reference geometries created by earlier operations. This network of dependencies enables efficient modelling of complex geometry but also results in fragile models, where small modifications can trigger cascading errors. These interdependencies are obscured in commercial CAD systems, leaving users to rely on trial and error when navigating, modularizing, and debugging unfamiliar and complex models. In this paper, we motivate, present, and pilot CADModelScope, a multi-level graph-based visualization of operation dependencies integrated into a commercial CAD platform. In a qualitative lab study, we observed how participants locate and interpret operations, and how CADModelScope enhances awareness of hidden interdependencies and supports more structured navigation. Our findings highlight the potential of using the network of operation dependency as an effective representation for understanding and interacting with parametric CAD models, and we discuss implications for future tool design."
-        }, 
-        {
-            "title": "What Sets Proficient and Expert Users Apart? Results of a Computer-Aided Design Experiment", 
-            "authors": "Yuanzhe Deng, James Chen, and Alison Olechowski",
-            "venue": "ASME Journal of Mechanical Design",
+            "title": "Designing Together: Exploring Collaborative Dynamics of Multi-Objective Design Problems in Virtual Environments",
+            "authors": "Debrina Roy, Nicole Calpin, Kathy Cheng, Alison Olechowski, Andrea P. Argüelles, Nicolás F. Soria Zurita and Jessica Menold",
+            "venue": "Journal of Mechanical Design",
             "year": 2024,
-            "tags": ["Design"],
             "links": {
-                "doi": "https://doi.org/10.1115/1.4063360"
+                "doi": "https://doi.org/10.1115/1.4063658"
             },
-            "abstract": "As computer-aided design (CAD) tools have become an essential aspect of modern mechanical engineering design, the demand for CAD experts has increased significantly. The development from novice, to proficient, to expert user is of particular interest to the industrial and academic design communities. Yet little is known about the development of modeling choices, strategies, and patterns that characterize expert CAD skills; much of the past work that reports user action data is based on student or novice data. We compared the CAD modeling process across nine proficient and ten expert designers as they were tested to complete the same design task. Under identical conditions—the same time constraints in the same CAD platform and with the same task—the expert users were able to complete a larger proportion of the task with higher dimensional accuracy. While the experts were able to dissect and retrieve geometries from manufacturing drawings more efficiently than proficient users, they were also able to plan a modeling strategy that required less effort and revisions. With our experimental findings, we identify the demand for procedural knowledge-building for young engineers, with the ultimate goal of more effectively developing experts in engineering design with CAD."
-        }, 
+            "abstract": "The pace of technological advancements has been rapidly increasing in recent years, with the advent of artificial intelligence, virtual/augmented reality, and other emerging technologies fundamentally changing the way human beings work. The adoption and integration of these advanced technologies necessitate teams with diverse disciplinary expertise, to help teams remain agile in an ever-evolving technological landscape. Significant disciplinary diversity amongst teams, however, can be detrimental to team communication and performance. Additionally, accelerated by the COVID-19 pandemic, the adoption and use of technologies that enable design teams to collaborate across significant geographical distances have become the norm in today's work environments, further complicating communication and performance issues. Little is known about the way in which technology-mediated communication affects the collaborative processes of design. As a first step toward filling this gap, the current work explores the fundamental ways experts from distinct disciplinary backgrounds collaborate in virtual design environments. Specifically, we explore the conversational dynamics between experts from two complementary yet distinct fields: non-destructive evaluation (NDE) and design for additive manufacturing (DFAM). Using Markov modeling, the study identified distinct communicative patterns that emerged during collaborative design efforts. Our findings suggest that traditional assumptions regarding communication patterns and design dynamics may not be applicable to expert design teams working in virtual environments.",
+            "tags": ["Design"]
+        },
         {
-            "title": "Connecting design iterations to performance in engineering design", 
-            "authors": "Ademir-Paolo Vrolijk, Yuanzhe Deng, and Alison Olechowski", 
-            "venue": "Proceedings of the Design Society: International Conference on Engineering Design (ICED23)",
+            "title": "Towards SysML v2 as a Variability Modeling Language",
+            "authors": "Jordan Epp, Thomas Robert, Olivier Ruch and Alison Olechowski",
+            "venue": "2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)",
             "year": 2023,
-            "tags": ["Design", "CAD"],
+            "links": {
+                "doi": "https://doi.org/10.1109/MODELS-C59198.2023.00054"
+            },
+            "abstract": "Systems engineers seek ways to reuse system models to accelerate the initial design development process on new complex projects. Despite its promise, one such solution -- the deployment of Model-based Product Line Engineering (MBPLE) -- presents challenges to practitioners. Not only is deployment costly, but an overwhelming number of variability modeling language options also lack interoperability. While research efforts work towards creating a universal variability modeling language and developing transformations between existing languages, this paper proposes incorporating variability modeling concepts into a system modeling language for a centralized management of product lines. In this work, we highlight SysML v2 as a promising language to use for variability modeling, arguing that it can orthogonally model systems and their variability. Further, we propose a novel metamodel that describes a SysML v2-based approach to modeling conceptual and asset variability spaces. We exemplify the deployment of this metamodel on a simple yet representative example found in a complex development environment. Ultimately, we hope the proposed metamodel will motivate SysML v2 tool vendors to support variability modeling by incorporating instantiation and constraint definition mechanisms and visualization capabilities in future tool releases.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Improving the Systems Engineering Process with Multi-Domain Mapping",
+            "authors": "Steven D. Eppinger, Nitin R. Joglekar, Alison Olechowski and Terence Teo",
+            "venue": "Reducing Risk in Innovation",
+            "year": 2013,
+            "links": {
+                "doi": "https://doi.org/10.3139/9783446437937.008"
+            },
+            "abstract": "The systems engineering V (SE-V) is the standard model to guide development of complex engineering projects (INCOSE 2011). The SE-V involves decomposition and integration of system elements through a sequence of tasks that produces both design and testing specifications. This paper explores a new method to improve SE-V implementation by applying multi-domain mapping (MDM) and design structure matrix (DSM) models in a novel way for analysis of both the system architecture and the system integration tasks. We illustrate our preliminary work using this method with data collected during the early development stage of a large engineering project in the offshore oil industry, including the component DSM, integration task DSM, and corresponding domain mapping matrix (DMM). We discuss findings in terms of data collection, aggregation, visualization, and potential insights for addressing system integration challenges.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Examining the Engineering Leadership Literature: Community of Practice Style",
+            "authors": "Cindy Rottmann, Doug Reeve, Mike Klassen, Serhiy Kovalchuk, Qin Liu, Alison Olechowski and Madeleine Santia",
+            "venue": "2018 ASEE Annual Conference & Exposition Proceedings",
+            "year": 2018,
+            "links": {
+                "doi": "https://doi.org/10.18260/1-2--30470"
+            },
+            "abstract": "Inherent to the career trajectories of professional engineers is an expectation that they learn to integrate communication, interpersonal and leadership skills into their technical knowledge base. While this process may feel smooth and natural to some, research suggests that others find it challenging and require support [1-3]. Our paper examines three bodies of literature relevant to engineering leadership learning in industry contexts: industry perspectives on the skills, traits and styles of effective engineering leaders; large-scale surveys tracking engineers' career paths and transitions; and ethnographic studies examining engineers' professional identity development. Our primary reason for doing this is to ground the next phase of our engineering leadership project in the literature. In addition to this project-specific goal, we use the paper to document the collective, interdisciplinary process we used to review the literature. We begin by identifying our search criteria and fleshing out three key themes in the literature. We then analyze the themes through a conceptual framework made up of four theoretical tensions relevant to leadership learning: leadership as a position/process; social action shaped by human agency/social structure; learning as a situated/formal endeavour; and social justice as a central/peripheral concern. After discussing the significance and limitations of our interdisciplinary literature review experiment, and highlighting a gap in the leadership learning research, we generate a list of recommendations for engineering educators, industry leaders and engineering leadership researchers.",
+            "tags": ["EngEdu"]
+        },
+        {
+            "title": "Mapping artificial intelligence-based methods to engineering design stages: a focused literature review",
+            "authors": "Pranav Milind Khanolkar, Ademir Vrolijk and Alison Olechowski",
+            "venue": "Artificial Intelligence for Engineering Design, Analysis and Manufacturing",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1017/S0890060423000203"
+            },
+            "abstract": "Engineering design has proven to be a rich context for applying artificial intelligence (AI) methods, but a categorization of such methods applied in AI-based design research works seems to be lacking. This paper presents a focused literature review of AI-based methods mapped to the different stages of the engineering design process and describes how these methods assist the design process. We surveyed 108 AI-based engineering design papers from peer-reviewed journals and conference proceedings and mapped their contribution to five stages of the engineering design process. We categorized seven AI-based methods in our dataset. Our literature study indicated that most AI-based design research works are targeted at the conceptual and preliminary design stages. Given the open-ended, ambiguous nature of these early stages, these results are unexpected. We conjecture that this is likely a result of several factors, including the iterative nature of design tasks in these stages, the availability of open design data repositories, and the inclination to use AI for processing computationally intensive tasks, like those in these stages. Our study also indicated that these methods support designers by synthesizing and/or analyzing design data, concepts, and models in the design stages. This literature review aims to provide readers with an informative mapping of different AI tools to engineering design stages and to potentially motivate engineers, design researchers, and students to understand the current state-of-the-art and identify opportunities for applying AI applications in engineering design.",
+            "tags": ["AI", "Design"]
+        },
+        {
+            "title": "An Exploratory Study Comparing CAD Tools and Working Styles for Implementing Design Changes",
+            "authors": "Vrushank Shripad Phadnis, Kevin Alfonso Leonardo, David Robert Wallace and Alison Louise Olechowski",
+            "venue": "Proceedings of the Design Society: International Conference on Engineering Design",
+            "year": 2019,
+            "links": {
+                "doi": "https://doi.org/10.1017/dsi.2019.144"
+            },
+            "abstract": "This paper presents the findings of a preliminary study comparing implementation of design changes using various computer-aided design (CAD) working styles. Our study compares individuals' and pairs' completion of a series of changes to a toy car CAD model. We discuss the results in terms of productivity and value added ratio, derived from time-based quantitative data. We also discuss qualitative findings acquired through post-study surveys. Overall, our findings suggest that pairs were less efficient than individual designers due to overheads like communication, history dependency and complex couplings within the CAD model tree. However, it is also noteworthy that within each pair the lead participant's performance was at par with individual participants. Lastly, we also discuss behaviors and patterns that emerge as unique to the synchronous collaborative environment, motivating future work.",
+            "tags": ["CAD", "Design"]
+        },
+        {
+            "title": "Analysis of Collaborative Assembly in Multi-User Computer-Aided Design",
+            "authors": "Kathy Cheng and Alison Olechowski",
+            "venue": "Journal of Mechanical Design",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4063759"
+            },
+            "abstract": "Cloud-based multi-user computer-aided design (MUCAD) tools have the potential to revolutionize design team collaboration. Previous research focusing on parametric part modelling suggests that teams collaborating through MUCAD are more efficient at producing a CAD model than individual designers. While these studies are enlightening, there is a significant gap in understanding the impact of MUCAD on assembly modelling, despite assembly's crucial role in the design process. Part and assembly models are both defined by parametric relationships, but assembly models lack hierarchical feature dependency; we propose that by modularizing tasks and executing them in parallel, teams can optimize the assembly process in ways not possible with part modelling. Our study aims to examine and compare CAD assembly performance between individuals and virtual collaborative teams using the same cloud MUCAD platform. Through analyzing team communication, workflow, task allocation, and collaboration challenges of teams comprising 1-4 members, we identify factors that contribute to or hinder the success of multi-user CAD teams. Our results show that teams can complete an assembly in less calendar time than a single user, but single users are more efficient on a per-person basis, due to communication and coordination overheads. Notably, pairs exhibit an assembly bonus effect. These findings provide initial insights into the realm of collaborative CAD assembly work, highlighting the potential of MUCAD to enhance the capabilities of modern product design teams.",
+            "tags": ["CAD", "Design"]
+        },
+        {
+            "title": "A Focussed Literature Review of Dual-Process Thinking to Inform the Study of Hackathons",
+            "authors": "Meagan Flus and Alison Olechowski",
+            "venue": "Design Computing and Cognition'22",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1007/978-3-031-20418-0_10"
+            },
+            "tags": ["Design"]
+        },
+        {
+            "title": "A Synthesis of Best Practices for Engineering Skill Self-Efficacy Measures: Towards Improved Evaluation of Computer-Aided Design Education",
+            "authors": "Elizabeth DaMaren and Alison Olechowski",
+            "venue": "Proceedings of the Canadian Engineering Education Association (CEEA)",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.24908/pceea.2023.17124"
+            },
+            "abstract": "Self-efficacy is a concept that refers to one's belief in one's ability to complete tasks and achieve goals, and literature has shown it is correlated to student retention and success in engineering education settings. Taskspecific self-efficacy measures can be used in engineering contexts to evaluate student confidence in specific skills, which educators can use to evaluate learning impacts in their classrooms. This work seeks to support the creation of these tools by presenting a structured literature review consolidating existing work on the creation of skill-specific self-efficacy measures, predominantly within engineering. An example of how instructors might use these learnings is then provided by explaining application of these findings in the context of the creation of a Computer-Aided Design self-efficacy measure. By summarizing key learnings around the development of engineering skill-specific selfefficacy measures, we hope to enable engineering education researchers and educators to conduct more comprehensive evaluation of educational interventions.",
+            "tags": ["EngEdu", "CAD"]
+        },
+        {
+            "title": "Experience shapes fixation: How manufacturing background influences student and professional computer-aided design behaviour",
+            "authors": "Victoria Velikonja, Kathy Cheng and Alison Olechowski",
+            "venue": "Advanced Engineering Informatics",
+            "year": 2026,
+            "links": {
+                "doi": "https://doi.org/10.1016/j.aei.2026.105072"
+            },
+            "tags": ["CAD", "Design"]
+        },
+        {
+            "title": "Team and communication impacts of remote work for complex aerospace system development",
+            "authors": "Sharon Ferguson, Eric Van Velzen and Alison Olechowski",
+            "venue": "Systems Engineering",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1002/sys.21716"
+            },
+            "abstract": "Remote work is becoming increasingly common, a trend accelerated by the global COVID-19 pandemic. Existing remote work research fails to address the challenges and needs of engineers working remotely in Complex Aerospace System Development (CASD), the field responsible for creating and operating aerospace systems. This article presents an exploratory study to understand the challenges, benefits, and strategies when working remotely in CASD. We interviewed 12 CASD engineers working remotely at a major aerospace corporation. We ground our findings in six characteristics of CASD work (complex systems; design paths and feedback loops; relationships with suppliers, customers and regulators; distinct knowledge and skills; one-off innovation; and high cost of experimentation) and discuss how each of these characteristics challenges remote work. The findings show that CASD requires many teams to work together, and this is encouraged through informal communication, which almost disappears in a remote setting. CASD requires frequent feedback, and we found that feedback was slow when working remotely. Participants found it challenging to demonstrate systems to customers and verify drawings with suppliers, and the interpersonal relationships, which help to bridge disciplinary divides, were harder to maintain remotely. The one-off nature of the systems designed meant that conceptual work was important, but participants lacked the virtual tools to do this effectively. Lastly, testing hardware components required close virtual communication between technicians and engineers, which was tricky in a detail-oriented context. This study motivates areas for future work to better understand and address the nuances of remote work by engineers in CASD.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Comparing neural patterns of high and low performers in adapted alternate-use design tasks for idea generation",
+            "authors": "Peiying Jian, John S. Gero, Jiaying Zhang and Alison Olechowski",
+            "venue": "Proceedings of the Design Society",
+            "year": 2026,
+            "links": {
+                "doi": "https://doi.org/10.1017/pds.2026.10461"
+            },
+            "abstract": "This study examines neural differences between high- and low-performing designers using EEG. Participants viewed an image of IKEA furniture and created alternative designs. Performance was evaluated based on the composite of fluency, flexibility and originality scores. Results reveal that high-performing designers exhibited greater beta and gamma frequency band power in frontal and right-frontal regions compared to low-performers. Although these differences did not remain significant after multiple-comparison correction, their large effect sizes suggest meaningful neural distinctions.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "A Configuration Management Strategy for Modelbased Product Line Engineering in Aircraft Systems Development",
+            "authors": "Jordan Epp, Thomas Robert, Olivier Ruch and Alison Olechowski",
+            "venue": "INCOSE International Symposium",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1002/iis2.13270"
+            },
+            "abstract": "Aircraft systems development is complex and time-consuming. Model-based Product Line Engineering (MBPLE) aims to reuse assets between projects to accelerate the development of systems at their early stage. Despite guidance from standards, MBPLE practitioners still face the challenge of deploying an appropriate configuration management strategy. This paper presents and demonstrates a configuration management strategy to support practitioners deploying MBPLE for aircraft systems development. We developed this strategy to comply with ISO/IEC 26580 and address pending standard ambiguities using best practices from product lines for systems, software, business processes, and systems of systems. The proposed strategy supports long-term product line evolution, management of different asset types, and independent product environments.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Advancing a Model of Students' Intentional Persistence in Machine Learning and Artificial Intelligence",
+            "authors": "Sharon Ferguson, James Magarian, Alison Olechowski and Katherine Mao",
+            "venue": "2022 ASEE Annual Conference & Exposition Proceedings",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.18260/1-2--41724"
+            },
+            "tags": ["EngEdu", "AI"]
+        },
+        {
+            "title": "“Why couldn't we do this more often?”: exploring the feasibility of virtual and distributed work in product design engineering",
+            "authors": "Sharon Ferguson, Kimberly Lai, James Chen, Safa Faidi, Kevin Leonardo and Alison Olechowski",
+            "venue": "Research in Engineering Design",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.1007/s00163-022-00391-2"
+            },
+            "abstract": "Lower costs and higher employee satisfaction are some of the benefits driving organizations to adopt dispersed and virtual working arrangements. Despite these advantages, product design engineering teams—those who develop physical products—have not widely adopted this working style due to perceived critical dependence on physical facilities and the belief that it is ineffective to communicate technical details virtually. This paper uses the mass shift in working conditions caused by the COVID-19 pandemic to explore the feasibility of virtual and distributed work in product design engineering. We conducted 20 semi-structured interviews with product design engineers working virtually to uncover current challenges of, and the beginning of promising strategies for, effective virtual engineering work. We categorize and analyze Tangible Design activities, Intangible Design activities, and Communication and Project Management activities throughout the product design process. Contrary to present opinions, we found that much of a product design engineer's work is realizable in a virtual and distributed setting. However, there are still many challenges, especially when attempting Tangible Design activities—those that require physical products and tools—from home. These challenges, missing from existing virtual product design engineering literature, include but are not limited to individuals' lessened sense of accountability, fewer de-risking opportunities before product sign-off, and limited supervision of production staff. Product design engineers described novel strategies that emerged organically to mitigate these challenges, such as creating digital alternatives for engineering reviews and signoffs and leveraging rapid prototyping. Recent advances in technology, an increased commitment to reducing environmental impact, and better work-life balance expectations from new generations of workers will only push society faster towards a distributed working model. Thus, it is critical that we use this opportunity to understand the existing challenges for distributed product design engineers, so that organizations can best prepare and become resilient to future shocks.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Patterns of Silence and Communication Between Paired Designers in Collaborative Computer-Aided Design",
+            "authors": "Meaghan Vella, Alison Olechowski and Vrushank Phadnis",
+            "venue": "Design Computing and Cognition'20",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.1007/978-3-030-90625-2_5"
+            },
+            "abstract": "We present the initial ﬁndings of an experiment where designers worked in pairs to complete a series of Computer-Aided Design (CAD) tasks via Parallel CAD Control, a working style where both partners are able to simultaneously manipulate, modify and build-on the same part model from their own workstations. We ﬁnd that the level of communication varies widely amongst the pairs, but equality of communication across the pairs remains relatively even. We unexpectedly ﬁnd that pairs that include a Novice designer have a relatively lower level of communication, despite maintaining equality of conversation. Finally, we ﬁnd that participants with high CAD skill use technical CAD words at a relatively lower frequency. These initial experimental ﬁndings, analyzed via a limited sample size, motivate research questions for further study, with the potential to eventually inform best practice in collaborative CAD.",
+            "tags": ["Design", "CAD"]
+        },
+        {
+            "title": "A Qualitative Analysis of Collaborative Computer-Aided Design Experiences to Inform Teaching",
+            "authors": "Kevin A Leonardo and Alison Olechowski",
+            "venue": "International Journal of Engineering Education",
+            "year": 2022,
+            "links": {},
+            "tags": ["EngEdu", "CAD"]
+        },
+        {
+            "title": "Identifying Computer-Aided Design Action Types From Professional User Analytics Data",
+            "authors": "Kevin Leonardo and Alison Olechowski",
+            "venue": "Proceedings of the ASME 2021 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2021-72102"
+            },
+            "abstract": "Inspired by popular personality type indicators, we develop a framework for classifying individuals by their computer-aided design (CAD) behaviours. We are motivated by the trend of modern CAD software towards cloud platforms and expanded collaborative features. Cloud-CAD platforms enable collaboration by increasing access, and reducing conflicts and barriers to file-sharing.",
+            "tags": ["Design", "CAD"]
+        },
+        {
+            "title": "A PILOT STUDY ON THE PREVALENCE OF ARTIFICIAL INTELLIGENCE IN CANADIAN ENGINEERING DESIGN CURRICULA",
+            "authors": "Pranav Milind Khanolkar, Mohammed Gad, Jessica Liao, Ada Hurst and Alison Olechowski",
+            "venue": "Proceedings of the Canadian Engineering Education Association (CEEA)",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.24908/pceea.vi0.14919"
+            },
+            "abstract": "Recent advances in artificial intelligence (AI) have shed light on the potential uses and applications of AI tools in engineering design. However, the aspiration of a fully automated engineering design process still seems out of reach of AI's current capabilities, and therefore, the need for human expertise and cognitive skills persists. Nonetheless, a collaborative design process that emphasizes and uses the strengths of both AI and human engineers is an appealing direction for AI in design. To uncover the current applications of AI, the authors review literature pertaining to AI applications in design research and engineering practice. This highlights the importance of integrating AI education into engineering design curricula in post-secondary institutions. Next, a pilot study assessment of undergraduate mechanical engineering course descriptions at the University of Waterloo and University of Toronto reveals that only one out of a total of 153 courses provides both AI and design-related knowledge together in a course. This result identifies possible gaps in Canadian engineering curricula and potential deficiencies in the skills of graduating Canadian engineers.",
+            "tags": ["EngEdu", "AI"]
+        },
+        {
+            "title": "Investigation of Remote Work for Aerospace Systems Engineers",
+            "authors": "Eric van Velzen and Alison Olechowski",
+            "venue": "INCOSE International Symposium",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.1002/j.2334-5837.2021.00872.x"
+            },
+            "abstract": "In many industries, remote work is becoming increasingly common. The global COVID-19 pandemic has accelerated this shift, which poses a particular challenge to aerospace systems engineers (ASEs). ASE work is complex, consisting of a number of tasks that are traditionally largely conducted in-person. Little literature exists to establish a basic understanding of remote work in the context of aerospace systems engineering development projects.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Gendered Professional Role Confidence and Persistence of Artificial Intelligence and Machine Learning Students",
+            "authors": "Kimberly Ren and Alison Olechowski",
+            "venue": "2020 ASEE Virtual Annual Conference Content Access Proceedings",
+            "year": 2020,
+            "links": {
+                "doi": "https://doi.org/10.18260/1-2--34704"
+            },
+            "abstract": "Machine learning and artificial intelligence (ML/AI) technology can be biased through non-representative training and testing activities leading to discriminatory and negative social consequences. The enormous potential of ML/AI to shape the future of technology underscores the need to increase the diversity of workers within the field, with one group of untapped talent being women engineers. An unresolved contradiction exists between the trend of greater woman representation in broader STEM fields and the consistently low numbers of women engineers pursuing careers in ML/AI. Furthermore, there has been a lack of tailored research investigating the potential causes of such under-representation.",
+            "tags": ["EngEdu", "AI"]
+        },
+        {
+            "title": "A Multimodal Experimental Approach to Study CAD Collaboration",
+            "authors": "Vrushank Phadnis, David Wallace and Alison Olechowski",
+            "venue": "Computer-Aided Design and Applications",
+            "year": 2020,
+            "links": {
+                "doi": "https://doi.org/10.14733/cadaps.2021.328-342"
+            },
+            "abstract": "Computer-Aided Design (CAD) collaboration has been studied since the early days of CAD research, but standardized metrics and experimental procedures for synchronous, cloud-based CAD research are lacking in the literature. In this work, we lay out an empirical approach to investigate collaboration in CAD. Our work is unique in its relevance to the nuances of synchronous CAD collaboration. We first define metrics of interest: speed, quality, communication, satisfaction, and UI (user interaction). We then introduce an experimental toolkit that leverages automated and manual data capture methods. Lastly, we deploy our toolkit in a pilot study setting to reveal preliminary insights and validate the workings of our method. Although preliminary, our findings suggest that pairs were slower than single CAD users because of coordination overheads involving communication and model-treescanning.",
+            "tags": ["Design", "CAD"]
+        },
+        {
+            "title": "Are Two Heads Better Than One for Computer-Aided Design?",
+            "authors": "Vrushank Phadnis, Hamza Arshad, David Wallace and Alison Olechowski",
+            "venue": "Journal of Mechanical Design",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4050734"
+            },
+            "abstract": "With the availability of cloud-based software, ubiquitous internet, and advanced digital modeling capabilities, a new potential has emerged to design physical products with methods previously embraced by the software engineering community. One such example is pair programming, where two coders work together synchronously to develop one piece of code. Pair programming has been shown to lead to higher-quality code and user satisfaction. Cutting-edge collaborative computer-aided design (CAD) technology affords the possibility to apply synchronous collaborative access in mechanical design. We test the generalizability of findings from the pair programming literature to the same dyadic configuration of work in CAD, which we call pair CAD. We performed human subject experiments with 60 participants to test three working styles: individuals working by themselves, pairs sharing control of one model instance and input, and pairs able to edit the same model simultaneously from two inputs. We compare the working styles on speed and quality and propose mechanisms for our observations via interpretation of patterns of communication, satisfaction, and user cursor activity. We find that on a per-person basis, individuals were faster than pairs due to coordination and overhead inefficiencies. We find that pair work, when done with a single shared input, but not in a parallel mode, leads to higher-quality models. We conclude that it is not software capabilities alone that influence designer output; choices regarding work process have a major effect on design outcomes, and we can tailor our process to suit project requirements.",
+            "tags": ["Design", "CAD"]
+        },
+        {
+            "title": "Integrating Safety Analysis into Model-Based Systems Engineering for Aircraft Systems: A Literature Review and Methodology Proposal",
+            "authors": "Kimberly Lai, Thomas Robert, David Shindman and Alison Olechowski",
+            "venue": "INCOSE International Symposium",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.1002/j.2334-5837.2021.00882.x"
+            },
+            "abstract": "Model-Based Systems Engineering (MBSE) has become increasingly popular within the aircraft industry in recent years. However, this model-based approach presents a challenge as traditional safety analysis practices are unable to keep up, resulting in inconsistency between the system and safety domains. This paper proposes a methodology tailored towards aircraft systems that addresses this issue by integrating safety analysis into MBSE. This is achieved by extending the Systems Modeling Language (SysML) profile to account for safety data in the system model and utilizing an Application Programming Interface (API) to automate the generation of safety analysis artefacts. The proposed methodology also allows for requirements management integration to increase the efficiency of the system development process.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Communication patterns in engineering enterprise social networks: an exploratory analysis using short text topic modelling",
+            "authors": "Sharon A. Ferguson, Kathy Cheng, Lauren Adolphe, Georgia Van de Zande, David Wallace and Alison Olechowski",
+            "venue": "Design Science",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.1017/dsj.2022.12"
+            },
+            "abstract": "Enterprise social network messaging sites are becoming increasingly popular for team communication in engineering and product design. These digital communication platforms capture detailed messages between members of the design team and are an appealing data set for researchers who seek to better understand communication in design. This exploratory study investigates whether we can use enterprise social network messages to model communication patterns throughout the product design process. We apply short text topic modelling (STTM) to a data set comprising 250,000 messages sent by 32 teams enrolled in a 3-month intensive product design course. Many researchers describe the engineering design process as a series of convergent and divergent thinking stages, such as the popular double diamond model, and we use this theory as a case study in this work. Quantitative and qualitative analysis of STTM results reveals several trends, such as it is indeed possible to see evidence of cyclical convergence and divergence of topics in team communication; within the convergence–divergence pattern, strong teams have fewer topics in their topic models than weaker teams; and teams show characteristics of product, project, course, and other themes within each topic. We provide evidence that the analysis of enterprise social networking messages, with advanced topic modelling techniques, can uncover insights into design processes and can identify the communication patterns of successful teams.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "The multi-user computer-aided design collaborative learning framework",
+            "authors": "Yuanzhe Deng, Matthew Mueller, Chris Rogers and Alison Olechowski",
+            "venue": "Advanced Engineering Informatics",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.1016/j.aei.2021.101446"
+            },
+            "abstract": "New developments to computer-aided design (CAD) software transform a once solitary modelling task into a collaborative one. The emerging multi-user CAD (MUCAD) systems allow virtual, real-time collaboration, with the potential to expand the learning outcomes and teaching methods of CAD. This paper proposes a MUCAD collaborative learning framework (MUCAD-CLF) to interpret backend analytic data from commercially available MUCAD software. The framework builds on several existing metrics from the literature and introduces newly developed methods to classify CAD actions collected from users' analytic data. The framework contains two different classification approaches of user actions, categorizing actions by action type (e.g., creating, revising, viewing) and by design space (e.g., constructive, organizing), for comparative analysis. Next, the analytical framework is applied via a collaborative design challenge, corresponding to over 20,000 actions collected from 31 participants. Illustrative analyses utilizing the MUCAD-CLF are presented to demonstrate the resulting insight. Differences in CAD behaviour, indicating differences in learning, are observed between teams made up entirely of novices, entirely of experienced users, or a mix. In pairs of experts and novices, we see both a perceived highsatisfaction apprenticeship experience for the novices and preliminary evidence of an increase in expert design behaviours for the novices. The proposed framework is critical for MUCAD systems to make the most of the educational possibility of combining technical skill-building with team collaboration. Preliminary evidence collected in a fully-virtual design learning activity, and analyzed using the proposed MUCAD-CLF, shows that novice students gain advanced CAD design knowledge when collaborating with experienced teammates. With the user data captured by modern MUCAD software and the MUCAD-CLF presented herein, instructors and re­ searchers can more efficiently assess and visualize students' performance over the design learning process.",
+            "tags": ["CAD", "EngEdu"]
+        },
+        {
+            "title": "Some (Team) Assembly Required: An Analysis of Collaborative Computer-Aided Design Assembly",
+            "authors": "Kathy Cheng and Alison Olechowski",
+            "venue": "Proceedings of the ASME 2021 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2021-68507" 
+            },
+            "abstract": "Previous efforts in the area of collaborative computer-aided design (CAD) suggest that a team of designers working synchronously in a multi-user CAD (MUCAD) environment can produce CAD models faster than a single user. Our research is the among the ﬁrst to investigate assemblies in MUCAD. Due to the lack of hierarchical feature dependency in assemblies, we propose that CAD teams can optimize assembly through modularization and parallel execution. In our study, 20 participants were tasked with assembling pre-modelled CAD parts of varying complexity in teams of one, two, three or four. We analyze audio recordings, team activity, and survey responses to compare the performance of individuals and virtual collaborative teams during assembly, while working with the same MUCAD platform.",
+            "tags": ["Design", "CAD"]
+        },
+        {
+            "title": "A Survey of Design Reviews: Understanding Differences by Designer-Roles and Phase of Development",
+            "authors": "James Chen, Gustavo Zucco and Alison Olechowski",
+            "venue": "Proceedings of the Design Society: International Conference on Engineering Design",
+            "year": 2019,
+            "links": {
+                "doi": "https://doi.org/10.1017/dsi.2019.281"
+            },
+            "abstract": "In this paper, we present the results of a survey of new product development practitioners regarding their design review experiences. We surveyed 128 product development professionals on their experience and preferences in design reviews. We found that the goals and type (location / synchronicity) of design reviews change over the course of a product development project. We found that the majority of design review meetings continue to be held as co-located, live, in-person meetings. For reviewing 3D models, we found that a native CAD package (rather than a viewer, or fixed views, or a physical prototype) is the most commonly used tool. We found a difference between Designers (more likely to be product engineers) and Non-Designers and their access to CAD software, as well as their preference for which tool to use at the design review for 3D model evaluation. We hope that our findings spark future work related to better understanding design reviews and design reviewers in context. Design reviews are an important part of industrial product development processes, so we believe future studies have a large potential to improve these design activities",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Analysis of Designer Emotions in Collaborative and Traditional Computer-Aided Design",
+            "authors": "Jinxuan (Janice) Zhou, Vrushank Phadnis and Alison Olechowski",
+            "venue": "Journal of Mechanical Design",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4047685"
+            },
+            "abstract": "We developed a new method to link designer emotions with corresponding designer activities while using computer-aided design (cad) software. Our method employs automated facial emotion detection software and cursor tracking. We applied this method via an experiment with nine participants, each working with the same synchronously collaborative cad platform, and assigned a series of cad tasks in one of two distinct working styles: single participants working by themselves and paired participants working together. We analyzed and compared trends in emotion for these two working styles. Pairs, on average per person, experienced higher levels of emotion (measured as joy, sadness, anger, contempt, fear, and surprise) than individuals. We linked occurrences of each emotional response to their antecedent activities in the cad environment (navigating the model tree, sketching in the graphics area, making selections in the feature menu, and communicating using the chat window). Using a logistic regression analysis, we revealed statistically significant trends linking emotions and cad events, and we found that some emotions are more likely to occur with certain designer actions in the cad software. The method and conclusions presented in this paper allow us to better understand designer emotions in traditional and collaborative cad, which link to the established relationships between emotion and designer satisfaction, creativity, performance, and other outcomes increasingly valued by engineering designers and managers in virtually collaborative environments.",
+            "tags": ["Design", "CAD", "AI"]
+        },
+        {
+            "title": "Technology-based design and sustainable economic growth",
+            "authors": "Jianxi Luo, Alison L. Olechowski and Christopher L. Magee",
+            "venue": "Technovation",
+            "year": 2014,
+            "links": {
+                "doi": "https://doi.org/10.1016/j.technovation.2012.06.005"
+            },
+            "abstract": "This paper seeks to analyze how design creates economic value. The literature on knowledge-based economic development has primarily focused on innovation as the analytical lens, whereas design is the original action that leads to innovation. Despite the fundamental importance of design, existing design research has offered few insights and little guidance for national strategies due to the lack of focus on and analysis of design in an economic context. This paper addresses such gaps by linking design research and economic development theory. We ﬁrst elaborate on the relationship among design, invention and innovation, describing the necessity of design activity for invention and innovation. Our analysis of the fundamental characteristics of design across contexts sheds light on the strategic importance of the accumulative nature of technology-based design for sustaining economic growth. Through the lens of technology-based design, we further quantitatively compare Singapore and three similarly-sized countries (South Korea, Finland and Taiwan). Based upon interview data, we also qualitatively examine Singapore's national strategy focusing on design. The quantitative and qualitative results align well with the Singaporean government's use of design as a strategic lever to pursue innovation-driven economic growth, and also reveal its achievements and shortfalls which indicate possible directions for strategic adjustment.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "The professionalization of risk management: What role can the ISO 31000 risk management principles play?",
+            "authors": "A. Olechowski, J. Oehmen, W. Seering and M. Ben-Daya",
+            "venue": "International Journal of Project Management",
+            "year": 2016,
+            "links": {
+                "doi": "https://doi.org/10.1016/j.ijproman.2016.08.002"
+            },
+            "abstract": "Risk management is increasingly seen as a means of improving the likelihood of success in complex engineering projects. Yet the presence of a legitimacy gap, driven by the lack of empirical validation of published best practices, might explain low adoption of risk management on projects. We present an empirical investigation and discussion of the eleven principles of the ISO 31000:2009 Risk Management Standard via a large-scale survey of engineering and product development practitioners. Adhering to the risk management principles at a high level was found to be a signiﬁcant factor in better reaching cost, schedule, technical and customer targets, in addition to achieving a more stable project execution. This ﬁnding suggests that, rather than a single rigid standard or an ever-changing set of detailed methods, the ISO principles have potential to be the basis for our shared understanding of best practice, and to catalyze the professionalization of project risk management.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "A Survey of Technology Readiness Level Users",
+            "authors": "Katharina Tomaschek, Alison Olechowski, Steven Eppinger and Nitin Joglekar",
+            "venue": "INCOSE International Symposium",
+            "year": 2016,
+            "links": {
+                "doi": "https://doi.org/10.1002/j.2334-5837.2016.00283.x"
+            },
+            "abstract": "The Technology Readiness Level (TRL) method, used to assess the maturity of a technology, has been applied in different industries for over 40 years. TRLs assist engineers in managing risks, communicating development progress and specifying deliverables. As TRLs have been adopted in more industries, the original scope of TRL application has expanded and challenges in use have emerged. Little is known about the TRL user community and its opinions of the method, or of the method's practical challenges. A global industry survey, conducted with professional TRL users, investigated the relative importance of 15 previously identified challenges of TRL use. We find that the top four most critical TRL challenges as identified by our respondents are system-related; they include the topics of integration, interfaces, system modifications, and overall system maturity. The results reveal a need for an extension of the TRL method from a component-readiness-context to a system-readiness-context.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Analysis of the effect of risk management practices on the performance of new product development programs",
+            "authors": "Josef Oehmen, Alison Olechowski, C. Robert Kenley and Mohamed Ben-Daya",
+            "venue": "Technovation",
+            "year": 2014,
+            "links": {
+                "doi": "https://doi.org/10.1016/j.technovation.2013.12.005"
+            },
+            "abstract": "Risk management is receiving much attention, as it is seen as a method to improve cost, schedule, and technical performance of new product development programs. However, there is a lack of empirical research that investigates the effective integration of speciﬁc risk management practices proposed by various standards with new product development programs and their association with various dimensions of risk management success. Based on a survey of 291 product development programs, this paper investigates the association of risk management practices with ﬁve categories of product development program performance: (A) Quality Decision Making; (B) High Program Stability; (C) Open, problem solving organization; (D) Overall new product development project success; and (E) overall product success. The results show that six categories of risk management practices are most effective: (1) Develop risk management skills and resources; (2) Tailor risk management to and integrate it with new product development; (3) Quantify impacts of risks on your main objectives; (4) Support all critical decisions with risk management results; (5) Monitor and review your risks, risk mitigation actions, and risk management process; and (6) Create transparency regarding new product development risks. The data shows that the risk management practices are directly associated with outcome measures in the ﬁrst three categories (improved decision making, program stability and problem solving). There is also evidence that the risk management practices indirectly associate with the remaining two categories of outcome measures (project and product success). Additional research is needed to describe the exact mechanisms through which risk management practices inﬂuence NPD program success.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Characteristics of successful risk management in product design",
+            "authors": "A Olechowski, J Oehmen, W Seering and M Ben-Daya",
+            "venue": "DS 70: Proceedings of DESIGN 2012, the 12th International Design Conference",
+            "year": 2012,
+            "links": {
+                "doi": "https://www.designsociety.org/publication/31994/characteristics_of_successful_risk_management_in_product_design"
+            },
+            "abstract": "The paper reports results of one of the largest empirical studies to-date on the impact of design risk management practices on product design success. Through a survey of 224 practices, 38 (in 7 categories) where found to be statistically significant for at least 3 out of 4 performance metrics. The categories are: 1. Organizational Design Experience; 2. Risk Management Personnel and Resources; 3. Tailoring and Integration of Risk Management Process; 4. Risk-Based Decision Making; 5. Specific Mitigation Actions; 6. Monitoring and Review; and 7. Other ISO Risk Management Principles.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Engineering Students and Group Membership: Patterns of Variation in Leadership Confidence and Risk Orientation",
+            "authors": "James Magarian and Alison Olechowski",
+            "venue": "2018 ASEE Annual Conference & Exposition Proceedings",
+            "year": 2018,
+            "links": {
+                "doi": "https://doi.org/10.18260/1-2--30417"
+            },
+            "abstract": "This paper examines variance in leadership confidence and risk orientation attributes across a sample of n=1,061 senior year mechanical engineering students drawn from nine U.S. engineering schools. These attributes theoretically relate to students' development within engineering leadership educational programs and to students' career choice behaviors. Data were collected as part of a larger forthcoming study that will analyze the attributes' association with students' demonstrated engineering job and task preferences. In this paper, we introduce our conceptualization and measurement methods for the leadership confidence and risk orientation variables following a review of the related literature. We hypothesize that these attributes vary, on average, in association with observable student participation choices, such as the choice to join a fraternity/sorority or to participate in varsity athletics; we also hypothesize that the attributes vary in association with socioeconomic background and gender. We then present results demonstrating statistically significant differences in these attributes, on average, depending on students' association with one or more of such groups or demographics. Meanwhile, we find no statistically significant differences in average values of the leadership confidence or risk attributes across the universities participating in the study.",
+            "tags": ["EngEdu"]
+        },
+        {
+            "title": "Characteristics and Enablers of Transparency in Product Development Risk Management",
+            "authors": "Ryan M. Shaffer, Alison L. Olechowski, Warren P. Seering and Mohammad Ben-Daya",
+            "venue": "DS 80-3 Proceedings of the 20th International Conference on Engineering Design (ICED 15)",
+            "year": 2015,
+            "links": {
+                "doi": "https://iced.designsociety.org/publication/37731/characteristics_and_enablers_of_transparency_in_product_development_risk_management"
+            },
+            "abstract": "Risks in product development lead to schedule and cost overruns and poor product quality. While many risk management frameworks have been published and research on specific practices has been conducted, little is understood of key characteristics of successful risk management in product development and how they manifest in real development projects.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Improving the systems engineering process with multilevel analysis of interactions",
+            "authors": "Steven D. Eppinger, Nitin R. Joglekar, Alison Olechowski and Terence Teo",
+            "venue": "Artificial Intelligence for Engineering Design, Analysis and Manufacturing",
+            "year": 2014,
+            "links": {
+                "doi": "https://doi.org/10.1017/S089006041400050X"
+            },
+            "abstract": "The systems engineering V (SE-V) is an established process model to guide the development of complex engineering projects (INCOSE, 2011). The SE-V process involves decomposition and integration of system elements through a sequence of tasks that produce both a system design and its testing specifications, followed by successive levels of build, integration, and test activities. This paper presents a method to improve SE-V implementation by mapping multilevel data into design structure matrix (DSM) models. DSM is a representation methodology for identifying interactions between either components or tasks associated with a complex engineering project (Eppinger & Browning, 2012). Multilevel refers to SE-V data on complex interactions that are germane either at multiple levels of analysis (e.g., component versus subsystem) conducted either within a single phase or across multiple time phases (e.g., early or late in the SE-V process). This method extends conventional DSM representation schema by incorporating multilevel test coverage data as vectors into the off-diagonal cells. These vectors provide a richer description of potential interactions between product architecture and SE-V integration test tasks than conventional domain mapping matrices. We illustrate this method with data from a complex engineering project in the offshore oil industry. Data analysis identifies potential for unanticipated outcomes based on incomplete coverage of SE-V interactions during integration tests. In addition, assessment of multilevel features using maximum and minimum function queries isolates all the interfaces that are associated with either early or late revelations of integration risks based on the planned suite of SE-V integration tests.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Technology readiness levels: Shortcomings and improvement opportunities",
+            "authors": "Alison L. Olechowski, Steven D. Eppinger, Nitin Joglekar and Katharina Tomaschek",
+            "venue": "Systems Engineering",
+            "year": 2020,
+            "links": {
+                "doi": "https://doi.org/10.1002/sys.21533"
+            },
+            "abstract": "The technology readiness level (TRL) scale was developed at the National Aeronautics and Space Administration (NASA) in the 1970s as a standardized technology maturity assessment tool for use in complex system development. Today, TRL assessments are used to make multimillion-dollar decisions at NASA and beyond, yet anecdotal evidence suggests that there are challenges associated with TRL use in practice. In this paper, we systematically uncover the practitioners' view, first via 19 interviews with employees from seven organizations. We identify 15 challenges of TRL implementations in three categories: system complexity, planning and review, and validity of assessment. Next, we prioritize these challenges via a survey of TRL practitioners, using a bestworst choice experiment. Finally, we identify best practices and proposed extensions to address the challenges. We find that system complexity challenges are most critical to TRL users, despite being addressed in the literature. We posit that addressing these opportunities could result in substantial improvements to decision processes and outcomes in complex engineering projects.",
+            "tags": ["SysEng", "Design"]
+        },
+        {
+            "title": "IDENTIFYING GAPS IN AUTOMATING THE ASSESSMENT OF TECHNOLOGY READINESS LEVELS",
+            "authors": "S. Faidi and A. Olechowski",
+            "venue": "Proceedings of the Design Society: DESIGN Conference",
+            "year": 2020,
+            "links": {
+                "doi": "https://doi.org/10.1017/dsd.2020.160"
+            },
+            "abstract": "Crucial in the design process, Technology Readiness Levels are a common form of technology maturity assessment. Studies suggest that the TRL scale can be subjective and biased. Automating the assessment can reduce human bias. This paper highlights important challenges of automation by presenting data collected on 15 technologies from the nanotechnology sector. Our findings show that, contrary to claims from the literature, patent data exists for low maturity technologies and may be useful for automation. We also found that there exists unexpected trends in data publications at TRL 2, 3 and 4.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Prominence of Conceptual Design with Computer-Aided Design Tools for Junior and Senior Product Designers",
+            "authors": "Arash Nourimand and Alison Olechowski",
+            "venue": "2020 ASEE Virtual Annual Conference Content Access Proceedings",
+            "year": 2020,
+            "links": {
+                "doi": "https://doi.org/10.18260/1-2--35101"
+            },
+            "abstract": "As the demand for more innovative products to help improve the lives of others increases, the product design industry continues to require more effective design methodologies. Conventional wisdom and research suggests that Computer-Aided Design (CAD) is a tool for detailed design, and is not appropriate for the conceptual phase of the design process. However, given new advances in cloud-computing and real-time synchronous collaboration, the ability to quickly digitally prototype unique concepts in CAD has never been easier. Given that new engineering graduates are part of the “digital native” generation, anecdotal evidence suggests these designers have a natural inclination and ability for this digital prototyping. Our study seeks to formally test whether a dichotomy exists between younger designers who are entering the workforce, and older designers who are veterans in product development, regarding the best-practices in CAD usage for conceptual design - “Conceptual CAD”.",
+            "tags": ["Design", "CAD", "EngEdu"]
+        },
+        {
+            "title": "Decision Graph and Matrix Visualization during Interdisciplinary Engineering Collaboration",
+            "authors": "Haya Elaraby, Alison Olechowski, Greg Jamieson, Xintong He, Minjie Zou, Dorothea Pantforder and Birgit Vogel-Heuser",
+            "venue": "IECON 2021 - 47th Annual Conference of the IEEE Industrial Electronics Society",
+            "year": 2021,
+            "links": {
+                "doi": "https://doi.org/10.1109/IECON48115.2021.9589292"
+            },
+            "abstract": "Today's mechatronic systems are becoming more and more complex as the development and design processes require collaboration across multiple engineering disciplines. The high complexity between loosely connected models results in a disconnect between these inter-disciplinary models, which may cause delays and costly rework in the long run. There is a need for an effective method to show the dependencies and risks across models for various stakeholder groups. Currently, the discussion about such methods is limited. This paper proposes and evaluates a user-friendly Decision Graph and Matrix Visualization method that combines network-based and matrix-based techniques to assist stakeholders in tracking dependencies and risks across models. The method is applied and demonstrated with a design and engineering case of a lab-scale production system, whose usability was tested formatively with experts.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Evaluating Computer-Aided Design Software as a Barrier to Women's Engagement in Engineering: A Focused Literature Review",
+            "authors": "Elizabeth DaMaren and Alison Olechowski",
+            "venue": "2022 ASEE Annual Conference & Exposition Proceedings",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.18260/1-2--41595"
+            },
+            "abstract": "To tackle today's toughest problems, like climate change and the threat of global pandemics, design teams will need to deliver not only software solutions, but also innovative hardware products, sometimes called “tough-tech” or “hard-tech.” Computer-Aided Design (CAD) is a key tool for these design teams to leverage in order to reach creative, innovative, hard-tech solutions for society's most pressing issues. Given CAD's importance in design, it is positioned to be a key enabler, or barrier, to increasing diversity in design teams. Statistics on the representation of women in CAD-reliant engineering fields, such as mechanical engineering, show that the numbers remain much below the overall female representation in engineering, and far below gender parity. Differences in confidence and ability level with CAD software are factors that may explain why this disparity exists, and so a focus on increasing accessibility of this tool provides an opportunity to increase female and non-binary representation in design teams.",
+            "tags": ["CAD", "EngEdu"]
+        },
+        {
+            "title": "Towards Model-Based Functional Hazard Assessment (FHA) for Aircraft Systems Development with UML",
+            "authors": "Kimberly Lai, Thomas Robert, David Shindman and Alison Olechowski",
+            "venue": "Complex Systems Design & Management",
+            "year": 2022,
+            "links": {},
+            "abstract": "Model-Based Systems Engineering (MBSE) is increasingly adopted across the aerospace industry for the development of complex systems. As specified by aerospace standards SAE ARP4754A and ARP4761, the Functional Hazard Assessment (FHA) is a mandatory safety assessment process performed at the early phases of development. FHAs examine aircraft and system level functions to identify and classify failure conditions, hence supporting the derivation of safety objectives and requirements. However, the link between MBSE and safety assessment still needs further improvement, particularly regarding failure conditions and FHAs. This paper introduces a UML profile extension that enables the modelling of failure conditions and generation of FHAs which can be used alongside any UML-based systems modelling profile, such as OMG SysML. This profile enables preliminary safety data to be modelled and analysed during operational analysis, allowing safety considerations to be integrated earlier in the development process and supporting a better flow down of safety requirements.",
+            "tags": ["SysEng", "Design"]
+        },
+        {
+            "title": "Does Synchronous Collaboration Improve Collaborative Computer-Aided Design Output: Results From a Large-Scale Competition",
+            "authors": "Yuanzhe Deng, Tucker Marion and Alison Olechowski",
+            "venue": "Proceedings of the ASME 2022 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2022-89731"
+            },
+            "abstract": "With the growing demand for distributed collaboration for large and complex design in modern engineering, the collaboration inefficiencies of traditional computer-aided design (CAD) tools are increasingly conspicuous. Emerging cloud-based multi-user computer-aided design (MUCAD) platforms bring a new working style for CAD in the form of real-time synchronous collaboration. Little research exists to characterize collaboration in CAD, and specifically the synchronicity of collaboration has yet to be examined. In this study, we analyzed the backend action logs of 101 teams' design processes from a large-scale virtual robotic design competition, where all designs were modelled in a commercially available MUCAD platform. Metrics of interest were analyzed with regression and mediation analyses to uncover factors that correlated to a team's success in the competition. Results show that team size is a positive predictor of team performance. Large teams, which tend to see a large amount of time commitment from members, were more likely to perform more CAD actions and achieve high scores from the competition. This suggests that the benefits of collaboration (e.g., economies of division of labor, learning) outweigh the potential downsides (e.g., coordination overhead, free riding) in this context. While controlling for team size, increased synchronous collaboration occurrences were observed to negatively correlate to teams' performance — a novel finding which we discuss in detail. Thus, we conclude that although large teams benefited from the MUCAD environment, a tendency for synchronous real-time collaboration did not coincide with higher performance. This study provides important evidence in the ongoing design and innovation research fields aiming to better understand collaboration. Future research should investigate the characteristics of effective collaboration strategies in MUCAD environments to develop best practice for the increasing number of design teams moving to such tools.",
+            "tags": ["Design", "CAD"]
+        },
+        {
+            "title": "All's not Fair in CAD: An Investigation of Equity of Contributions to Collaborative Cloud-based Design Projects",
+            "authors": "Alison Olechowski, Yuangzhe Deng, Elizabeth DaMaren, Igor Verner, Uzi Rosen and Methew Mueller",
+            "venue": "Computer-Aided Design and Applications",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.14733/cadaps.2023.574-583"
+            },
+            "abstract": "Cloud-based Computer-Aided Design (CAD) tools are changing the way design happens in industrial and educational settings. These tools enable a streamlined collaborative process, unlocking the potential for technical and teamwork integrated teaching and learning. Further, cloud-based CAD can enable distant teamwork in which information and ideas are shared in real time among team members and between students and instructors. In team projects, it is important not only to fairly assess the outcomes, but also to reduce the likelihood of unequal contributions among team members. In this paper, we re-examine a cloud-CAD data set from a team design exercise to describe how the analytics from CAD tool Onshape can deliver a metric of team member contribution by expanding on a published analytics framework, namely the Multi-User CAD – Collaborative Learning Framework (MUCAD-CLF). We identify a trend of individual dominance, where one team member does a majority of the CAD work, and we then analyze the CAD actions that this dominant individual takes, looking for gatekeeping behaviour. We discuss implications of this solo-dominance phenomenon and propose future work towards improved contribution equity on collaborative CAD teams.",
+            "tags": ["Design", "CAD", "EngEdu"]
+        },
+        {
+            "title": "Prioritization of Best Practices in the Implementation of Model-Based Systems Engineering",
+            "authors": "Cacia Ploeg, Kimberly Lai and Alison Olechowski",
+            "venue": "INCOSE International Symposium",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.1002/iis2.12975"
+            },
+            "abstract": "Model-based systems engineering (MBSE) is a form of systems engineering that is reported to lead to many benefits; yet few companies have successfully implemented MBSE, partly due to a predominance of guidance for adoption that does not recognize differences in organizational context. This paper uses a combination of a literature review and semi-structured interviews to evaluate the hypothesis that the applicability of best practices varies on a case-by-case basis due to factors such as company size, industry, and location. A list of best practices is compiled from existing works and validated with interviews, ultimately resulting in a more complete and accurate list of best practices, along with a recommendation that each company should uniquely assess their circumstances and prioritize this list of best practices accordingly. The findings presented in this paper provide improved guidance towards the use of best practices for successful MBSE implementation.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "Measuring Gendered Communication Patterns on Enterprise Communication Platforms",
+            "authors": "Sharon Ferguson and Alison Olechowski",
+            "venue": "Companion Proceedings of the 2023 ACM International Conference on Supporting Group Work",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1145/3565967.3570981"
+            },
+            "abstract": "Much of the communication in organizations is now taking place on enterprise communication platforms like Slack and Microsoft Teams. These platforms enable modern teamwork, but may also exacerbate discriminatory practices. As discrimination can harm team outcomes, it is essential to study the impact that these communication methods can have. As a case study, we investigate gender discrimination in Mechanical Engineering – one of the least diverse subfields. We investigate whether traditional gendered communication patterns can be found on these platforms, as these patterns can communicate gendered differences that can lead to discrimination. Studying the Slack messages sent in mechanical design teams, we find that being a minority gender (identifying as not a man) is associated with an increase in some measures of emotional and agreeable communication, although not all, and there is no significant association with assertive communication. Future work will relate these patterns to discriminatory practices.",
+            "tags": ["HCI"]
+        },
+        {
+            "title": "Special Issue: Emerging Technologies and Methods for Early-Stage Product Design and Development",
+            "authors": "Mohsen Moghaddam, Tucker Marion, Katja Holtta-Otto, Kate Fu, Alison Olechowski and Christopher McComb",
+            "venue": "Journal of Mechanical Design",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4056744"
+            },
+            "tags": ["Design"]
+        },
+        {
+            "title": "Connecting Design Iterations to Performance in Engineering Design",
+            "authors": "Ademir-Paolo Vrolijk, Yuanzhe Deng and Alison Olechowski",
+            "venue": "Proceedings of the Design Society",
+            "year": 2023,
             "links": {
                 "doi": "https://doi.org/10.1017/pds.2023.107"
             },
-            "award": "Reviewers' Favourite Award",
-            "abstract": "No matter a system's size, complexity, or domain, iterations are fundamental to its design process. However, there is a duality: iterations are both signs of usefully exploring the system's design space and failure to find an appropriate solution. This ambiguity means that we have not been able to connect teams' iterating behavior to their design's performance, potentially obscuring a way to influence the design process. As such, our exploratory study unpacks the relationship between design iterations and performance. We observed 88 teams in the 2020 Robots to the Rescue Competition in rich detail. Using logs of 7,956 iterations on a Computer-Aided Design platform, we analyzed how high- and low-performing teams revised their submissions, searching for consistent differences in their behavior. We found significant differences in the iterations' number, scale, and cadence between these groups of teams. These findings emphasized the correlation between certain iteration patterns and the success of a design: the best teams will likely revise differently than the worst ones. It also showed the importance of a fine-grained, time-dependent view of the design process to resolve open questions in the literature."
-        }, 
+            "abstract": "No matter a system's size, complexity, or domain, iterations are fundamental to its design process. However, there is a duality: iterations are both signs of usefully exploring the system's design space and failure to find an appropriate solution. This ambiguity means that we have not been able to connect teams' iterating behavior to their design's performance, potentially obscuring a way to influence the design process.",
+            "tags": ["Design", "CAD"]
+        },
         {
-            "title": "The multi-user computer-aided design collaborative learning framework", 
-            "authors": "Yuanzhe Deng, Matthew Mueller, Chris Rogers, and Alison Olechowski", 
-            "venue": "Advanced Engineering Informatics", 
-            "year": 2022,
-            "tags": ["CAD", "Education"],
+            "title": "Towards A Better Understanding of the Influence of Visual References on Consumer Aesthetic Perception",
+            "authors": "Chukwuma M Asuzu and Alison Olechowski",
+            "venue": "Proceedings of the Design Society",
+            "year": 2023,
             "links": {
-                "doi": "https://doi.org/10.1016/j.aei.2021.101446", 
-                "code": "https://github.com/ReadyLab-UToronto/MUCAD-CLF"
+                "doi": "https://doi.org/10.1017/pds.2023.358"
             },
-            "abstract": "Collaborative design is a critical aspect of modern engineering practice, yet the tools and methods for supporting multi-user collaboration in computer-aided design (CAD) remain limited. In this paper, we present a multi-user CAD collaborative learning framework that integrates real-time communication, shared workspace, and adaptive learning techniques. Our framework supports seamless collaboration among multiple users, enabling them to share knowledge, coordinate tasks, and learn from each other's experiences. We evaluate the effectiveness of our framework through a series of user studies and demonstrate its potential to enhance collaborative design processes and outcomes."
+            "abstract": "When viewing a product for the first time, a consumer's aesthetic perception is based on their knowledge of other products, artefacts, and concepts. These mental images function as visual references for consumers and affect the processing fluency of the new product. Designers frequently use visual references as inspiration during the research stage of the design process. It has been documented, however, that there is a gap between designer intent and consumer response; Consumers do not always realize the intent of designers nor draw on the same visual references when perceiving a product, which can reduce their processing fluency of new products.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "A Case Study of the Decision-Making Behind the Automation of a Composites-Based Design Process",
+            "authors": "Pranav Milind Khanolkar, Ademir Vrolijk and Alison Olechowski",
+            "venue": "Proceedings of the Design Society",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1017/pds.2023.6"
+            },
+            "abstract": "Automation and artificial intelligence (AI) are increasingly seen as appealing tools to perform design tasks traditionally accomplished by human designers. In today's digital economy, industries aim to adopt these tools to improve the efficiency of their complex design processes. But how does one decide what parts of their existing design process should be automated and which automation/AI tool to implement? With these questions in mind, we present a case study highlighting a company's decision-making process in converting its existing designer-dependent design process to one supported by automation. In this case study, we observed the company's decisions in selecting and rejecting certain automation and AI methods before finalizing a heuristics-based automation method that proved highly efficient compared to the company's traditional human-driven design program. In addition, we present three key discussion points observed in this case study: (1) the importance of implementing the designer's heuristics in the automation framework, (2) the importance of a uniform and modular design automation framework, and (3) the challenges of implementing AI methods.",
+            "tags": ["Design", "AI"]
+        },
+        {
+            "title": "Let's Take This Offline: A Thematic Analysis of Virtual Conflict in Hybrid Collaborative Design Teams",
+            "authors": "Meagan Flus, Sharon Ferguson and Alison Olechowski",
+            "venue": "Proceedings of the Design Society",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1017/pds.2023.244"
+            },
+            "abstract": "Conflict can be both a productive and detrimental reality of design collaboration. While most studies on conflict characterize findings by type (conflict about the task, process, or interpersonal relationships), we extend this typology to understand the causes, topics, and outcomes of conflict. To do so, we analyze communications in a virtual chat platform, collected in a hybrid work environment. A thematic analysis on over 6000 messages between student design teams on the enterprise communication platform Slack revealed three emergent conflict themes: Engineering Design, Project Management, and Communication. A mapping of the themes to a widely-cited typology of conflict found an overrepresentation of task (productive) and process (detrimental) conflict in the Engineering Design and Project Management themes, respectively. The distribution of types of conflict in the Communication theme is representative of the entire dataset, suggesting that communication can be a cause and outcome in all types of conflict. Overall, our classification of conflict is the first step towards describing triads of the causes, topics, and outcomes of conflict, a contribution which will drive the development of interventions for design team conflict.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "“Just a little bit on the outside for the whole time”: Social belonging confidence and the persistence of machine learning and artificial intelligence students",
+            "authors": "Katherine Mao, Sharon Ferguson, James Magarian and Alison Olechowski",
+            "venue": "2023 ASEE Annual Conference & Exposition Proceedings",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.18260/1-2--42325"
+            },
+            "abstract": "The growing field of machine learning (ML) and artificial intelligence (AI) presents a unique and unexplored case within persistence research, meaning it is unclear how past findings from engineering will apply to this developing field. We conduct an exploratory study to gain an initial understanding of persistence in this field and identify fruitful directions for future work. One factor that has been shown to predict persistence in engineering is belonging; we study belonging through the lens of confidence, and discuss how attention to social belonging confidence may help to increase diversity in the profession. In this research paper, we conduct a small set of interviews with students in ML/AI courses. Thematic analysis of these interviews revealed initial differences in how students see a career in ML/AI, which diverge based on interest and programming confidence. We identified how exposure and initiation, the interpretation of ML and AI field boundaries, and beliefs of the skills required to succeed may influence students' intentions to persist. We discuss differences in how students describe being motivated by social belonging and the importance of close mentorship. We motivate further persistence research in ML/AI with particular focus on social belonging and close mentorship, the role of intersectional identity, and introductory ML/AI courses.",
+            "tags": ["EngEdu", "AI"]
+        },
+        {
+            "title": "MBFHA: A Framework for Model-Based Functional Hazard Assessment for Aircraft Systems",
+            "authors": "Kimberly Lai, Thomas Robert, David Shindman and Alison Olechowski",
+            "venue": "INCOSE International Symposium",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1002/iis2.13031"
+            },
+            "abstract": "To address growing system complexity in the aerospace industry, a Model-Based Systems Engineering (MBSE) approach has been increasingly adopted for the development of aircraft systems. This calls for a corresponding approach for performing safety assessment to maintain consistency between the system and safety domains. One of the key safety assessment processes for aircraft development is the Functional Hazard Assessment (FHA). The purpose of this paper is to build upon previously published works and introduce the MBFHA framework which describes the language, method, and tool needed for implementing a model-based approach to performing FHA and integrating it into MBSE activities. A customised FHA profile is introduced for the modelling language, an overall workflow along with processes for FHA report and safety requirements generation is presented for the method, and a list of tool constraints is provided. A proof-of-concept is subsequently presented using safety data for the landing gear extension and retraction system of a generic business aircraft.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "What Sets Proficient and Expert Users Apart? Results of a Computer-Aided Design Experiment",
+            "authors": "Yuanzhe Deng, James Chen and Alison Olechowski",
+            "venue": "Journal of Mechanical Design",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4063360"
+            },
+            "abstract": "As computer-aided design (CAD) tools have become an essential aspect of modern mechanical engineering design, the demand for CAD experts has increased significantly. The development from novice, to proficient, to expert user is of particular interest to the industrial and academic design communities. Yet little is known about the development of modeling choices, strategies, and patterns that characterize expert CAD skills; much of the past work that reports user action data is based on student or novice data. We compared the CAD modeling process across nine proficient and ten expert designers as they were tested to complete the same design task. Under identical conditions—the same time constraints in the same CAD platform and with the same task—the expert users were able to complete a larger proportion of the task with higher dimensional accuracy. While the experts were able to dissect and retrieve geometries from manufacturing drawings more efficiently than proficient users, they were also able to plan a modeling strategy that required less effort and revisions. With our experimental findings, we identify the demand for procedural knowledge-building for young engineers, with the ultimate goal of more effectively developing experts in engineering design with CAD.",
+            "tags": ["Design", "CAD"]
+        },
+        {
+            "title": "Are We Equal Online?: An Investigation of Gendered Language Patterns and Message Engagement on Enterprise Communication Platforms",
+            "authors": "Sharon A. Ferguson and Alison Olechowski",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1145/3610173"
+            },
+            "abstract": "It was previously hypothesized that gender differences -- and thus gender discrimination -- would disappear if communication was no longer in person, and instead was transmitted and received in the same format for all. Yet, even online, researchers have identified gendered language styles in written communication that reveal gender cues and can lead to unequal treatment. In this work, we revisit these past findings and ask whether the same gendered patterns can be found on modern communication platforms, which present a new set of engagement features and mixed synchronous capabilities. We quantitatively analyze 335,000 Slack messages sent by 845 individuals as part of 46 teams, collected over six years of a product design capstone course. We found little evidence of traditionally gendered communication styles (characterized as elaborate, uncertain, and supportive) from the minority-gender participants. We did identify relationships between message author gender, communication style, and message engagement --- women and minority genders were more likely to have their messages engaged with, but only when using certain communication styles --- suggesting complex power dynamics exist on these platforms. We contribute the first study of gendered language styles on Enterprise Communication Platforms, adding to the community's understanding of how new settings and emerging technology relate to team collaborative dynamics, and motivating future tool development to support collaboration in diverse teams.",
+            "tags": ["HCI"]
+        },
+        {
+            "title": "User Perspectives on Branching in Computer-Aided Design",
+            "authors": "Kathy Cheng, Phil Cuvin, Alison Olechowski and Shurui Zhou",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1145/3610220"
+            },
+            "abstract": "Branching is a feature of distributed version control systems that facilitates the \"divide and conquer\" strategy present in complex and collaborative work domains. Branching has revolutionized modern software development and has the potential to similarly transform hardware product development via CAD (computer-aided design). Yet, contrasting with its status in software, branching as a feature of commercial CAD systems is in its infancy, and little research exists to investigate its use in the digital design and development of physical products. To address this knowledge gap, in this paper, we mine and analyze 719 user-generated posts from online CAD forums to qualitatively study designers' intentions for and preliminary use of branching in CAD. Our work contributes a taxonomy of CAD branching use cases, an identification of deficiencies of existing branching capabilities in CAD, and a discussion of the untapped potential of CAD branching to support a new paradigm of collaborative mechanical design. The insights gained from this study may help CAD tool developers address design shortcomings in CAD branching tools and assist CAD practitioners by raising their awareness of CAD branching to improve design efficiency and collaborative workflows in hardware development teams.",
+            "tags": ["CAD", "HCI"]
+        },
+        {
+            "title": "In the Age of Collaboration, the Computer-Aided Design Ecosystem is Behind: An Interview Study of Distributed CAD Practice",
+            "authors": "Kathy Cheng, Michal K. Davis, Xiyue Zhang, Shurui Zhou and Alison Olechowski",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+            "year": 2023,
+            "links": {
+                "doi": "https://doi.org/10.1145/3579613"
+            },
+            "abstract": "Computer-aided design (CAD) has become indispensable to increasingly collaborative hardware design processes. Despite the long-standing and growing need for collaboration with CAD models and tools, anecdotal reports and ongoing researcher efforts point to a complex and unresolved set of challenges faced by designers when working with distributed CAD. We aim to close this academic-practitioner knowledge gap through the first systematic study of professional user-driven CAD collaboration challenges. In this work, we conduct semi-structured interviews with 20 CAD professionals of diverse industries, roles, and experience levels to understand their collaborative workflows with distributed CAD tools. In total, we identify 14 challenges related to collaborative design, communication, data management, and permissioning that are currently impeding effective collaboration in professional CAD teams. Our systematic classification of CAD collaboration challenges presents a guide for pressing areas of future work, highlighting important implications for CAD researchers, practitioners, and tool builders to target new advancement in CAD infrastructure, management choices, and modelling best practices. With the insights gained from this work, we hope to ultimately improve collaboration efficiency, quality, and innovation for future product design teams.",
+            "tags": ["CAD", "HCI"]
+        },
+        {
+            "title": "The Personas of Cloud CAD Collaboration: A Case Study of a Team of CAD Professionals",
+            "authors": "Chukwuma M. Asuzu, Kathy Cheng and Alison Olechowski",
+            "venue": "IEEE Transactions on Engineering Management",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1109/TEM.2024.3409178"
+            },
+            "abstract": "Computer-aided design (CAD) has become a fundamental tool in engineering projects, particularly in product design and development. Recent advancements have shifted CAD systems to the cloud, referred to by us and others as cloud CAD, offering a new realm for collaboration in product development projects. The transition to cloud CAD introduces substantial changes to how one might manage product design teams, impacting how design tasks are divided among team members, the choices designers make in undertaking different tasks, and the additional responsibilities team members must fulﬁll. In this article, we investigate the “personas,” described as patterns of activity representing an engineer's roles and responsibilities, that are essential to successful collaboration in cloud CAD. To achieve this, we conducted a mixed-method case study of a self-organized, time-bounded, and geographically distributed team of CAD professionals. This unique setting allowed us to identify and understand the personas that engineers adopt during cloud CAD projects, where the engineers are not constrained to predeﬁned roles and responsibilities. By analyzing CAD user action logs, the ﬁnal CAD model, and semistructured interview transcripts, we identiﬁed three integral personas in cloud CAD projects: the guide, the integrator, and the communicator. We further observed that the emergence of each persona is temporally dependent, varying at different stages of the design process. Our work contributes an in-depth analysis of three personas in cloud CAD, their relevance and beneﬁts to CAD projects, and practical implications for engineering managers to support effective cloud CAD collaboration.",
+            "tags": ["CAD", "Design"]
+        },
+        {
+            "title": "From theory to practice: a roadmap for applying dual-process theory in design cognition research",
+            "authors": "Emma Lawrie, Meagan Flus, Alison Olechowski, Laura Hay and Andrew Wodehouse",
+            "venue": "Journal of Engineering Design",
+            "year": 2025,
+            "links": {
+                "doi": "https://doi.org/10.1080/09544828.2024.2336837"
+            },
+            "abstract": "Dual-process theory categorises cognition into two types of processing: Type 1 which is intuitive, autonomous processing, and Type 2 which is reflective processing that burdens limited executive cognitive resources (i.e. working memory). A recent call for increased theory-driven research in the field of design has led to a framing of dual-process theory as a foundation for design research. This research note presents a roadmap for future dual-process theorydriven design research outlining three main stages: defining dualprocess theory constructs, determining research focus, and selecting research methods. Across these stages, we offer a conceptualisation of dual-process theory for design researchers, outlining the main concepts of the theory. We then present how a research study design must consider the nature of design problems (complex, illstructured, ambiguous), designers, and the practice of design. Finally, we outline the main methods employed in dual-process theory research: behavioural, physiological, and self-report measures, suggesting ways to adapt such methods to design contexts. Ultimately, this work presents how dual-process theory may connect with theories of cognition often considered in design and offers a path forward for dual-process theory-driven design research.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "\"A Lot of Moving Parts\": A Case Study of Open-Source Hardware Design Collaboration in the Thingiverse Community",
+            "authors": "Kathy Cheng, Shurui Zhou and Alison Olechowski",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1145/3687008"
+            },
+            "abstract": "Open-source is a decentralized and collaborative method of development that encourages open contribution from an extensive and undefined network of individuals. Although commonly associated with software development (OSS), the open-source model extends to hardware development, forming the basis of open-source hardware development (OSH). Compared to OSS, OSH is relatively nascent, lacking adequate tooling support from existing platforms and best practices for efficient collaboration. Taking a necessary step towards improving OSH collaboration, we conduct a detailed case study of DrawBot, a successful OSH project that remarkably fostered a long-term collaboration on Thingiverse - a platform not explicitly intended for complex collaborative design. Through analyzing comment threads and design changes over the course of the project, we found how collaboration occurred, the challenges faced, and how the DrawBot community managed to overcome these obstacles. Beyond offering a detailed account of collaboration practices and challenges, our work contributes best practices, design implications, and practical implications for OSH project maintainers, platform builders, and researchers, respectively. With these insights and our publicly available dataset, we aim to foster more effective and efficient collaborative design in OSH projects.",
+            "tags": ["CAD", "HCI"]
+        },
+        {
+            "title": "Computer-aided design as a research instrument for engineering design: supporting multiple methods by observing artifacts, actors, and actions",
+            "authors": "Ademir-Paolo Vrolijk and Alison Olechowski",
+            "venue": "Journal of Engineering Design",
+            "year": 2025,
+            "links": {
+                "doi": "https://doi.org/10.1080/09544828.2024.2432835"
+            },
+            "tags": ["CAD", "Design"]
+        },
+        {
+            "title": "Transitioning towards SysML v2 as a variability modeling language",
+            "authors": "Jordan Epp, Thomas Robert, Olivier Ruch and Alison Olechowski",
+            "venue": "Innovations in Systems and Software Engineering",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1007/s11334-024-00569-y"
+            },
+            "abstract": "Systems engineers seek ways to reuse system models to accelerate the initial design development process on new complex projects. Despite its promise, one such solution—the deployment of model-based product line engineering (MBPLE)—presents challenges to practitioners. Not only is deployment costly, but an overwhelming number of variability modeling language options also lack interoperability. While research efforts work towards creating a universal variability modeling language and developing transformations between existing languages, this paper proposes incorporating variability modeling concepts into a system modeling language for a centralized management of product lines. In this work, we highlight SysML v2 as a promising language for variability modeling, arguing that it can orthogonally model systems and their variability. Further, we propose a novel metamodel that describes a SysML v2-based approach to modeling conceptual and asset variability spaces. We exemplify the deployment of this metamodel on a simple yet representative example found in a complex development environment. Since the SysML v2 speciﬁcation is still in its early stages of standardization, this paper discusses how efforts in deploying MBPLE with existing approaches will translate to the new metamodel and includes considerations for transitioning from currently available commercial modeling tools to SysML v2. Ultimately, we hope the proposed metamodel will motivate SysML v2 tool vendors to support variability modeling by incorporating instantiation and constraint deﬁnition mechanisms and visualization capabilities in future tool releases.",
+            "tags": ["SysEng"]
+        },
+        {
+            "title": "No Risk, No Reward: Towards An Automated Measure of Psychological Safety from Online Communication",
+            "authors": "Sharon A Ferguson, Georgia Van De Zande and Alison Olechowski",
+            "venue": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1145/3613905.3650923"
+            },
+            "abstract": "The data created from virtual communication platforms presents the opportunity to explore automated measures for monitoring team performance. In this work, we explore one important characteristic of successful teams — Psychological Safety — or the belief that a team is safe for interpersonal risk-taking. To move towards an automated measure of this phenomenon, we derive virtual communication characteristics and message keywords related to elements of Psychological Safety from the literature. Using a mixed methods approach, we investigate whether these characteristics are present in the Slack messages from two design teams— one high in Psychological Safety, and one low. We find that some usage characteristics, such as replies, reactions, and user mentions, might be promising metrics to indicate higher levels of Psychological Safety, while simple keyword searches may not be nuanced enough. We present the first step towards the automated detection of this important, yet complex, team characteristic.",
+            "tags": ["HCI"]
+        },
+        {
+            "title": "Analysis of Virtual Communication Within Engineering Design Teams and its Impact on Team Effectiveness",
+            "authors": "Lauren Adolphe, Georgia D. Van De Zande, David Wallace and Alison Olechowski",
+            "venue": "Proceedings of the ASME 2020 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)",
+            "year": 2020,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2020-22736"
+            },
+            "abstract": "Online communication and collaboration tools are changing the way teams design products. The tools also generate a rich data source from which to study trends in communication. This paper focuses on how engineering teams utilize Slack, a popular team messaging software platform. We aim to better understand communication and coordination in product design teams via analysis of team social network dynamics, unique patterns of chat-like messaging (emoji usage), and the evolution of communication topics over time.\nOur study analyzes the online interactions of 32 teams, sent during a 3-month senior undergraduate product design course. These 400,000+ messages represent the team communications from 4 years of teams, with 17–20 students per team.\nWe find that 1) Slack communications resulted in high density network maps, 2) network analysis of teams reveals that leaders have more central positions in the network, 3) strong teams have lower average centrality among members, equivalent to less public channel membership per person, 4) stronger teams use emojis at a higher rate, and 5) emojis are used most by leaders and highly connected members.\nThese findings represent preliminary foundations for best practices in online messaging, which may lead to more effective collaboration in product design.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Connecting creative product design processes to creative product design outcomes: A scoping review",
+            "authors": "Peiying Jian, Jin Gu and Alison Olechowski",
+            "venue": "DRS2022: Bilbao",
+            "year": 2022,
+            "links": {
+                "doi": "https://doi.org/10.21606/drs.2022.657"
+            },
+            "tags": ["Design"]
+        },
+        {
+            "title": "Paired Computer-Aided Design: The Effect of Collaboration Mode on Differences in Model Quality",
+            "authors": "Hamza Arshad, Vrushank Phadnis and Alison Olechowski",
+            "venue": "Proceedings of the ASME 2020 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)",
+            "year": 2020,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2020-22730" 
+            },
+            "abstract": "We present the results of an experiment investigating two different modes of collaboration on a series of computer-aided design (CAD) tasks. Inspired by the pair programming literature, we anticipate that partners working in a fully synchronous collaborative CAD environment will achieve different levels of quality in CAD models depending on their mode of collaboration — one in which the pair is free to work in parallel, and another where the pair must coordinate to share one control.\nWe found that a shared CAD control led to significantly better overall CAD quality than parallel CAD control. In addition, the shared control mode led to more complete and consistent CAD models, as well as the tendency for participants to follow instructions to correctly replicate features for the design task. As is predicted in the literature, a trade-off relationship (albeit weak) between quality and speed via the parallel collaboration was found. In contrast, the shared control mode shows no clear relationship between speed and quality.\nCollaborative CAD is increasingly seen as an appealing tool for modern product design teams. This study suggests that the benefits of this tool are not solely the effect of the tool itself, but result from the collaboration style of the designers using the tool.",
+            "tags": ["CAD", "Design"]
+        },
+        {
+            "title": "Special Issue: The Role of Design Artifacts in Design",
+            "authors": "Jessica Menold, Alison Olechowski, Carlye Lauff, Katherine Fu, Julie Linsey, Maria Yang, Nicholas Soria Zurita and Scarlett Miller",
+            "venue": "Journal of Mechanical Design",
+            "year": 2024,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4064543"
+            },
+            "tags": ["Design"]
+        },
+        {
+            "title": "Technology readiness levels at 40: A study of state-of-the-art use, challenges, and opportunities",
+            "authors": "Alison Olechowski, Steven D. Eppinger and Nitin Joglekar",
+            "venue": "2015 Portland International Conference on Management of Engineering and Technology (PICMET)",
+            "year": 2015,
+            "links": {
+                "doi": "https://doi.org/10.1109/PICMET.2015.7273196"
+            },
+            "tags": ["Design"]
+        },
+        {
+            "title": "Using TRLs and system architecture to estimate technology integration risk",
+            "authors": "Tushar Garg, Steven Eppinger, Nitin Joglekar and Alison Olechowski",
+            "venue": "DS 87-3 Proceedings of the 21st International Conference on Engineering Design (ICED 17)",
+            "year": 2017,
+            "links": {
+                "doi": "https://doi.org/301-310"
+            },
+            "tags": ["Design"]
+        },
+        {
+            "title": "Assessment of back-up plan, delay, and waiver options at project gate reviews",
+            "authors": "Alison Olechowski, Steven Eppinger and Nitin Joglekar",
+            "venue": "DS 87-2 Proceedings of the 21st International Conference on Engineering Design (ICED 17)",
+            "year": 2017,
+            "links": {
+                "doi": "https://www.designsociety.org/publication/39586/assessment_of_back-up_plan_delay_and_waiver_options_at_project_gate_reviews"
+            },
+            "tags": ["Design"]
+        },
+        {
+            "title": "Decoding Conflict: Linguistic Markers of Disagreement in Hackathon Design Teams",
+            "authors": "Meagan Flus and Alison Olechowski",
+            "venue": "Journal of Mechanical Design",
+            "year": 2026,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4071072"
+            },
+            "abstract": "In design teams, conflict can serve as a catalyst for innovation if managed effectively. While prior research has explored the causes and outcomes of conflict, less is known about how language reflects conflict dynamics in real-time. This study examines linguistic markers of conflict in teams at hackathons—fast-paced, high-stakes environments where disagreement is frequent. Using deductive coding, we first identify instances of conflict in transcript datasets from two hackathon teams. Then, using text analysis with the Linguistic Inquiry and Word Count (LIWC) tool, we analyze differences in language patterns between conflict and nonconflict interactions. One hackathon team studied was composed of strangers, and the other of pre-existing teammates, allowing us to examine the role of familiarity in conflict communication. Our findings reveal distinct linguistic characteristics during conflict, including reduced negative emotion and prosocial language, as well as differences in sentence complexity and cohesion based on team familiarity. These insights not only contribute to the growing body of research on team dynamics but also demonstrate the potential for deriving team insights from transcripts captured in situ at hackathons.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Beyond Gestalt: A Memory-Based Approach for Affective Design in Human Factors Engineering",
+            "authors": "Chukwuma M. Asuzu and Alison Olechowski",
+            "venue": "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+            "year": 2026,
+            "links": {
+                "doi": "https://doi.org/10.1177/10711813261475164"
+            },
+            "abstract": "In affective design, designers imbue products with aesthetic elements to elicit emotional responses. However, product visual features that improve its emotional response often adversely affects its perceived functionality. To address this phenomenon, we propose a memory-based approach for visual element selection based on the valence of previous memories. To test this approach, 120 older adults rated two product concepts designed with visual elements resembling previously used products with different valences (one positive and one neutral) in a between-subjects study. Participants rated the aesthetics, functionality and symbolism of the products using the Product Design Scale. Using a MANOVA, our findings show that while participants rated the product concept with the positive memory significantly higher in aesthetics, there was no significant difference between the two product concepts in the functionality and symbolism ratings suggesting that designing products with visual elements from positive memories does not diminish their perceived functionality among older adults.",
+            "tags": ["Design"]
+        },
+        {
+            "title": "Untangling the Timeline: Challenges and Opportunities in Supporting Version Control in Modern Computer-Aided Design",
+            "authors": "Yuanzhe Deng, Shutong Zhang, Kathy Cheng, Alison Olechowski and Shurui Zhou",
+            "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+            "year": 2026,
+            "links": {
+                "doi": "https://doi.org/10.1145/3772318.3791061", 
+                "slides": "chi26_version.pdf"
+            },
+            "abstract": "Version control is critical in mechanical computer-aided design (CAD) to enable traceability, manage product variation, and support collaboration. Yet, its implementation in modern CAD software as an essential information infrastructure for product development remains plagued by issues due to the complexity and interdependence of design data. This paper presents a systematic review of user-reported challenges with version control in modern CAD tools. Analyzing 170 online forum threads, we identify recurring socio-technical issues that span the management, continuity, scope, and distribution of versions. Our findings inform a broader reflection on how version control should be designed and improved for CAD and motivate opportunities for tools and mechanisms that better support articulation work, facilitate cross-boundary collaboration, and operate with infrastructural reflexivity. This study offers actionable insights for CAD software providers and highlights opportunities for researchers to rethink version control.",
+            "tags": ["CAD", "HCI"]
+        },
+        {
+            "title": "CADModelScope: Revealing the Dependency Structure Behind Parametric Computer-Aided Design Models",
+            "authors": "Yuanzhe Deng, Zhijing Zhang, Shurui Zhou and Alison Olechowski",
+            "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+            "year": 2026,
+            "links": {
+                "doi": "https://doi.org/10.1145/3772318.3791070", 
+                "slides": "chi26_scope.pdf"
+            },
+            "abstract": "Parametric computer-aided design (CAD) models are constructed by a sequence of operations, where each operation may reference geometries created by earlier operations. This network of dependencies enables efficient modelling of complex geometry but also results in fragile models, where small modifications can trigger cascading errors. These interdependencies are obscured in commercial CAD systems, leaving users to rely on trial and error when navigating, modularizing, and debugging unfamiliar and complex models. In this paper, we motivate, present, and pilot CADModelScope, a multi-level graph-based visualization of operation dependencies integrated into a commercial CAD platform. In a qualitative lab study, we observed how participants locate and interpret operations, and how CADModelScope enhances awareness of hidden interdependencies and supports more structured navigation. Our findings highlight the potential of using the network of operation dependency as an effective representation for understanding and interacting with parametric CAD models, and we discuss implications for future tool design.",
+            "tags": ["CAD", "Design", "HCI"]
+        },
+        {
+            "title": "Fetch-A-Sketch: Navigating Dependencies in 3D CAD Master Sketches",
+            "authors": "Kathy Cheng, Zhijing Zhang, Yuanzhe Deng, Shurui Zhou and Alison Olechowski",
+            "venue": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems",
+            "year": 2026,
+            "links": {
+                "doi": "https://doi.org/10.1145/3772363.3798403"
+            },
+            "abstract": "Computer-aided design (CAD) models are complex artifacts built from sequences of modelling features (e.g., extrude, fillet), each dependent on previous features. Especially in large-scale projects, these dependencies rapidly proliferate, making them difficult to track, yet designers must understand these relationships to make informed changes. We introduce Fetch-A-Sketch, a prototype system that surfaces and visualizes hidden dependencies in complex 3D master sketches, helping designers anticipate the downstream impacts of changes. In a first-use study, participants reported that Fetch-A-Sketch enhanced their understanding of dependencies, enabling them to navigate unfamiliar models and plan design changes effectively. Feedback also identified opportunities to extend Fetch-A-Sketch to support more complex products and collaborative contexts, which we aim to address in future work. By making dependencies more visible and manageable, Fetch-A-Sketch supports long-term maintainability in large, complex design projects.",
+            "tags": ["CAD", "Design", "HCI"]
         }
     ]
 }

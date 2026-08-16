@@ -21,8 +21,9 @@ export default function Publications() {
 
         const matchesSearch =
             p.title.toLowerCase().includes(query) ||
-            p.abstract.toLowerCase().includes(query) ||
-            p.authors.toLowerCase().includes(query);
+            p.abstract?.toLowerCase().includes(query) ||
+            p.authors.toLowerCase().includes(query) ||
+            p.venue.toLowerCase().includes(query);
 
         const matchesTag =
             selectedTag === null ||
@@ -48,35 +49,39 @@ export default function Publications() {
                 </div>
             </div>
 
-            <div className="sticky top-30 py-4 bg-muted">
+            <div className="sticky top-30 py-2 bg-muted">
                 {/* Year navigation */}
-                <div className="flex w-full justify-center items-center gap-4 mb-4">
-                    {years.map((year) => (
-                        <button
-                            key={year}
-                            onClick={() =>
-                                document
-                                    .getElementById(`year-${year}`)
-                                    ?.scrollIntoView({ behavior: "smooth" })
-                            }
-                            className="
-                                px-5 py-2 rounded-full text-md
-                                bg-secondary hover:bg-secondary/80
-                                transition-transform hover:scale-105
-                            "
-                        >
-                            {year}
-                        </button>
-                    ))}
+                <div className="overflow-x-auto">
+                    <nav className="flex w-max min-w-full justify-center gap-2 px-4">
+                        {years.map((year) => (
+                            <button
+                                key={year}
+                                onClick={() =>
+                                    document
+                                        .getElementById(`year-${year}`)
+                                        ?.scrollIntoView({ behavior: "smooth" })
+                                }
+                                className="
+                                    shrink-0 px-4 py-2 rounded-md
+                                    text-sm font-medium
+                                    text-muted-foreground
+                                    hover:bg-secondary hover:text-foreground
+                                    transition-colors
+                                "
+                            >
+                                {year}
+                            </button>
+                        ))}
+                    </nav>
                 </div>
 
                 {/* Filters */}
                 <div className="flex w-full flex-wrap justify-center items-center gap-4 mt-4 mb-2">
-                    <strong className="text-lg">Filters:</strong>
+                    <strong className="text-md">Filters:</strong>
                     <Badge 
                         variant={selectedTag === null ? "default" : "secondary"}
                         onClick={() => setSelectedTag(null)}
-                        className="text-md px-5 h-auto cursor-pointer hover:scale-105 transition-transform"
+                        className="text-sm px-5 h-auto cursor-pointer hover:scale-105 transition-transform"
                     >
                         All
                     </Badge>
@@ -97,7 +102,7 @@ export default function Publications() {
                         placeholder="Search publications..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="w-1/2 text-md py-6"
+                        className="w-1/2 text-sm py-6"
                     />
                 </div>
             </div>
