@@ -184,7 +184,7 @@
             "year": 2024, 
             "month": 6, 
             "type": "Presentation", 
-            "content": "Marjan Naghshbandi presented our work “Social Capital and Persistence in Computer Science of Google’s Computer Science Summer Institute (CSSI) Students” at the 2024 American Society for Engineering Education (ASEE) Conference in Portland. The paper is co-authored by Marjan Naghshbandi, Sharon Ferguson, and Dr. Alison Olechowski."
+            "content": "Marjan Naghshbandi presented our work “Social Capital and Persistence in Computer Science of Google's Computer Science Summer Institute (CSSI) Students” at the 2024 American Society for Engineering Education (ASEE) Conference in Portland. The paper is co-authored by Marjan Naghshbandi, Sharon Ferguson, and Dr. Alison Olechowski."
         }, 
         {
             "year": 2024, 
@@ -299,6 +299,252 @@
             "month": 10, 
             "type": "Presentation", 
             "content": "Sharon Ferguson presented “Are We Equal Online?: An Investigation of Gendered Language Patterns and Message Engagement on Enterprise Communication Platforms” at CSCW 2023 in Minneapolis"
+        }, 
+        {
+            "year": 2023, 
+            "month": 9, 
+            "type": "Presentation", 
+            "content": "Alison Olechowski presented a keynote at the Oak Ridge National Lab's Manufacturing Demonstration Facility"
+        }, 
+        {
+            "year": 2023, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Alison Olechowski, Tucker Marion, Mohsen Moghaddam, Chris McComb, Kate Fu, and Katja Holtta-Otto host [ASME IDETC-CIE 2023 Workshop: Emerging Technologies and Methods for Early Stage Product Design and Development](https://readylab.mie.utoronto.ca/workshop/), on August 20, 2023"
+        }, 
+        {
+            "year": 2023, 
+            "month": 7, 
+            "type": "Presentation", 
+            "content": "Ademir Vrolijk, Pranav Khanolkar, Meagan Flus, and Chuma Asuzu presented at the 24th International Conference on Engineering Design, 24-28 July 2023, in Bordeaux, France, with Ademir and Meagan achieving the reveiwer's favorite award. "
+        }, 
+        {
+            "year": 2023, 
+            "month": 6, 
+            "type": "Member", 
+            "content": "Sharon Ferguson joins Future of Work team at Slack as a doctoral research intern in summer"
+        }, 
+        {
+            "year": 2023, 
+            "month": 5, 
+            "type": "Award", 
+            "content": "Alison Olechowski and Roger Carrick received Learning & Education Advancement Fund (LEAF) Seed fund for their work “Improving Collaborative Learning Approaches in Computer-Aided Design Project-Based Learning”"
+        }, 
+        {
+            "year": 2023, 
+            "month": 5, 
+            "type": "Member", 
+            "content": "Lucus Crupi joins Tesla as a battery engineering intern in summer"
+        }, 
+        {
+            "year": 2023, 
+            "month": 5, 
+            "type": "Member", 
+            "content": "Ainsley Ross-Howe and Alexander Lyakishev joined Ready Lab as summer undergraduate interns"
+        }, 
+        {
+            "year": 2023, 
+            "month": 5, 
+            "type": "Award", 
+            "content": "Liz DaMaren received the NSERC Postgraduate Scholarship - Doctoral award"
+        }, 
+        {
+            "year": 2023, 
+            "month": 5, 
+            "type": "Presentation", 
+            "content": "Sharon Ferguson presented her work “Something Borrowed: Exploring the Influence of AI-Generated Explanation Text on the Composition of Human Explanation” at CHI2023 in Hamburg, Germany"
+        }, 
+        {
+            "year": 2023, 
+            "month": 4, 
+            "type": "Award", 
+            "content": "Alison Olechowki awarded Early Career Teaching Award for demonstrating exceptional classsroom instruction and teaching methods"
+        }, 
+        {
+            "year": 2023, 
+            "month": 4, 
+            "type": "Member", 
+            "content": "Jordan Epp got accepted into the 2023 Frontiers in Design Representation (FinDeR) Summer School at University of Maryland, US"
+        }, 
+        {
+            "year": 2023, 
+            "month": 3, 
+            "type": "Award", 
+            "content": "Jordan Epp and Alison Olechowski received the NSERC Alliance Grant (ALLRP) for their research in collaboration with Safran Landing Systems Canada"
+        }, 
+        {
+            "year": 2022, 
+            "month": 12, 
+            "type": "Publication", 
+            "content": "Ademir Vrolijk had his paper “The Opportunists in Innovation Contests: Understanding Who to Attract and How to Attract Them” published in the [Research-Technology Management journal](https://www.tandfonline.com/doi/full/10.1080/08956308.2022.2132771)"
+        }, 
+        {
+            "year": 2022, 
+            "month": 9, 
+            "type": "Member", 
+            "content": "Two new graduate students joined the Ready Lab team: Chuma Asuzu and Jordan Epp"
+        }, 
+        {
+            "year": 2022, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Lab members presented conference papers at a wide variety of conferences, including [DRS](https://www.drs2022.org/), [DCC](https://sites.google.com/view/dcc22/), [ASME IDETC](https://event.asme.org/IDETC-CIE), [CAD Conference](http://www.cad-conference.net/files/CAD22/CAD22-beijing.html#.YzW-6XbMJPY), [CEEA](https://ceea.ca/conference/conference-2022/), [ASEE](https://www.asee.org/events/Conferences-and-Meetings/2022-Annual-Conference), and [INCOSE](https://www.incose.org/symp2022/home/when-where)"
+        }, 
+        {
+            "year": 2022, 
+            "month": 8, 
+            "type": "Publication", 
+            "content": "Ademir Vrolijk had his paper “The Opportunists in Innovation Contests: Understanding Who to Attract and How to Attract Them” accepted to the Research-Technology Management journal"
+        }, 
+        {
+            "year": 2022, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Dr. Olechowski presented at a panel during the [Onshape Research Symposium](https://www.onshape.com/en/education/research-symposium/) on Understanding Collaborative Design with Onshape Analytics"
+        }, 
+        {
+            "year": 2022, 
+            "month": 7, 
+            "type": "Award", 
+            "content": "Kathy Cheng was awarded a 2022-2023 Ontario Graduate Scholarship"
+        }, 
+        {
+            "year": 2022, 
+            "month": 6, 
+            "type": "Publication", 
+            "content": "Sharon Ferguson, Kathy Cheng, and previous Ready Lab student Lauren Adolphe had their paper “Communication patterns in engineering enterprise social networks: an exploratory analysis using short text topic modelling” [published in Design Science](https://doi.org/10.1017/dsj.2022.12)"
+        }, 
+        {
+            "year": 2022, 
+            "month": 6, 
+            "type": "Publication", 
+            "content": "The paper written in collaboration with several members of Ready Lab, led by Sharon Ferguson, “'Why couldn't we do this more often?': exploring the feasibility of virtual and distributed work in product design engineering”, was published in [Research in Engineering Design](https://link.springer.com/article/10.1007/s00163-022-00391-2)"
+        }, 
+        {
+            "year": 2022, 
+            "month": 6, 
+            "type": "Member", 
+            "content": "Ademir Vrolijk joined Ready Lab as a post-doc"
+        }, 
+        {
+            "year": 2022, 
+            "month": 5, 
+            "type": "Award", 
+            "content": "Meagan Flus and Sharon Ferguson were both awarded NSERC Canada Graduate Scholarship - Doctoral program awards, and Liz DaMaren was awarded a NSERC Canada Graduate Scholarship - Master's program award"
+        }, 
+        {
+            "year": 2021, 
+            "month": 10, 
+            "type": "Presentation", 
+            "content": "Dr. Olechowski presented recent work on collaborative CAD at the [INFORMS 2021 Annual Meeting](https://meetings2.informs.org/wordpress/anaheim2021/registration/?utm_campaign=2021%20Annual&utm_source=ppc&utm_medium=display&utm_term=2021annual&utm_content=register&utm_term=academic%20conferences%202020&utm_campaign=INFORMS+2021+Annual+Meeting&utm_source=adwords&utm_medium=ppc&hsa_tgt=kwd-820551576932&hsa_grp=122192662736&hsa_src=g&hsa_net=adwords&hsa_mt=b&hsa_ver=3&hsa_ad=519146125868&hsa_acc=6773547382&hsa_kw=academic%20conferences%202020&hsa_cam=12964274846&gclid=Cj0KCQjw8eOLBhC1ARIsAOzx5cGnmzHr7dGOCcoAsI-K4Rscvd6I6eGd8l9xnj79UKT7xoRBun31HO0aAvWzEALw_wcB), session: Idea to Product to Business"
+        }, 
+        {
+            "year": 2021, 
+            "month": 10, 
+            "type": "Award", 
+            "content": "Dr. Olechowski and collaborators at [RPS Composites](https://rpscomposites.com/) receive a [MITACS Accelerate](https://www.mitacs.ca/en/programs/accelerate) grant to support Pranav Khanolkar on the project “A new automated approach for Engineering Design and Manufacturing Specification generation”"
+        }, 
+        {
+            "year": 2021, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Dr. Olechowski was a speaker on the [signature event panel](https://event.asme.org/IDETC-CIE-2021/Program/Keynotes-Special-Sessions) “The Future of Human-AI Collaboration for Engineering Design” at the Design Automation Conference track at the ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference."
+        }, 
+        {
+            "year": 2021, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Ready Lab students Kevin Leonardo, Kathy Cheng and Sharon Ferguson presented their work at the [ASME IDETC conference](https://event.asme.org/IDETC-CIE-2021)."
+        }, 
+        {
+            "year": 2021, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Dr. Olechowski and collaborator Dr. Tucker Marion presented work at the [ICED'21](https://iced.designsociety.org/) conference."
+        }, 
+        {
+            "year": 2021, 
+            "month": 8, 
+            "type": "Award", 
+            "content": "Summer undergraduate researcher Michal Davis won best poster in the Transdisciplinary Engineering Education and Practice category at the [2021 UnERD conference](https://undergrad.engineering.utoronto.ca/skule-life/undergraduate-engineering-research-day-unerd/)."
+        }, 
+        {
+            "year": 2021, 
+            "month": 8, 
+            "type": "Award", 
+            "content": "Sharon Ferguson won Oral Presentation First Place in the Data Analytics, Robotics & AI division at the [U of T Engineering Research Conference](https://gradstudies.engineering.utoronto.ca/u-of-t-engineering-research-conference/)"
+        }, 
+        {
+            "year": 2021, 
+            "month": 7, 
+            "type": "Award", 
+            "content": "Kimberly Lai's paper was awarded “Best Student Paper” at the 2021 INCOSE International Symposium"
+        }, 
+        {
+            "year": 2021, 
+            "month": 7, 
+            "type": "Presentation", 
+            "content": "Ready Lab students Kimberly Lai and Eric van Velzen both virtually presented their papers at the [2021 INCOSE International Symposium](https://www.incose.org/symp2021/home)"
+        }, 
+        {
+            "year": 2021, 
+            "month": 7, 
+            "type": "Other", 
+            "content": "We had an awesome time running a “Learn to Code” outreach workshop for the teen leaders program of [Camp Ooch and Camp Trillium](https://ooch.org/)"
+        }, 
+        {
+            "year": 2021, 
+            "month": 7, 
+            "type": "Presentation", 
+            "content": "Watch a recording of Dr. Olechowski's [webinar](https://www.colabsoftware.com/webinars/the-future-will-be-model-based-are-you-ready) “How Mechanical Engineers Can Prepare for a Model-Based Future” with Mark Morreale of [Colab](https://www.colabsoftware.com/)"
+        }, 
+        {
+            "year": 2021, 
+            "month": 6, 
+            "type": "Presentation", 
+            "content": "Dr. Olechowski was a panelist on the [Mental Health in Engineering webinar](https://www.youtube.com/watch?v=OSxi97c16fY) hosted by the Ontario Society of Professional Engineers"
+        }, 
+        {
+            "year": 2021, 
+            "month": 5, 
+            "type": "Presentation", 
+            "content": "Dr. Olechowski delivered keynote presentation at the PTC Digital Transformation in Education Summit: [Reimagining Design Education with Cloud CAD](https://youtu.be/xQaoCL4cv4g?t=6) which was also featured in [this blog](https://www.onshape.com/en/resource-center/innovation-blog/top-five-reasons-why-cloud-based-cad-is-a-game-changer-for-design-education) article."
+        }, 
+        {
+            "year": 2021, 
+            "month": 3, 
+            "type": "Award", 
+            "content": "Dr. Olechowski and [Dr. Zhou](https://www.eecg.utoronto.ca/~shuruiz/) of Electrical and Computer Engineering received [CARTE](https://carte.utoronto.ca/) Seed Funding for a collaborative two-year project: “Analysis of Computer-Aided Design Data: Applying Software Development Principles to Physical Product Design”"
+        }, 
+        {
+            "year": 2021, 
+            "month": 2, 
+            "type": "Other", 
+            "content": "Dr. Olechowski co-organized [Conceptualizing Black Experiences In Engineering Virtual Panel](https://ospe.on.ca/register/?type=event&id=2540) with [OSPE](https://ospe.on.ca/) and [Spin Master](https://www.spinmaster.com/en-US)"
+        }, 
+        {
+            "year": 2021, 
+            "month": 1, 
+            "type": "Award", 
+            "content": "Dr. Olechowski received a [SSHRC Knowledge Synthesis Grants - Skills and Work in the Digital Economy](https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2020/ksg_digital_economy-ssc_economie_numerique-eng.aspx): “A Modern Canadian Engineering Design Curriculum: Balancing Artificial Intelligence and Human Cognition”"
+        }, 
+        {
+            "year": 2020, 
+            "month": 12, 
+            "type": "Award", 
+            "content": "Dr. Olechowski and collaborators at [Safran Landing Systems](https://www.safran-landing-systems.com/) receive a [MITACS Accelerate](https://www.mitacs.ca/en/programs/accelerate) grant to study “Integration of Safety Analysis into Model-Based Systems Engineering”"
+        }, 
+        {
+            "year": 2020, 
+            "month": 12, 
+            "type": "Other", 
+            "content": "Dr. Olechowski co-organized [Female Leaders and the Changing Landscape of Engineering](https://ospe.on.ca/register/?type=event&id=2420) with [OSPE](https://ospe.on.ca/) and [Spin Master](https://www.spinmaster.com/en-US)"
+        }, 
+        {
+            "year": 2020, 
+            "month": 12, 
+            "type": "Other", 
+            "content": "Dr. Olechowski served on the Program Committee for the inaugural [Canadian Design Workshop](https://uwaterloo.ca/canadian-design-workshop/)"
         } 
     ] 
 }
