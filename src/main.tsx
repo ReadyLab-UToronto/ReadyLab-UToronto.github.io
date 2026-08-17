@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter } from 'react-router'; 
+import { createHashRouter } from 'react-router'; 
 import { RouterProvider } from 'react-router/dom';
 import './styles/global.css'; 
 
@@ -11,7 +11,7 @@ import Resources from './routes/Resources';
 import News from './routes/News';
 import Join from './routes/Join';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {path: "/", element: <Home /> },
   {path: "/team", element: <Team /> },
   {path: "/publications", element: <Publications /> },
