@@ -12,6 +12,7 @@ import members from '@/assets/data/members.json';
 import newsData from '@/assets/data/news.json';
 import type { NewsItem, Member } from '@/type';
 
+
 const lab_photos = [
     "2026.jpeg",
     "2024.png", 
@@ -43,7 +44,7 @@ export default function Home() {
             <Navbar />
             <div className="relative mb-10">
                 <img 
-                    src={`src/assets/website_images/whiteboard.png`} 
+                    src={`/website_images/whiteboard.png`} 
                     alt="Background"
                     className="w-full h-[250px] object-cover object-[center_60%]"
                 />
@@ -94,7 +95,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="basis-2/5 flex justify-center shrink-0">
-                    <img src={`src/assets/website_images/rocket-image.png`} alt="Rocket Image" className="w-auto h-100" />
+                    <img src={`/website_images/rocket-image.png`} alt="Rocket Image" className="w-auto h-100" />
                 </div>
             </div>
 
@@ -114,7 +115,7 @@ export default function Home() {
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30 mt-20">
                 <div className="basis-2/5 flex justify-center shrink-0">
-                    <img src={`src/assets/website_images/sticky-notes.png`} alt="Sticky Notes" className="w-auto h-100" />
+                    <img src={`/website_images/sticky-notes.png`} alt="Sticky Notes" className="w-auto h-100" />
                 </div>
                 <div className="basis-3/5 flex flex-col gap-4">
                     <div className="text-3xl font-semibold">Improving engineering design process and methods</div>
