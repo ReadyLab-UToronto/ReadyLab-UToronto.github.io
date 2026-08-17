@@ -30,16 +30,6 @@ const researchOutputs = [
         linkText: 'The Hackathon Archive of Collaboration Knowledge and Engineering Design (HACKED): Hackathon 1 Transcript Sample',
         description: 'is an open-source dataset of transcript data from a hackathon event.',
     },
-    // To add more resources here, use THIS template:
-    // Images are located in the /src/assets/resources folder.
-    
-    // {
-    //     image: 'resource5_example.png',
-    //     alt: 'Example resource',
-    //     href: 'https://example.com',
-    //     linkText: 'Text to be hyperlinked',
-    //     description: 'Text to go after the hyperlink',
-    // },
 ];
 
 export default function Resources() {
@@ -48,7 +38,7 @@ export default function Resources() {
             <Navbar />
             <div className="relative mb-10">
                 <img
-                    src={`src/assets/website_images/whiteboard.png`}
+                    src={`/website_images/whiteboard.png`}
                     alt="Background"
                     className="w-full h-[250px] object-cover object-[center_80%]"
                 />
@@ -76,7 +66,7 @@ export default function Resources() {
                             className="md:w-1/4 shrink-0"
                         >
                             <img
-                                src={`src/assets/resources/${resource.image}`}
+                                src={`/resources/${resource.image}`}
                                 alt={resource.alt}
                                 className="w-full h-auto"
                             />

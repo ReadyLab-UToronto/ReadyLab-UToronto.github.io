@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 import NewsCard from '@/components/NewsCard';
 import type { NewsItem } from '@/type';
-import newsData from '@/assets/data/news.json';
+import newsData from '@/assets/news.json';
 
 
 export default function News() {
@@ -26,7 +26,7 @@ export default function News() {
             <Navbar />
             <div className="relative">
                 <img 
-                    src={`src/assets/website_images/whiteboard.png`} 
+                    src={`/website_images/whiteboard.png`} 
                     alt="Background"
                     className="w-full h-[250px] object-cover object-[center_50%]"
                 />

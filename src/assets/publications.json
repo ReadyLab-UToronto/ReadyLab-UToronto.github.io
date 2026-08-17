@@ -193,7 +193,7 @@
             "tags": ["Design", "CAD"]
         },
         {
-            "title": "A PILOT STUDY ON THE PREVALENCE OF ARTIFICIAL INTELLIGENCE IN CANADIAN ENGINEERING DESIGN CURRICULA",
+            "title": "A Pilot Study on the Prevalence of Artificial Intelligence in Canadian Engineering Design Curricula",
             "authors": "Pranav Milind Khanolkar, Mohammed Gad, Jessica Liao, Ada Hurst and Alison Olechowski",
             "venue": "Proceedings of the Canadian Engineering Education Association (CEEA)",
             "year": 2021,
@@ -275,7 +275,8 @@
             "venue": "Advanced Engineering Informatics",
             "year": 2022,
             "links": {
-                "doi": "https://doi.org/10.1016/j.aei.2021.101446"
+                "doi": "https://doi.org/10.1016/j.aei.2021.101446", 
+                "code": "https://github.com/ReadyLab-UToronto/MUCAD-CLF"
             },
             "abstract": "New developments to computer-aided design (CAD) software transform a once solitary modelling task into a collaborative one. The emerging multi-user CAD (MUCAD) systems allow virtual, real-time collaboration, with the potential to expand the learning outcomes and teaching methods of CAD. This paper proposes a MUCAD collaborative learning framework (MUCAD-CLF) to interpret backend analytic data from commercially available MUCAD software. The framework builds on several existing metrics from the literature and introduces newly developed methods to classify CAD actions collected from users' analytic data. The framework contains two different classification approaches of user actions, categorizing actions by action type (e.g., creating, revising, viewing) and by design space (e.g., constructive, organizing), for comparative analysis. Next, the analytical framework is applied via a collaborative design challenge, corresponding to over 20,000 actions collected from 31 participants. Illustrative analyses utilizing the MUCAD-CLF are presented to demonstrate the resulting insight. Differences in CAD behaviour, indicating differences in learning, are observed between teams made up entirely of novices, entirely of experienced users, or a mix. In pairs of experts and novices, we see both a perceived highsatisfaction apprenticeship experience for the novices and preliminary evidence of an increase in expert design behaviours for the novices. The proposed framework is critical for MUCAD systems to make the most of the educational possibility of combining technical skill-building with team collaboration. Preliminary evidence collected in a fully-virtual design learning activity, and analyzed using the proposed MUCAD-CLF, shows that novice students gain advanced CAD design knowledge when collaborating with experienced teammates. With the user data captured by modern MUCAD software and the MUCAD-CLF presented herein, instructors and re­ searchers can more efficiently assess and visualize students' performance over the design learning process.",
             "tags": ["CAD", "EngEdu"]

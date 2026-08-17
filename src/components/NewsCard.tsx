@@ -3,11 +3,11 @@ import type { NewsItem } from "@/type";
 
 
 const iconMap = {
-    "Member": "src/assets/icons/member.jpg", 
-    "Graduation": "src/assets/icons/graduation.jpg",
-    "Award": "src/assets/icons/award.png",
-    "Publication": "src/assets/icons/publication.png",
-    "Other": "src/assets/icons/event.jpeg"
+    "Member": "/icons/member.jpg", 
+    "Graduation": "/icons/graduation.jpg",
+    "Award": "/icons/award.png",
+    "Publication": "/icons/publication.png",
+    "Other": "/icons/event.jpeg"
 }
 
 const monthNames = [

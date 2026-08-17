@@ -7,7 +7,7 @@ export default function Join() {
             <Navbar />
             <div className="relative mb-10">
                 <img
-                    src={`src/assets/website_images/whiteboard.png`}
+                    src={`/website_images/whiteboard.png`}
                     alt="Background"
                     className="w-full h-[250px] object-cover object-[center_40%]"
                 />

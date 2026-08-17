@@ -20,7 +20,7 @@ export default function NavBar() {
         <div className="flex w-full items-center justify-between py-6 px-16 sticky top-0 bg-white z-50 shadow-md">
             {/* Logo */}
             <div>
-                <img src={`src/assets/logos/readylab-logo.jpg`} alt="ReadyLab Logo" className="h-18 w-auto" />
+                <img src={`/logos/readylab-logo.jpg`} alt="ReadyLab Logo" className="h-18 w-auto" />
             </div>
 
             {/* Desktop Navigation Bar */}

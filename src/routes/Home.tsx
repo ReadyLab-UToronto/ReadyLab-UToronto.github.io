@@ -8,8 +8,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
-import members from '@/assets/data/members.json'; 
-import newsData from '@/assets/data/news.json';
+import members from '@/assets/members.json'; 
+import newsData from '@/assets/news.json';
 import type { NewsItem, Member } from '@/type';
 
 
@@ -101,7 +101,7 @@ export default function Home() {
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30 mt-20">
                 <Avatar className="h-70 w-70">
-                    <AvatarImage src={`src/assets/headshots/alison_olechowski.jpg`} alt="Alison Olechowski" />
+                    <AvatarImage src={`/headshots/alison_olechowski.jpg`} alt="Alison Olechowski" />
                     <AvatarFallback>Alison Olechowski</AvatarFallback>
                 </Avatar>
                 <div className="flex flex-col space-y-1 ml-8 w-full">
@@ -134,7 +134,7 @@ export default function Home() {
                             <CarouselItem key={image}>
                                 <div className="relative">
                                     <img 
-                                        src={`src/assets/lab_photos/${image}`} alt={image} 
+                                        src={`/lab_photos/${image}`} alt={image} 
                                         className="w-full h-[600px] object-contain select-none pointer-events-none" 
                                         draggable={false} onContextMenu={(e) => e.preventDefault()}
                                     />
@@ -155,7 +155,7 @@ export default function Home() {
                     .map((member) => (
                         <div className=" flex flex-col gap-4 justify-center items-center" key={member.name}>
                             <Avatar className="h-50 w-50">
-                                <AvatarImage src={`src/assets/headshots/${member.imageUrl}`} alt={member.name} />
+                                <AvatarImage src={`/headshots/${member.imageUrl}`} alt={member.name} />
                                 <AvatarFallback>{member.name}</AvatarFallback>
                             </Avatar>
                             <h3 className="text-xl font-bold mt-4">{member.name}</h3>
@@ -169,35 +169,35 @@ export default function Home() {
             {/* Logos */}
             <div className="text-4xl font-bold text-center my-20">Affliciated with</div>
             <div className="flex flex-col lg:flex-row items-center justify-center gap-1 px-5 mt-10">
-                <img src={`src/assets/logos/mie_logo.jpg`} alt="MIE Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/fase_logo.jpg`} alt="FASE Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/istep_logo.jpg`} alt="ISTEP Logo" className="w-auto h-16" />
+                <img src={`/logos/mie_logo.jpg`} alt="MIE Logo" className="w-auto h-16" />
+                <img src={`/logos/fase_logo.jpg`} alt="FASE Logo" className="w-auto h-16" />
+                <img src={`/logos/istep_logo.jpg`} alt="ISTEP Logo" className="w-auto h-16" />
             </div>
             
             <div className="text-4xl font-bold text-center my-20">Partners</div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-10 mt-5 justify-items-center">
-                <img src={`src/assets/logos/safran.png`} alt="Safran Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/SSHRC.png`} alt="SSHRC Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/CFI.png`} alt="CFI Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/MDA.png`} alt="MDA Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/avidbots.png`} alt="Avidbots Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/Mitacs.png`} alt="Mitacs Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/ptc.png`} alt="PTC Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/NSERC.png`} alt="NSERC Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/via.png`} alt="VIA Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/RPComposites.png`} alt="RPComposites Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/nfr.png`} alt="NFR Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/alfred_sloan.png`} alt="Alfred Sloan Logo" className="w-auto h-16" />
+                <img src={`/logos/safran.png`} alt="Safran Logo" className="w-auto h-16" />
+                <img src={`/logos/SSHRC.png`} alt="SSHRC Logo" className="w-auto h-16" />
+                <img src={`/logos/CFI.png`} alt="CFI Logo" className="w-auto h-16" />
+                <img src={`/logos/MDA.png`} alt="MDA Logo" className="w-auto h-16" />
+                <img src={`/logos/avidbots.png`} alt="Avidbots Logo" className="w-auto h-16" />
+                <img src={`/logos/Mitacs.png`} alt="Mitacs Logo" className="w-auto h-16" />
+                <img src={`/logos/ptc.png`} alt="PTC Logo" className="w-auto h-16" />
+                <img src={`/logos/NSERC.png`} alt="NSERC Logo" className="w-auto h-16" />
+                <img src={`/logos/via.png`} alt="VIA Logo" className="w-auto h-16" />
+                <img src={`/logos/RPComposites.png`} alt="RPComposites Logo" className="w-auto h-16" />
+                <img src={`/logos/nfr.png`} alt="NFR Logo" className="w-auto h-16" />
+                <img src={`/logos/alfred_sloan.png`} alt="Alfred Sloan Logo" className="w-auto h-16" />
             </div>
             
             <div className="text-4xl font-bold text-center my-20">Collaborators</div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-10 mt-5 justify-items-center">
-                <img src={`src/assets/logos/waterloo.png`} alt="University of Waterloo Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/TUM.png`} alt="Technical University of Munich Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/Tufts.png`} alt="Tufts University Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/MIT.png`} alt="Massachusetts Institute of Technology Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/northeastern.png`} alt="Northeastern University Logo" className="w-auto h-16" />
-                <img src={`src/assets/logos/ece.png`} alt="UofT ECE Logo" className="w-auto h-16" />
+                <img src={`/logos/waterloo.png`} alt="University of Waterloo Logo" className="w-auto h-16" />
+                <img src={`/logos/TUM.png`} alt="Technical University of Munich Logo" className="w-auto h-16" />
+                <img src={`/logos/Tufts.png`} alt="Tufts University Logo" className="w-auto h-16" />
+                <img src={`/logos/MIT.png`} alt="Massachusetts Institute of Technology Logo" className="w-auto h-16" />
+                <img src={`/logos/northeastern.png`} alt="Northeastern University Logo" className="w-auto h-16" />
+                <img src={`/logos/ece.png`} alt="UofT ECE Logo" className="w-auto h-16" />
             </div>
 
             <Footer />

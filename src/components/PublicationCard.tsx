@@ -35,7 +35,7 @@ export default function PublicationCard({ publication }: { publication: Publicat
             <div className="flex flex-row gap-4 mb-2">
                 {publication.links.doi && (
                     <div className="flex flex-row gap-2 mb-2">
-                        <img src={`src/assets/icons/doi.png`} alt="DOI" className="h-5 w-5" />
+                        <img src={`/icons/doi.png`} alt="DOI" className="h-5 w-5" />
                         <a href={publication.links.doi} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
                             DOI
                         </a>
@@ -43,23 +43,23 @@ export default function PublicationCard({ publication }: { publication: Publicat
                 )}
                 {publication.links.pdf && (
                     <div className="flex flex-row gap-2 mb-2">
-                        <img src={`src/assets/icons/pdf.png`} alt="PDF" className="h-5 w-5" />
-                        <a href={`src/assets/pdfs/${publication.links.pdf}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
+                        <img src={`/icons/pdf.png`} alt="PDF" className="h-5 w-5" />
+                        <a href={`/pdfs/${publication.links.pdf}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
                             PDF
                         </a>
                     </div>
                 )}
                 {publication.links.slides && (
                     <div className="flex flex-row gap-2 mb-2">
-                        <img src={`src/assets/icons/slides.png`} alt="Slides" className="h-5 w-5" />
-                        <a href={`src/assets/slides/${publication.links.slides}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
+                        <img src={`/icons/slides.png`} alt="Slides" className="h-5 w-5" />
+                        <a href={`/slides/${publication.links.slides}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
                             Slides
                         </a>
                     </div>
                 )}
                 {publication.links.code && (
                     <div className="flex flex-row gap-2 mb-2">
-                        <img src={`src/assets/icons/github.png`} alt="Code" className="h-5 w-5" />
+                        <img src={`/icons/github.png`} alt="Code" className="h-5 w-5" />
                         <a href={publication.links.code} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                             Code
                         </a>

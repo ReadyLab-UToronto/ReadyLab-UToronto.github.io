@@ -6,12 +6,12 @@ export default function Footer() {
                 {/* Lab information */}
                 <div className="flex items-center md:items-start gap-20">
                     <img 
-                        src={`src/assets/logos/UofT_logo-white.png`}
+                        src={`/logos/UofT_logo-white.png`}
                         alt="University of Toronto logo"
                         className="h-30 w-auto mb-4"
                     />
                     <img
-                        src={`src/assets/logos/readylab-logo-footer.png`}
+                        src={`/logos/readylab-logo-footer.png`}
                         alt="READY Lab logo"
                         className="h-20 w-auto mb-4"
                     />

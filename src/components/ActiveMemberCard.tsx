@@ -7,7 +7,7 @@ export default function ActiveMemberCard({ member }: { member: Member }) {
     return (
         <div className="flex flex-col md:flex-row h-full px-60" key={member.name}>
                 <Avatar className="h-60 w-60">
-                    <AvatarImage src={`src/assets/headshots/${member.imageUrl}`} alt={member.name} />
+                    <AvatarImage src={`/headshots/${member.imageUrl}`} alt={member.name} />
                     <AvatarFallback>{member.name}</AvatarFallback>
                 </Avatar>
                 <div className="flex flex-col py-8">
@@ -31,12 +31,12 @@ export default function ActiveMemberCard({ member }: { member: Member }) {
                     <div className="flex flex-row space-x-4 mt-4 ml-8">
                         { member.linkedinUrl && (
                             <a href={member.linkedinUrl} target="_blank" rel="noopener noreferrer">
-                                <img src={`src/assets/icons/linkedin.png`} alt="LinkedIn" className="h-8 w-8" />
+                                <img src={`/icons/linkedin.png`} alt="LinkedIn" className="h-8 w-8" />
                             </a>
                         )}
                         { member.googlescholarUrl && (
                             <a href={member.googlescholarUrl} target="_blank" rel="noopener noreferrer">
-                                <img src={`src/assets/icons/google_scholar.png`} alt="Google Scholar" className="h-8 w-8" />
+                                <img src={`/icons/google_scholar.png`} alt="Google Scholar" className="h-8 w-8" />
                             </a>
                         )}
                     </div>

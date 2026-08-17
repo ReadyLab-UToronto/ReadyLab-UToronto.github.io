@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import Navbar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import PublicationCard from '@/components/PublicationCard';
-import publicationData from '@/assets/data/publications.json';
+import publicationData from '@/assets/publications.json';
 import type { Publication } from '@/type';
 
 
@@ -39,7 +39,7 @@ export default function Publications() {
             <Navbar />
             <div className="relative">
                 <img 
-                    src={`src/assets/website_images/whiteboard.png`} 
+                    src={`/website_images/whiteboard.png`} 
                     alt="Background"
                     className="w-full h-[250px] object-cover object-[center_18%]"
                 />
