@@ -9,11 +9,11 @@ This webpage was built using the [Vite](https://vite.dev/guide/) build tool as a
 
 ## Maintenance Guide 
 
-If changes of the user interface are not needed, managing the content being displayed on the website can be done in the `json` files under directory `src/assets/data/`. Please do not rename or move any file. 
+If changes of the user interface are not needed, managing the content being displayed on the website can be done in the `json` files under directory `src/assets/`. Please do not rename or move any file. 
 
 ### Publications 
 
-All publications are managed in the file `src/assets/data/publications.json`. Specifications of the entries are detailed below, and please enter information with formats that are consistent with existing entries. 
+All publications are managed in the file `src/assets/publications.json`. Specifications of the entries are detailed below, and please enter information with formats that are consistent with existing entries. 
 
 ```json 
 {
@@ -23,7 +23,7 @@ All publications are managed in the file `src/assets/data/publications.json`. Sp
     "year": "required - a number year for sorting", 
     "tags": ["a list of tags that the paper should be filtered with"], 
     "links": {
-        "doi": "required", 
+        "doi": "optional", 
         "pdf": "optional", 
         "slides": "optional", 
         "code": "optional - a link to e.g. a GitHub code repository"
@@ -35,12 +35,12 @@ All publications are managed in the file `src/assets/data/publications.json`. Sp
 
 **Notes**: 
 - For the `tags`, the website will automatically find all unique tags assigned to all papers listed in `publications.json` and generate the filter options. Please be careful with spelling and cases to avoid duplicates. 
-- For the `links`, only the `doi` is required. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `src/assets/pdfs` and `src/assets/slides`, and enter the corresponding file name in the paper entry in `publications.json` (file name only, no directory). 
+- For the `links`, the `doi` and `code` should be actual URL links to webpages, if entered. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `public/pdfs/` and `public/slides/`, and enter the corresponding file name in the paper entry in `publications.json` (file name only, no directory). 
 - If an `abstract` is added, double check the content being pasted in `publications.json`. Note that any special typesetting and hyperlinks are currently not supported. 
 
 ### Team Members
 
-All members, including active members and alumni, are managed in the file `src/assets/data/members.json`. Specifications of the entries are detailed below: 
+All members, including active members and alumni, are managed in the file `src/assets/members.json`. Specifications of the entries are detailed below: 
 
 ```json 
 {
@@ -58,13 +58,13 @@ All members, including active members and alumni, are managed in the file `src/a
 **Note**: 
 - If `active` is set to `true`, number entered for `graduationYear` is ignored, but a number is still required for data type consistency. 
 - When an active lab member graduates, simply change `active` to `false` and enter the correct `graduationYear`. 
-- Please rename the headshot image with a meaningful filename for sustainable file management in `src/assets/headshots/`. Crop the image to square to avoid unintended cut off when being presented on the website. 
+- Please rename the headshot image with a meaningful filename for sustainable file management in `public/headshots/`. Crop the image to square to avoid unintended cut off when being presented on the website. 
 - The `description` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). 
 - If a `linkedinUrl` or a `googlescholarUrl` is entered, an hyperlinked icon will automatically show up in your profile. If an URL is not available, please remove the field. 
 
 ### News 
 
-All news are managed in the file `src/assets/data/news.json`. Specifications of the entries are detailed below: 
+All news are managed in the file `src/assets/news.json`. Specifications of the entries are detailed below: 
 
 ```json 
 {
@@ -76,7 +76,7 @@ All news are managed in the file `src/assets/data/news.json`. Specifications of 
 ```
 
 **Note**:
-- If a new `type` that is not in the currently supported list is needed, modify the corresponding data type in `src/type.tsx`. Then, add a corresponding icon to the new news type under `src/assets/icons/` and define the path in `src/components/NewsCard.tsx` accordingly. 
+- If a new `type` that is not in the currently supported list is needed, modify the corresponding data type in `src/type.tsx`. Then, add a corresponding icon to the new news type under `public/icons/` and define the path in `src/components/NewsCard.tsx` accordingly. 
 - The `content` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). 
 
 ## Setup Guide 
@@ -107,4 +107,11 @@ While the local dev version is running, you may still make changes to the code. 
 
 ## Deployment Guide 
 
-To be written 
+A GitHub action has been created in `.github/workflows/deploy.yml` to automatically build and deploy the static webpage to GitHub pages every time a new commit is pushed to the `main` branch. 
+
+If new npm packages are installed and the GitHub deployment fails, read the failure message carefully. It is very likely that your `package-lock.json` is out of sync. If running the `npm install` command locally to automatically update `package-lock.json` does not fix the build failure, try the following workflow in the terminal: 
+- Delete existing files: `rm -rf node_modules package-lock.json`
+- Clear the cache: `npm cache clean --force` 
+- Regenerate the lockfile: `npm install` 
+- Test the strict install: `npm ci` 
+- Commit and push all the new changes to GitHub 
