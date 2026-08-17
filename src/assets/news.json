@@ -47,6 +47,258 @@
             "month": 1, 
             "type": "Member", 
             "content": "Elisa Kwon joined Ready Lab as a Postdoctoral Fellow and Kevin Zhang joined as a MASc student."
-        }
+        }, 
+        {
+            "year": 2024, 
+            "month": 12, 
+            "type": "Presentation", 
+            "content": "Sharon Ferguson, Meagan Flus, Elisa Kwon, Marjan Naghshbandi, Genevieve Beirne, Liz DaMaren, and Chuma Asuzu attended the Canadian Design Workshop 3 at the University of Waterloo. Elisa chaired the workshop, Exploring opportunities and challenges of using LLMs and AI in design. Meagan and Sharon chaired the workshop, Designing design research: Lessons from design researchers, and served on the Organizing Committee."
+        }, 
+        {
+            "year": 2024, 
+            "month": 12, 
+            "type": "Graduation", 
+            "content": "Dr. Sharon Ferguson successfully defended her PhD dissertation in December 2024! Congratulations on this amazing achievement!"
+        }, 
+        {
+            "year": 2024, 
+            "month": 11, 
+            "type": "Presentation", 
+            "content": "Marjan Naghshbandi presented at the Massey College Ursula Franklin Forum on Science and Engineering and won an honourable mention."
+        }, 
+        {
+            "year": 2024, 
+            "month": 11, 
+            "type": "Presentation", 
+            "content": "Sharon Ferguson and Kathy Cheng presented papers at the ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW) in Costa Rica."
+        }, 
+        {
+            "year": 2024, 
+            "month": 11, 
+            "type": "Graduation", 
+            "content": "Pranav Khanolkar successfully defended his PhD dissertation in November 2024! Congratulations on this amazing achievement!"
+        }, 
+        {
+            "year": 2024, 
+            "month": 11, 
+            "type": "Presentation", 
+            "content": "Meagan Flus was invited to attend Hack the Hackathon 4 at the Scripps Institute of Oceanography at the University of San Diego."
+        }, 
+        {
+            "year": 2024, 
+            "month": 10, 
+            "type": "Member", 
+            "content": "Meagan Flus was a Visiting Scholar in the Technology and Human Research in Engineering Design Group (THRED) at the Pennsylvania State University, working with Dr. Jessica Menold."
+        }, 
+        {
+            "year": 2024, 
+            "month": 10, 
+            "type": "Member", 
+            "content": "Sharon Ferguson was a Visiting Scholar in the CAD lab at the Massachusetts Institute of Technology, working with Dr. David Wallace and Dr. Jim Magarian."
+        }, 
+        {
+            "year": 2024, 
+            "month": 10, 
+            "type": "Presentation", 
+            "content": "Pranav Khanolkar was a panelist at the DAIR to Innovate event hosted by Bombardier."
+        }, 
+        {
+            "year": 2024, 
+            "month": 9, 
+            "type": "Presentation", 
+            "content": "Ready Lab graduate students, Pranav Khanolkar, Sharon Ferguson, Meagan Flus, Kathy Cheng, and Chuma Asuzu presented at the MIE Graduate Research Symposium. Meagan won first place in the Poster Presentation category “Applied Mechanics and Design.”"
+        }, 
+        {
+            "year": 2024, 
+            "month": 9, 
+            "type": "Award", 
+            "content": "Marjan Naghshbandi won a NSERC Canadian Graduate Scholarship - Master's."
+        }, 
+        {
+            "year": 2024, 
+            "month": 9, 
+            "type": "Member", 
+            "content": "Marjan Naghshbandi and Felix Deng joined Ready Lab as MASc students."
+        }, 
+        {
+            "year": 2024, 
+            "month": 8, 
+            "type": "Graduation", 
+            "content": "Jordan Epp successfully defended his MASc thesis. Congratulations, Jordan and best of luck in your next endeavors!"
+        }, 
+        {
+            "year": 2024, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Pranav Khanolkar and Kevin Zhang presented papers at the International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC) in Washington DC. Kathy Cheng presented and was a panelist at the “The Trove of CAD Informatics: Acquiring and Analyzing CAD Data for Design Process Insights and AI Applications” workshop at IDETC."
+        }, 
+        {
+            "year": 2024, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Genevieve Beirne presented her work at the Undergraduate Engineering Research Day (UnERD)."
+        }, 
+        {
+            "year": 2024, 
+            "month": 8, 
+            "type": "Presentation", 
+            "content": "Chuma Asuzu has been accepted to attend the PDMA Doctoral Consortium in Syracuse"
+        }, 
+        {
+            "year": 2024, 
+            "month": 7, 
+            "type": "Presentation", 
+            "content": "Jordan Epp had a poster titled “Configuration Management Strategy for Model-based Product Line Engineering in Aircraft Systems Development” at INCOSE IS2024"
+        }, 
+        {
+            "year": 2024, 
+            "month": 7, 
+            "type": "Presentation", 
+            "content": "Meagan Flus presented a paper at the Design Computing and Cognition 2024 conference titled Examining Conflict Patterns in Hackathon Teams: A Case Study. The paper is co-authored by Julianne Attai, Meagan Flus, and Alison Olechowski."
+        }, 
+        {
+            "year": 2024, 
+            "month": 7, 
+            "type": "Presentation", 
+            "content": "Kevin Zhang presented a paper at the CAD Conference and Exhibition."
+        }, 
+        {
+            "year": 2024, 
+            "month": 7, 
+            "type": "Presentation", 
+            "content": "Meagan Flus chaired a workshop titled, Transparency and Collaboration: A Workshop on Open Access Design Team Data at the Design Computing and Cognition 2024 conference. Collaborators include Sharon Ferguson (Ready Lab), Yuval Kahlon (Tokyo Institute of Technology), Gregory Litster (UofT), Christopher McComb (Carnegie Mellon), and Alison Olechowski (Ready Lab)."
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Member", 
+            "content": "Sharon Ferguson accepted an offer to join the Management Science and Engineering Department at the University of Waterloo as an Assistant Professor in 2025"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Publication", 
+            "content": "Jordan Epp published [“Transitioning Towards SysML v2 as a Variability Modeling Language”](https://doi.org/10.1007/s11334-024-00569-y) in Innovations in Systems and Software Engineering"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Presentation", 
+            "content": "Marjan Naghshbandi presented our work “Social Capital and Persistence in Computer Science of Google’s Computer Science Summer Institute (CSSI) Students” at the 2024 American Society for Engineering Education (ASEE) Conference in Portland. The paper is co-authored by Marjan Naghshbandi, Sharon Ferguson, and Dr. Alison Olechowski."
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Award", 
+            "content": "Marjan Naghshbandi won the W. S. Wilson Medal in Industrial Engineering for highest academic standing in the final year of Industrial Engineering"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Member", 
+            "content": "Meagan Flus is continuing on for a second year as the Student Director on the Canadian Engineering Education Association Board of Directors"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Presentation", 
+            "content": "Meagan Flus presented a Lightning Talk titled, Unleashing Collaborative Potential: A Case Study of Peer Learning at Hackathons, at the Canadian Engineering Education Association Annual Conference"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Presentation", 
+            "content": "Chuma Asuzu presented “Differences in Consumers' Interpretations of Novel and Familiar Product Designs: An Exploratory Study of Visual References” at IPDMC 2024 in Dublin"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Publication", 
+            "content": "Chuma Asuzu and Kathy Cheng had a paper published in IEEE Transactions on Engineering Management: [The Personas of Cloud CAD Collaboration: A Case Study of a Team of CAD Professionals](https://ieeexplore.ieee.org/document/10547390?source=authoralert)"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Award", 
+            "content": "Sharon Ferguson and Alison Olechowski were awarded a research gift from [Microsoft's AI and the New Future of Work program](https://www.microsoft.com/en-us/research/academic-program/ai-and-the-new-future-of-work/recipients/)"
+        }, 
+        {
+            "year": 2024, 
+            "month": 6, 
+            "type": "Member", 
+            "content": "Esdras Paravizo, a PhD candidate from the University of Cambridge, joined Ready Lab as a Visiting Scholar."
+        }, 
+        {
+            "year": 2024, 
+            "month": 5, 
+            "type": "Member", 
+            "content": "This summer, Chuma Asuzu is a visiting student at the Department of Marketing of Goethe University in Frankfurt"
+        }, 
+        {
+            "year": 2024, 
+            "month": 5, 
+            "type": "Member", 
+            "content": "Undergraduate students Genevieve Beirne, Marjan Naghshbandi, and Avelyn Wong joined Ready Lab for the summer"
+        }, 
+        {
+            "year": 2024, 
+            "month": 5, 
+            "type": "Presentation", 
+            "content": "Meagan Flus presented work titled Integrated Co-design: A novel collaboration framework from the electro-thermal design process of power electronics systems at the Canadian Society for Mechanical Engineering International Congress 2024. The paper is co-authored by Omri Tayyara, Ademir Vrolijk, Carlos M. Da Silva, Cristina Amon, and Alison Olechowski."
+        }, 
+        {
+            "year": 2024, 
+            "month": 5, 
+            "type": "Award", 
+            "content": "Kathy Cheng won a NSERC Canada Graduate Scholarship - Doctoral"
+        }, 
+        {
+            "year": 2024, 
+            "month": 5, 
+            "type": "Presentation", 
+            "content": "Sharon Ferguson, Georgia Van De Zande, and Alison Olechowski had a poster presentation “No Risk, No Reward: Towards An Automated Measure of Psychological Safety from Online Communication” at CHI 2024"
+        }, 
+        {
+            "year": 2024, 
+            "month": 4, 
+            "type": "Publication", 
+            "content": "Meagan Flus published a Research Note in the Journal of Engineering Design. Full citation: Lawrie, E., Flus, M, Olechowski, A., Hay, L., Wodehouse, A. 2024. From theory to practice: a roadmap for applying dual-process theory in design cognition research. Journal of Engineering Design, 1-21. doi:10.1080/09544828.2024.2336837 "
+        }, 
+        {
+            "year": 2024, 
+            "month": 4, 
+            "type": "Award", 
+            "content": "Alison Olechowski won the [Cheryl Regehr UofT Early Career Teaching Award](https://www.mie.utoronto.ca/professor-alison-olechowski-honoured-with-the-2023-24-cheryl-regehr-early-career-teaching-award/)"
+        }, 
+        {
+            "year": 2024, 
+            "month": 3, 
+            "type": "Award", 
+            "content": "Chuma Asuzu won a German Academic Exchange Service (DAAD) Research Grant in March 2024"
+        }, 
+        {
+            "year": 2024, 
+            "month": 1, 
+            "type": "Member", 
+            "content": "Emma Lawrie, a PhD candidate from the University of Strathclyde, joined Ready Lab as a Visiting Scholar. "
+        }, 
+        {
+            "year": 2023, 
+            "month": 11, 
+            "type": "Presentation", 
+            "content": "Meagan Flus was invited to attend Hack the Hackathon 3 in Geneva, Switzerland"
+        }, 
+        {
+            "year": 2023, 
+            "month": 10, 
+            "type": "Presentation", 
+            "content": "Kathy Cheng presented at CSCW 2023 in Minneapolis: “In the Age of Collaboration, the Computer-Aided Design Ecosystem is Behind: An Interview Study of Distributed CAD Practice” and “User Perspectives on Branching in Computer-Aided Design”"
+        }, 
+        {
+            "year": 2023, 
+            "month": 10, 
+            "type": "Presentation", 
+            "content": "Sharon Ferguson presented “Are We Equal Online?: An Investigation of Gendered Language Patterns and Message Engagement on Enterprise Communication Platforms” at CSCW 2023 in Minneapolis"
+        } 
     ] 
 }

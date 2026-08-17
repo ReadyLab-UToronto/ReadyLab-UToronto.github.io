@@ -28,6 +28,6 @@ export type Member = {
 export type NewsItem = {
     year: number; 
     month: number;
-    type: "Member" | "Graduation" | "Award" | "Publication" | "Other"; 
+    type: "Member" | "Graduation" | "Award" | "Publication" | "Presentation" | "Other"; 
     content: string; 
 }

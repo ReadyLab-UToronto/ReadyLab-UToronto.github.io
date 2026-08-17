@@ -1,6 +1,27 @@
 {
     "publications": [
         {
+            "title": "Quantitative CAD Archetype Framework Evaluation With Professional User Data", 
+            "authors": "Kaiwen Zhang, Kathy Cheng and Alison Olechowski", 
+            "venue": "Proceedings of the ASME 2024 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)", 
+            "year": 2024, 
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2024-143111"
+            }, 
+            "abstract": "In a previous work completed by Zhang et al., a framework for analysing computer-aided design (CAD) user “archetypes” was created, based on the types of user data that can be collected from modern multi-user CAD (MUCAD) user analytics. In this paper, the previously developed CAD archetype framework will be applied to a professional engineering dataset. Various ratios are calculated and presented which show the distribution of users in various dimensions of interest, with evidence of the framework creating separation between users in areas of the CAD workflow. The paper concludes with discussions on future development work to improve the framework robustness. Understanding the way that users interact with each other in a MUCAD setting will be critical for increasing productivity and enabling companies and professionals to optimise their workflows; research has shown that there are a number of approaches to designing in CAD, and one might imagine that these differences could be understood and classified such that compatibility can be improved, especially in a collaborative context.",
+            "tags": ["CAD", "Design"]
+        }, 
+        {
+            "title": "Developing a CAD Archetype Framework Based on User Data", 
+            "authors": "Kaiwen Zhang, Kathy Cheng and Alison Olechowski", 
+            "venue": "Proceedings of CAD'24", 
+            "year": 2024, 
+            "links": {
+                "doi": "https://doi.org/10.14733/cadconfP.2024.200-204"
+            }, 
+            "tags": ["CAD", "Design"]
+        }, 
+        {
             "title": "Designing Together: Exploring Collaborative Dynamics of Multi-Objective Design Problems in Virtual Environments",
             "authors": "Debrina Roy, Nicole Calpin, Kathy Cheng, Alison Olechowski, Andrea P. Argüelles, Nicolás F. Soria Zurita and Jessica Menold",
             "venue": "Journal of Mechanical Design",
@@ -528,7 +549,7 @@
             "links": {
                 "doi": "https://doi.org/10.1017/pds.2023.107"
             },
-            "abstract": "No matter a system's size, complexity, or domain, iterations are fundamental to its design process. However, there is a duality: iterations are both signs of usefully exploring the system's design space and failure to find an appropriate solution. This ambiguity means that we have not been able to connect teams' iterating behavior to their design's performance, potentially obscuring a way to influence the design process.",
+            "abstract": "No matter a system's size, complexity, or domain, iterations are fundamental to its design process. However, there is a duality: iterations are both signs of usefully exploring the system's design space and failure to find an appropriate solution. This ambiguity means that we have not been able to connect teams' iterating behavior to their design's performance, potentially obscuring a way to influence the design process. As such, our exploratory study unpacks the relationship between design iterations and performance. We observed 88 teams in the 2020 Robots to the Rescue Competition in rich detail. Using logs of 7,956 iterations on a Computer-Aided Design platform, we analyzed how high- and low-performing teams revised their submissions, searching for consistent differences in their behavior. We found significant differences in the iterations' number, scale, and cadence between these groups of teams. These findings emphasized the correlation between certain iteration patterns and the success of a design: the best teams will likely revise differently than the worst ones. It also showed the importance of a fine-grained, time-dependent view of the design process to resolve open questions in the literature.",
             "tags": ["Design", "CAD"]
         },
         {

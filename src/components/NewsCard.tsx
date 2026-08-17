@@ -7,6 +7,7 @@ const iconMap = {
     "Graduation": "/icons/graduation.jpg",
     "Award": "/icons/award.png",
     "Publication": "/icons/publication.png",
+    "Presentation": "/icons/presentation.png",
     "Other": "/icons/event.jpeg"
 }
 

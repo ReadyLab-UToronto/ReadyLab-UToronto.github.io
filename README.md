@@ -70,7 +70,7 @@ All news are managed in the file `src/assets/news.json`. Specifications of the e
 {
     "year": "required", 
     "month": "required -- number month between 1 and 12", 
-    "type": "required -- one of Member, Award, Publication, Graduation, Other", 
+    "type": "required -- one of Member, Award, Publication, Presentation, Graduation, Other", 
     "content": "required"
 }
 ```
