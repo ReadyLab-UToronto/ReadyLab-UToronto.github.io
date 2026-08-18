@@ -1,6 +1,17 @@
 {
     "publications": [
         {
+            "title": "It's a Complete Haystack: Understanding Dependency Management Needs in Computer-Aided Design", 
+            "authors": "Kathy Cheng, Alison Olechowski, and Shurui Zhou",
+            "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)", 
+            "year": 2025, 
+            "links": {
+                "doi": "https://doi.org/10.1145/3757617"
+            },
+            "abstract": "In today's landscape, hardware development teams face increasing demands for better quality products, greater innovation, and shorter manufacturing lead times. Despite the need for more efficient and effective processes, hardware designers continue to struggle with a lack of awareness of design changes and other collaborators' actions, a persistent issue in decades of CSCW research. One significant and unaddressed challenge is understanding and managing dependencies between 3D CAD (computer-aided design) models, especially when products can contain thousands of interconnected components. In this two-phase formative study, we explore designers' pain points of CAD dependency management through a thematic analysis of 100 online forum discussions and semi-structured interviews with 10 designers. We identify nine key challenges related to the traceability, navigation, and consistency of CAD dependencies, that harm the effective coordination of hardware development teams. To address these challenges, we propose design goals and necessary features to enhance hardware designers' awareness and management of dependencies, ultimately with the goal of improving collaborative workflows.", 
+            "tags": ["CAD", "Design", "HCI"]
+        },
+        {
             "title": "Presenting Hackathon Data for Design Research: A Transcript Dataset", 
             "authors": "Meagan Flus, Gregory Litster, and Alison Olechowski", 
             "venue": "Journal of Mechanical Design", 
@@ -8,6 +19,7 @@
             "links": {
                 "doi": "https://doi.org/10.1115/1.4067866"
             },
+            "abstract": "Hackathons are intensive design experiences during which teams identify a problem and rapidly develop prototypes of solutions. These events offer a promising venue for studying collaborative design: they are naturalistic, short term, and contained, which mitigates many of the drawbacks of traditional investigations in design research. The objective of this technical brief is to present and describe a transcript dataset of conversations collected from a hackathon team. The dataset includes a transcript of the verbal communication between a four-person hackathon team in the first 2 hours and 9 min of their collaboration. This portion of the design process, totaling 908 segments of speech, details the team’s problem exploration, brainstorming, idea selection, and premature team dissolution. This brief outlines the advantages of having rich transcript data freely available, with a specific focus on new research directions and impact. We include a qualitative analysis of the premature team dissolution, using inductive coding to explore goal misalignment, to provide further context of the collaboration captured in the transcript. We aim for this brief to encourage the use of these data for future investigations of design, teamwork, and hackathon phenomena, as well as act as an exemplar for future publications of open-access datasets.", 
             "tags": ["Design"]
         }, 
         {
@@ -18,7 +30,7 @@
             "links": {
                 "doi": "https://doi.org/10.1017/S0890060425100140"
             },
-            "abstract": "Digital Tools are reshaping how Engineering Design data and information are produced, processed, used, reused, shared, and stored. The Digital Thread prioritizes the flow of design data and information, promoting effective collaboration and process efficiency. While literature showcases the immense application and capability of taking a Digital Thread approach to Product Design, best practices, key features, and benefits of successful implementations remain scarce. Reviewing and understanding successful implementations can assist researchers and practitioners in making informed decisions to effectively implement Digital Threads in their product design processes. This article addresses this gap by reporting a post hoc review of a collaborative Research & Development project that developed and implemented a Digital Thread approach to the design of hydrogen composite pressure vessels. A thematic analysis of the project’s reports and interviews with members of the project team was performed to identify the key features that expedite and improve the design process through an effective Digital Thread implementation. The post hoc review offers valuable insights – in the form of six feature benefits, four potential implementation challenges, three possible extensions, and four best practice recommendations – for companies looking to adopt and implement a Digital Thread approach to their design process.", 
+            "abstract": "Digital Tools are reshaping how Engineering Design data and information are produced, processed, used, reused, shared, and stored. The Digital Thread prioritizes the flow of design data and information, promoting effective collaboration and process efficiency. While literature showcases the immense application and capability of taking a Digital Thread approach to Product Design, best practices, key features, and benefits of successful implementations remain scarce. Reviewing and understanding successful implementations can assist researchers and practitioners in making informed decisions to effectively implement Digital Threads in their product design processes. This article addresses this gap by reporting a post hoc review of a collaborative Research & Development project that developed and implemented a Digital Thread approach to the design of hydrogen composite pressure vessels. A thematic analysis of the project’s reports and interviews with members of the project team was performed to identify the key features that expedite and improve the design process through an effective Digital Thread implementation. The post hoc review offers valuable insights – in the form of six feature benefits, four potential implementation challenges, three possible extensions, and four best practice recommendations - for companies looking to adopt and implement a Digital Thread approach to their design process.", 
             "tags": ["Design", "AI"]
         }, 
         {
