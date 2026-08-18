@@ -1,6 +1,60 @@
 {
     "publications": [
         {
+            "title": "Presenting Hackathon Data for Design Research: A Transcript Dataset", 
+            "authors": "Meagan Flus, Gregory Litster, and Alison Olechowski", 
+            "venue": "Journal of Mechanical Design", 
+            "year": 2025,
+            "links": {
+                "doi": "https://doi.org/10.1115/1.4067866"
+            },
+            "tags": ["Design"]
+        }, 
+        {
+            "title": "Decoding the digital thread digitalization approach for product design and development: benefits, challenges, and extensions", 
+            "authors": "Pranav Milind Khanolkar, James Gopsill, and Alison Olechowski", 
+            "venue": "Artificial Intelligence for Engineering Design, Analysis and Manufacturing", 
+            "year": 2025, 
+            "links": {
+                "doi": "https://doi.org/10.1017/S0890060425100140"
+            },
+            "abstract": "Digital Tools are reshaping how Engineering Design data and information are produced, processed, used, reused, shared, and stored. The Digital Thread prioritizes the flow of design data and information, promoting effective collaboration and process efficiency. While literature showcases the immense application and capability of taking a Digital Thread approach to Product Design, best practices, key features, and benefits of successful implementations remain scarce. Reviewing and understanding successful implementations can assist researchers and practitioners in making informed decisions to effectively implement Digital Threads in their product design processes. This article addresses this gap by reporting a post hoc review of a collaborative Research & Development project that developed and implemented a Digital Thread approach to the design of hydrogen composite pressure vessels. A thematic analysis of the project’s reports and interviews with members of the project team was performed to identify the key features that expedite and improve the design process through an effective Digital Thread implementation. The post hoc review offers valuable insights – in the form of six feature benefits, four potential implementation challenges, three possible extensions, and four best practice recommendations – for companies looking to adopt and implement a Digital Thread approach to their design process.", 
+            "tags": ["Design", "AI"]
+        }, 
+        {
+            "title": "Investigating How Engineers Use Computer-Aided Design Versus Pen-and-Paper for Conceptual Design - A Methodology Review and Mixed-Method Pilot Study", 
+            "authors": "Peiying Jian, John S. Gero, Genevieve Beirne, and Alison Olechowski", 
+            "venue": "Proceedings of the ASME 2025 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)", 
+            "year": 2025,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2025-168315"
+            }, 
+            "abstract": "As digital-assisted technology becomes more ubiquitous, engineering designers and educators worry that high reliance on digital tools will reduce engineers’ innate creative abilities or hinder the creative design processes. In the past two decades, research has investigated human-computer interaction and developed theories and design methods to improve computer-aided engineering design. However, whether and how computer-aided design tools affect the creative conceptual design process remains unclear. In this methodology paper, we identify key challenges in comparing digital and traditional tools and present an experimental design to address them. We integrated validated psychological assessments, such as the Torrance Tests of Creative Thinking (TTCT), with advanced neurophysiological techniques, including electroencephalography (EEG) and eye-tracking, to provide a multi-modal understanding of the design process. We also adapted the IKEA Hacking Task for both CAD and pen-and-paper conditions, to assess design creativity with ecological validity. By sharing our methodology, we aim to provide a blueprint for future studies investigating human-tool interactions in engineering design. Our approach not only addresses key limitations in current literature but also offers practical insights for designing experiments that balance rigor with real-world applicability. This work contributes to the mechanical engineering design community by advancing the methodological foundations for studying creativity and cognitive processes in engineering design.", 
+            "tags": ["Design", "CAD"]
+        }, 
+        {
+            "title": "The influence of aesthetic taste on product choice: does mode of evaluation impact decision making?", 
+            "authors": "Chukwuma M. Asuzu and Alison Olechowski", 
+            "venue": "Proceedings of the Design Society (ICED25)", 
+            "year": 2025,
+            "links": {
+                "doi": "https://doi.org/10.1017/pds.2025.10319"
+            }, 
+            "abstract": "The study investigates the cognitive aspects of aesthetic taste, which is a subjective quality linked to individuals' ability to make superior aesthetic judgments. It explores how evaluation modes during product choice decision-making relate to aesthetic taste. We defined taste through two dimensions: expertise (professional experience) and acumen (consumption experiences). By comparing research participants in a consumer study across these dimensions, we analyzed decision-making patterns using both quantitative and qualitative methods. Our results show that participants with low aesthetic taste (across both dimensions) express their product choice in terms of product attributes they dislike. We also find that the expression of personal preferences is associated with low aesthetic taste for the expertise dimension but is associated with high aesthetic taste for the acumen dimension.", 
+            "tags": ["Design"]
+        }, 
+        {
+            "title": "Cognitive Demands and Individual Differences in Product Similarity Judgements: A Context-Dependent Model", 
+            "authors": "Chukwuma M. Asuzu, Peiying Jian, and Alison Olechowski",
+            "venue": "Proceedings of the ASME 2025 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)",
+            "year": 2025,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2025-163043" 
+            }, 
+            "abstract": "Product similarity is employed as a key manipulation in design cognition experimental research. To understand user behaviour, design researchers utilize appearance or functional similarity to study far ranging concepts such as feature recognition, aesthetic preferences, and even multi-modal search. These studies rely on an implicit assumption: that product similarity is intuitive, proceeds without conscious elaboration, and is easily understood by research participants. However, this notion has not been empirically tested. In this study, we consider the cognitive demands and individual differences involved in making product similarity judgements. We devised a repeated-measures, pairwise similarity comparison experiment with pairs of products similar by appearance, function, and a baseline comparator. Our analysis of more than 7,000 similarity ratings found that appearance similarity judgements exert less cognitive demand than functional similarity judgements, however participants are more accurate when making functional similarity judgements. This phenomenon denotes the presence of a schema, which we term the functionality context schema, that is employed when making functional similarity judgements; applying the schema takes more cognitive effort but improves the accuracy of the judgements. We discuss the implications of our results for design research employing product similarity as a manipulation as well as for consumer behaviour studies.", 
+            "tags": ["Design"]
+        }, 
+        {
             "title": "Quantitative CAD Archetype Framework Evaluation With Professional User Data", 
             "authors": "Kaiwen Zhang, Kathy Cheng and Alison Olechowski", 
             "venue": "Proceedings of the ASME 2024 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)", 
@@ -143,7 +197,7 @@
         {
             "title": "Comparing neural patterns of high and low performers in adapted alternate-use design tasks for idea generation",
             "authors": "Peiying Jian, John S. Gero, Jiaying Zhang and Alison Olechowski",
-            "venue": "Proceedings of the Design Society",
+            "venue": "Proceedings of the Design Society (DESIGN 2026)",
             "year": 2026,
             "links": {
                 "doi": "https://doi.org/10.1017/pds.2026.10461"
@@ -544,7 +598,7 @@
         {
             "title": "Connecting Design Iterations to Performance in Engineering Design",
             "authors": "Ademir-Paolo Vrolijk, Yuanzhe Deng and Alison Olechowski",
-            "venue": "Proceedings of the Design Society",
+            "venue": "Proceedings of the Design Society (ICED23)",
             "year": 2023,
             "links": {
                 "doi": "https://doi.org/10.1017/pds.2023.107"
@@ -555,7 +609,7 @@
         {
             "title": "Towards A Better Understanding of the Influence of Visual References on Consumer Aesthetic Perception",
             "authors": "Chukwuma M Asuzu and Alison Olechowski",
-            "venue": "Proceedings of the Design Society",
+            "venue": "Proceedings of the Design Society (ICED23)",
             "year": 2023,
             "links": {
                 "doi": "https://doi.org/10.1017/pds.2023.358"
@@ -566,7 +620,7 @@
         {
             "title": "A Case Study of the Decision-Making Behind the Automation of a Composites-Based Design Process",
             "authors": "Pranav Milind Khanolkar, Ademir Vrolijk and Alison Olechowski",
-            "venue": "Proceedings of the Design Society",
+            "venue": "Proceedings of the Design Society (ICED23)",
             "year": 2023,
             "links": {
                 "doi": "https://doi.org/10.1017/pds.2023.6"
@@ -577,7 +631,7 @@
         {
             "title": "Let's Take This Offline: A Thematic Analysis of Virtual Conflict in Hybrid Collaborative Design Teams",
             "authors": "Meagan Flus, Sharon Ferguson and Alison Olechowski",
-            "venue": "Proceedings of the Design Society",
+            "venue": "Proceedings of the Design Society (ICED23)",
             "year": 2023,
             "links": {
                 "doi": "https://doi.org/10.1017/pds.2023.244"
