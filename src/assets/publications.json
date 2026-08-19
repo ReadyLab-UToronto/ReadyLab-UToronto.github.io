@@ -130,7 +130,7 @@
                 "doi": "https://doi.org/10.18260/1-2--30470"
             },
             "abstract": "Inherent to the career trajectories of professional engineers is an expectation that they learn to integrate communication, interpersonal and leadership skills into their technical knowledge base. While this process may feel smooth and natural to some, research suggests that others find it challenging and require support [1-3]. Our paper examines three bodies of literature relevant to engineering leadership learning in industry contexts: industry perspectives on the skills, traits and styles of effective engineering leaders; large-scale surveys tracking engineers' career paths and transitions; and ethnographic studies examining engineers' professional identity development. Our primary reason for doing this is to ground the next phase of our engineering leadership project in the literature. In addition to this project-specific goal, we use the paper to document the collective, interdisciplinary process we used to review the literature. We begin by identifying our search criteria and fleshing out three key themes in the literature. We then analyze the themes through a conceptual framework made up of four theoretical tensions relevant to leadership learning: leadership as a position/process; social action shaped by human agency/social structure; learning as a situated/formal endeavour; and social justice as a central/peripheral concern. After discussing the significance and limitations of our interdisciplinary literature review experiment, and highlighting a gap in the leadership learning research, we generate a list of recommendations for engineering educators, industry leaders and engineering leadership researchers.",
-            "tags": ["EngEdu"]
+            "tags": ["EngEd"]
         },
         {
             "title": "Mapping artificial intelligence-based methods to engineering design stages: a focused literature review",
@@ -184,7 +184,7 @@
                 "doi": "https://doi.org/10.24908/pceea.2023.17124"
             },
             "abstract": "Self-efficacy is a concept that refers to one's belief in one's ability to complete tasks and achieve goals, and literature has shown it is correlated to student retention and success in engineering education settings. Taskspecific self-efficacy measures can be used in engineering contexts to evaluate student confidence in specific skills, which educators can use to evaluate learning impacts in their classrooms. This work seeks to support the creation of these tools by presenting a structured literature review consolidating existing work on the creation of skill-specific self-efficacy measures, predominantly within engineering. An example of how instructors might use these learnings is then provided by explaining application of these findings in the context of the creation of a Computer-Aided Design self-efficacy measure. By summarizing key learnings around the development of engineering skill-specific selfefficacy measures, we hope to enable engineering education researchers and educators to conduct more comprehensive evaluation of educational interventions.",
-            "tags": ["EngEdu", "CAD"]
+            "tags": ["EngEd", "CAD"]
         },
         {
             "title": "Experience shapes fixation: How manufacturing background influences student and professional computer-aided design behaviour",
@@ -237,7 +237,7 @@
             "links": {
                 "doi": "https://doi.org/10.18260/1-2--41724"
             },
-            "tags": ["EngEdu", "AI"]
+            "tags": ["EngEd", "AI"]
         },
         {
             "title": "“Why couldn't we do this more often?”: exploring the feasibility of virtual and distributed work in product design engineering",
@@ -267,7 +267,7 @@
             "venue": "International Journal of Engineering Education",
             "year": 2022,
             "links": {},
-            "tags": ["EngEdu", "CAD"]
+            "tags": ["EngEd", "CAD"]
         },
         {
             "title": "Identifying Computer-Aided Design Action Types From Professional User Analytics Data",
@@ -289,7 +289,7 @@
                 "doi": "https://doi.org/10.24908/pceea.vi0.14919"
             },
             "abstract": "Recent advances in artificial intelligence (AI) have shed light on the potential uses and applications of AI tools in engineering design. However, the aspiration of a fully automated engineering design process still seems out of reach of AI's current capabilities, and therefore, the need for human expertise and cognitive skills persists. Nonetheless, a collaborative design process that emphasizes and uses the strengths of both AI and human engineers is an appealing direction for AI in design. To uncover the current applications of AI, the authors review literature pertaining to AI applications in design research and engineering practice. This highlights the importance of integrating AI education into engineering design curricula in post-secondary institutions. Next, a pilot study assessment of undergraduate mechanical engineering course descriptions at the University of Waterloo and University of Toronto reveals that only one out of a total of 153 courses provides both AI and design-related knowledge together in a course. This result identifies possible gaps in Canadian engineering curricula and potential deficiencies in the skills of graduating Canadian engineers.",
-            "tags": ["EngEdu", "AI"]
+            "tags": ["EngEd", "AI"]
         },
         {
             "title": "Investigation of Remote Work for Aerospace Systems Engineers",
@@ -311,7 +311,7 @@
                 "doi": "https://doi.org/10.18260/1-2--34704"
             },
             "abstract": "Machine learning and artificial intelligence (ML/AI) technology can be biased through non-representative training and testing activities leading to discriminatory and negative social consequences. The enormous potential of ML/AI to shape the future of technology underscores the need to increase the diversity of workers within the field, with one group of untapped talent being women engineers. An unresolved contradiction exists between the trend of greater woman representation in broader STEM fields and the consistently low numbers of women engineers pursuing careers in ML/AI. Furthermore, there has been a lack of tailored research investigating the potential causes of such under-representation.",
-            "tags": ["EngEdu", "AI"], 
+            "tags": ["EngEd", "AI"], 
             "award": "Best Paper Award"
         },
         {
@@ -369,7 +369,7 @@
                 "code": "https://github.com/ReadyLab-UToronto/MUCAD-CLF"
             },
             "abstract": "New developments to computer-aided design (CAD) software transform a once solitary modelling task into a collaborative one. The emerging multi-user CAD (MUCAD) systems allow virtual, real-time collaboration, with the potential to expand the learning outcomes and teaching methods of CAD. This paper proposes a MUCAD collaborative learning framework (MUCAD-CLF) to interpret backend analytic data from commercially available MUCAD software. The framework builds on several existing metrics from the literature and introduces newly developed methods to classify CAD actions collected from users' analytic data. The framework contains two different classification approaches of user actions, categorizing actions by action type (e.g., creating, revising, viewing) and by design space (e.g., constructive, organizing), for comparative analysis. Next, the analytical framework is applied via a collaborative design challenge, corresponding to over 20,000 actions collected from 31 participants. Illustrative analyses utilizing the MUCAD-CLF are presented to demonstrate the resulting insight. Differences in CAD behaviour, indicating differences in learning, are observed between teams made up entirely of novices, entirely of experienced users, or a mix. In pairs of experts and novices, we see both a perceived highsatisfaction apprenticeship experience for the novices and preliminary evidence of an increase in expert design behaviours for the novices. The proposed framework is critical for MUCAD systems to make the most of the educational possibility of combining technical skill-building with team collaboration. Preliminary evidence collected in a fully-virtual design learning activity, and analyzed using the proposed MUCAD-CLF, shows that novice students gain advanced CAD design knowledge when collaborating with experienced teammates. With the user data captured by modern MUCAD software and the MUCAD-CLF presented herein, instructors and re­ searchers can more efficiently assess and visualize students' performance over the design learning process.",
-            "tags": ["CAD", "EngEdu"]
+            "tags": ["CAD", "EngEd"]
         },
         {
             "title": "Some (Team) Assembly Required: An Analysis of Collaborative Computer-Aided Design Assembly",
@@ -468,7 +468,7 @@
                 "doi": "https://doi.org/10.18260/1-2--30417"
             },
             "abstract": "This paper examines variance in leadership confidence and risk orientation attributes across a sample of n=1,061 senior year mechanical engineering students drawn from nine U.S. engineering schools. These attributes theoretically relate to students' development within engineering leadership educational programs and to students' career choice behaviors. Data were collected as part of a larger forthcoming study that will analyze the attributes' association with students' demonstrated engineering job and task preferences. In this paper, we introduce our conceptualization and measurement methods for the leadership confidence and risk orientation variables following a review of the related literature. We hypothesize that these attributes vary, on average, in association with observable student participation choices, such as the choice to join a fraternity/sorority or to participate in varsity athletics; we also hypothesize that the attributes vary in association with socioeconomic background and gender. We then present results demonstrating statistically significant differences in these attributes, on average, depending on students' association with one or more of such groups or demographics. Meanwhile, we find no statistically significant differences in average values of the leadership confidence or risk attributes across the universities participating in the study.",
-            "tags": ["EngEdu"], 
+            "tags": ["EngEd"], 
             "award": "Best Paper Award"
         },
         {
@@ -524,7 +524,7 @@
                 "doi": "https://doi.org/10.18260/1-2--35101"
             },
             "abstract": "As the demand for more innovative products to help improve the lives of others increases, the product design industry continues to require more effective design methodologies. Conventional wisdom and research suggests that Computer-Aided Design (CAD) is a tool for detailed design, and is not appropriate for the conceptual phase of the design process. However, given new advances in cloud-computing and real-time synchronous collaboration, the ability to quickly digitally prototype unique concepts in CAD has never been easier. Given that new engineering graduates are part of the “digital native” generation, anecdotal evidence suggests these designers have a natural inclination and ability for this digital prototyping. Our study seeks to formally test whether a dichotomy exists between younger designers who are entering the workforce, and older designers who are veterans in product development, regarding the best-practices in CAD usage for conceptual design - “Conceptual CAD”.",
-            "tags": ["Design", "CAD", "EngEdu"]
+            "tags": ["Design", "CAD", "EngEd"]
         },
         {
             "title": "Decision Graph and Matrix Visualization during Interdisciplinary Engineering Collaboration",
@@ -546,7 +546,7 @@
                 "doi": "https://doi.org/10.18260/1-2--41595"
             },
             "abstract": "To tackle today's toughest problems, like climate change and the threat of global pandemics, design teams will need to deliver not only software solutions, but also innovative hardware products, sometimes called “tough-tech” or “hard-tech.” Computer-Aided Design (CAD) is a key tool for these design teams to leverage in order to reach creative, innovative, hard-tech solutions for society's most pressing issues. Given CAD's importance in design, it is positioned to be a key enabler, or barrier, to increasing diversity in design teams. Statistics on the representation of women in CAD-reliant engineering fields, such as mechanical engineering, show that the numbers remain much below the overall female representation in engineering, and far below gender parity. Differences in confidence and ability level with CAD software are factors that may explain why this disparity exists, and so a focus on increasing accessibility of this tool provides an opportunity to increase female and non-binary representation in design teams.",
-            "tags": ["CAD", "EngEdu"]
+            "tags": ["CAD", "EngEd"]
         },
         {
             "title": "Towards Model-Based Functional Hazard Assessment (FHA) for Aircraft Systems Development with UML",
@@ -577,7 +577,7 @@
                 "doi": "https://doi.org/10.14733/cadaps.2023.574-583"
             },
             "abstract": "Cloud-based Computer-Aided Design (CAD) tools are changing the way design happens in industrial and educational settings. These tools enable a streamlined collaborative process, unlocking the potential for technical and teamwork integrated teaching and learning. Further, cloud-based CAD can enable distant teamwork in which information and ideas are shared in real time among team members and between students and instructors. In team projects, it is important not only to fairly assess the outcomes, but also to reduce the likelihood of unequal contributions among team members. In this paper, we re-examine a cloud-CAD data set from a team design exercise to describe how the analytics from CAD tool Onshape can deliver a metric of team member contribution by expanding on a published analytics framework, namely the Multi-User CAD – Collaborative Learning Framework (MUCAD-CLF). We identify a trend of individual dominance, where one team member does a majority of the CAD work, and we then analyze the CAD actions that this dominant individual takes, looking for gatekeeping behaviour. We discuss implications of this solo-dominance phenomenon and propose future work towards improved contribution equity on collaborative CAD teams.",
-            "tags": ["Design", "CAD", "EngEdu"]
+            "tags": ["Design", "CAD", "EngEd"]
         },
         {
             "title": "Prioritization of Best Practices in the Implementation of Model-Based Systems Engineering",
@@ -666,7 +666,7 @@
                 "doi": "https://doi.org/10.18260/1-2--42325"
             },
             "abstract": "The growing field of machine learning (ML) and artificial intelligence (AI) presents a unique and unexplored case within persistence research, meaning it is unclear how past findings from engineering will apply to this developing field. We conduct an exploratory study to gain an initial understanding of persistence in this field and identify fruitful directions for future work. One factor that has been shown to predict persistence in engineering is belonging; we study belonging through the lens of confidence, and discuss how attention to social belonging confidence may help to increase diversity in the profession. In this research paper, we conduct a small set of interviews with students in ML/AI courses. Thematic analysis of these interviews revealed initial differences in how students see a career in ML/AI, which diverge based on interest and programming confidence. We identified how exposure and initiation, the interpretation of ML and AI field boundaries, and beliefs of the skills required to succeed may influence students' intentions to persist. We discuss differences in how students describe being motivated by social belonging and the importance of close mentorship. We motivate further persistence research in ML/AI with particular focus on social belonging and close mentorship, the role of intersectional identity, and introductory ML/AI courses.",
-            "tags": ["EngEdu", "AI"]
+            "tags": ["EngEd", "AI"]
         },
         {
             "title": "MBFHA: A Framework for Model-Based Functional Hazard Assessment for Aircraft Systems",

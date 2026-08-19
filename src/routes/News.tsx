@@ -91,7 +91,7 @@ export default function News() {
 
                 return (
                     <section key={year} id={`year-${year}`} className="scroll-mt-80">
-                        <h2 className="mt-6 mb-6 text-3xl font-bold px-20">{year}</h2>
+                        <h2 className="mt-3 mb-3 text-2xl font-bold px-20">{year}</h2>
 
                         {yearNews.map((news) =>
                             NewsCard({ news })

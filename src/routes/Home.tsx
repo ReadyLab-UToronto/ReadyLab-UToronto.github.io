@@ -54,38 +54,6 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* News Section */}
-            <div className="flex flex-col justify-center lg:px-50 px-20 py-16">
-                <div className="flex justify-between items-center mb-6">
-                    <h2 className="text-3xl font-bold">
-                        Latest News
-                    </h2>
-                    <Button variant="outline" className="w-30 h-10 mt-4 border-[#3B57F3] text-[#3B57F3]" onClick={() => navigate(`/news`)}>View More</Button>
-                </div>
-
-                <div className="h-[250px] overflow-y-auto rounded-2xl border border-border/60 shadow-sm px-6 divide-y">
-                    {latestNews.map((item) => (
-                        <div key={`${item.year}-${item.month}-${item.content}`} className="flex py-4 gap-4 transition-colors hover:bg-muted/40 rounded-lg">
-                        <p className="font-bold">{item.month}/{item.year}</p>
-                        <ReactMarkdown
-                            components={{
-                                a: ({node, ...props}) => (
-                                <a
-                                    {...props}
-                                    className="text-blue-600 hover:underline"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                />
-                                )
-                            }}
-                            >
-                            {item.content}
-                        </ReactMarkdown>
-                        </div>
-                    ))}
-                </div>
-            </div>
-
             {/* Lab description */}
             <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30">
                 <div className="basis-3/5 flex flex-col gap-4">
@@ -122,6 +90,38 @@ export default function Home() {
                     <div className="text-lg">
                         We seek to answer questions such as: what are best practices for collaborating in modern Computer-Aided Design? Do effective engineering teams communicate differently than ineffective teams? How can teams reach reliable decisions when assessing new technologies? How should Model-Based Systems Engineering tools be integrated with existing methods and analysis? How can we improve productivity and attitude on distributed engineering teams while working-from-home? Why are some identity groups under-represented in the engineering profession?
                     </div>
+                </div>
+            </div>
+
+            {/* News Section */}
+            <div className="flex flex-col justify-center lg:px-50 px-20 py-16">
+                <div className="flex justify-between items-center mb-6">
+                    <h2 className="text-2xl font-bold">
+                        Latest News
+                    </h2>
+                    <Button variant="outline" className="w-25 h-10 mt-4 border-[#3B57F3] text-[#3B57F3]" onClick={() => navigate(`/news`)}>View More</Button>
+                </div>
+
+                <div className="h-[250px] overflow-y-auto rounded-2xl border border-border/60 shadow-sm px-6 divide-y">
+                    {latestNews.map((item) => (
+                        <div key={`${item.year}-${item.month}-${item.content}`} className="flex py-4 gap-4 transition-colors hover:bg-muted/40 rounded-lg">
+                        <p className="font-bold">{item.month}/{item.year}</p>
+                        <ReactMarkdown
+                            components={{
+                                a: ({node, ...props}) => (
+                                <a
+                                    {...props}
+                                    className="text-blue-600 hover:underline"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                />
+                                )
+                            }}
+                            >
+                            {item.content}
+                        </ReactMarkdown>
+                        </div>
+                    ))}
                 </div>
             </div>
 
