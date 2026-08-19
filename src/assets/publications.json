@@ -96,7 +96,8 @@
                 "doi": "https://doi.org/10.1115/1.4063658"
             },
             "abstract": "The pace of technological advancements has been rapidly increasing in recent years, with the advent of artificial intelligence, virtual/augmented reality, and other emerging technologies fundamentally changing the way human beings work. The adoption and integration of these advanced technologies necessitate teams with diverse disciplinary expertise, to help teams remain agile in an ever-evolving technological landscape. Significant disciplinary diversity amongst teams, however, can be detrimental to team communication and performance. Additionally, accelerated by the COVID-19 pandemic, the adoption and use of technologies that enable design teams to collaborate across significant geographical distances have become the norm in today's work environments, further complicating communication and performance issues. Little is known about the way in which technology-mediated communication affects the collaborative processes of design. As a first step toward filling this gap, the current work explores the fundamental ways experts from distinct disciplinary backgrounds collaborate in virtual design environments. Specifically, we explore the conversational dynamics between experts from two complementary yet distinct fields: non-destructive evaluation (NDE) and design for additive manufacturing (DFAM). Using Markov modeling, the study identified distinct communicative patterns that emerged during collaborative design efforts. Our findings suggest that traditional assumptions regarding communication patterns and design dynamics may not be applicable to expert design teams working in virtual environments.",
-            "tags": ["Design"]
+            "tags": ["Design"], 
+            "award": "2024 Editor's Choice (Best Paper) Award for the ASME Jounral of Mechanical Design"
         },
         {
             "title": "Towards SysML v2 as a Variability Modeling Language",
@@ -310,7 +311,8 @@
                 "doi": "https://doi.org/10.18260/1-2--34704"
             },
             "abstract": "Machine learning and artificial intelligence (ML/AI) technology can be biased through non-representative training and testing activities leading to discriminatory and negative social consequences. The enormous potential of ML/AI to shape the future of technology underscores the need to increase the diversity of workers within the field, with one group of untapped talent being women engineers. An unresolved contradiction exists between the trend of greater woman representation in broader STEM fields and the consistently low numbers of women engineers pursuing careers in ML/AI. Furthermore, there has been a lack of tailored research investigating the potential causes of such under-representation.",
-            "tags": ["EngEdu", "AI"]
+            "tags": ["EngEdu", "AI"], 
+            "award": "Best Paper Award"
         },
         {
             "title": "A Multimodal Experimental Approach to Study CAD Collaboration",
@@ -343,7 +345,8 @@
                 "doi": "https://doi.org/10.1002/j.2334-5837.2021.00882.x"
             },
             "abstract": "Model-Based Systems Engineering (MBSE) has become increasingly popular within the aircraft industry in recent years. However, this model-based approach presents a challenge as traditional safety analysis practices are unable to keep up, resulting in inconsistency between the system and safety domains. This paper proposes a methodology tailored towards aircraft systems that addresses this issue by integrating safety analysis into MBSE. This is achieved by extending the Systems Modeling Language (SysML) profile to account for safety data in the system model and utilizing an Application Programming Interface (API) to automate the generation of safety analysis artefacts. The proposed methodology also allows for requirements management integration to increase the efficiency of the system development process.",
-            "tags": ["SysEng"]
+            "tags": ["SysEng"], 
+            "award": "Best Student Paper Award"
         },
         {
             "title": "Communication patterns in engineering enterprise social networks: an exploratory analysis using short text topic modelling",
@@ -465,7 +468,8 @@
                 "doi": "https://doi.org/10.18260/1-2--30417"
             },
             "abstract": "This paper examines variance in leadership confidence and risk orientation attributes across a sample of n=1,061 senior year mechanical engineering students drawn from nine U.S. engineering schools. These attributes theoretically relate to students' development within engineering leadership educational programs and to students' career choice behaviors. Data were collected as part of a larger forthcoming study that will analyze the attributes' association with students' demonstrated engineering job and task preferences. In this paper, we introduce our conceptualization and measurement methods for the leadership confidence and risk orientation variables following a review of the related literature. We hypothesize that these attributes vary, on average, in association with observable student participation choices, such as the choice to join a fraternity/sorority or to participate in varsity athletics; we also hypothesize that the attributes vary in association with socioeconomic background and gender. We then present results demonstrating statistically significant differences in these attributes, on average, depending on students' association with one or more of such groups or demographics. Meanwhile, we find no statistically significant differences in average values of the leadership confidence or risk attributes across the universities participating in the study.",
-            "tags": ["EngEdu"]
+            "tags": ["EngEdu"], 
+            "award": "Best Paper Award"
         },
         {
             "title": "Characteristics and Enablers of Transparency in Product Development Risk Management",
@@ -616,7 +620,8 @@
                 "doi": "https://doi.org/10.1017/pds.2023.107"
             },
             "abstract": "No matter a system's size, complexity, or domain, iterations are fundamental to its design process. However, there is a duality: iterations are both signs of usefully exploring the system's design space and failure to find an appropriate solution. This ambiguity means that we have not been able to connect teams' iterating behavior to their design's performance, potentially obscuring a way to influence the design process. As such, our exploratory study unpacks the relationship between design iterations and performance. We observed 88 teams in the 2020 Robots to the Rescue Competition in rich detail. Using logs of 7,956 iterations on a Computer-Aided Design platform, we analyzed how high- and low-performing teams revised their submissions, searching for consistent differences in their behavior. We found significant differences in the iterations' number, scale, and cadence between these groups of teams. These findings emphasized the correlation between certain iteration patterns and the success of a design: the best teams will likely revise differently than the worst ones. It also showed the importance of a fine-grained, time-dependent view of the design process to resolve open questions in the literature.",
-            "tags": ["Design", "CAD"]
+            "tags": ["Design", "CAD"], 
+            "award": "Reviewers' Favourite Award"
         },
         {
             "title": "Towards A Better Understanding of the Influence of Visual References on Consumer Aesthetic Perception",
@@ -649,7 +654,8 @@
                 "doi": "https://doi.org/10.1017/pds.2023.244"
             },
             "abstract": "Conflict can be both a productive and detrimental reality of design collaboration. While most studies on conflict characterize findings by type (conflict about the task, process, or interpersonal relationships), we extend this typology to understand the causes, topics, and outcomes of conflict. To do so, we analyze communications in a virtual chat platform, collected in a hybrid work environment. A thematic analysis on over 6000 messages between student design teams on the enterprise communication platform Slack revealed three emergent conflict themes: Engineering Design, Project Management, and Communication. A mapping of the themes to a widely-cited typology of conflict found an overrepresentation of task (productive) and process (detrimental) conflict in the Engineering Design and Project Management themes, respectively. The distribution of types of conflict in the Communication theme is representative of the entire dataset, suggesting that communication can be a cause and outcome in all types of conflict. Overall, our classification of conflict is the first step towards describing triads of the causes, topics, and outcomes of conflict, a contribution which will drive the development of interventions for design team conflict.",
-            "tags": ["Design"]
+            "tags": ["Design"], 
+            "award": "Reviewers' Favourite Award"
         },
         {
             "title": "“Just a little bit on the outside for the whole time”: Social belonging confidence and the persistence of machine learning and artificial intelligence students",
@@ -865,6 +871,18 @@
             "abstract": "In design teams, conflict can serve as a catalyst for innovation if managed effectively. While prior research has explored the causes and outcomes of conflict, less is known about how language reflects conflict dynamics in real-time. This study examines linguistic markers of conflict in teams at hackathons—fast-paced, high-stakes environments where disagreement is frequent. Using deductive coding, we first identify instances of conflict in transcript datasets from two hackathon teams. Then, using text analysis with the Linguistic Inquiry and Word Count (LIWC) tool, we analyze differences in language patterns between conflict and nonconflict interactions. One hackathon team studied was composed of strangers, and the other of pre-existing teammates, allowing us to examine the role of familiarity in conflict communication. Our findings reveal distinct linguistic characteristics during conflict, including reduced negative emotion and prosocial language, as well as differences in sentence complexity and cohesion based on team familiarity. These insights not only contribute to the growing body of research on team dynamics but also demonstrate the potential for deriving team insights from transcripts captured in situ at hackathons.",
             "tags": ["Design"]
         },
+        {
+            "title": "Decoding Conflict: Linguistic Markers of Disagreement in Hackathon Design Teams",
+            "authors": "Meagan Flus and Alison Olechowski",
+            "venue": "Proceedings of the ASME 2025 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE)",
+            "year": 2025,
+            "links": {
+                "doi": "https://doi.org/10.1115/DETC2025-168650"
+            },
+            "abstract": "In design teams, conflict can serve as a catalyst for innovation if managed effectively. While prior research has explored the causes and outcomes of conflict, less is known about how language reflects conflict dynamics in real-time. This study examines linguistic markers of conflict in hackathon teams — fast-paced, high-stakes environments where disagreement is frequent. Using deductive coding, we first identify instances of conflict in transcript datasets from two hackathon teams. Then, using sentiment analysis with the Linguistic Inquiry and Word Count (LIWC) tool, we analyze differences in language patterns between conflict and non-conflict interactions. One hackathon team studied was composed of strangers, and the other of pre-existing teammates, allowing us to examine the role of familiarity in conflict communication. Our findings reveal distinct linguistic characteristics during conflict, including reduced negative emotion and prosocial language, as well as differences in sentence complexity and cohesion based on team familiarity. These insights contribute to the growing body of research on team dynamics and could inform future tools for real-time conflict detection and resolution in collaborative design settings.",
+            "tags": ["Design"], 
+            "award": "Best Paper Award in Design Theory and Methodology (DTM)"
+        }, 
         {
             "title": "Beyond Gestalt: A Memory-Based Approach for Affective Design in Human Factors Engineering",
             "authors": "Chukwuma M. Asuzu and Alison Olechowski",

@@ -55,7 +55,7 @@ export default function Home() {
             </div>
 
             {/* News Section */}
-            <div className="flex flex-col justify-center px-50 py-16">
+            <div className="flex flex-col justify-center lg:px-50 px-20 py-16">
                 <div className="flex justify-between items-center mb-6">
                     <h2 className="text-3xl font-bold">
                         Latest News

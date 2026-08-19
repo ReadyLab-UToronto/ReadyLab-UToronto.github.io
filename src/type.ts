@@ -11,7 +11,7 @@ export type Publication = {
         code?: string;
     }; 
     award?: string;
-    abstract: string;
+    abstract?: string;
 }
 
 export type Member = {

@@ -7,9 +7,11 @@ This webpage was built using the [Vite](https://vite.dev/guide/) build tool as a
 - [Local Testing Guide](#local-testing-guide)
 - [Deployment Guide](#deployment-guide)
 
+**CAUTION**: when changes are made to the website, always [test locally](#local-testing-guide) before pushing your changes to the `main` branch. If you are unsure, push your changes to a branch and have someone else to test it before merging the branch to `main`. 
+
 ## Maintenance Guide 
 
-If changes of the user interface are not needed, managing the content being displayed on the website can be done in the `json` files under directory `src/assets/`. Please do not rename or move any file. 
+If modification of the user interface is not needed, managing the content being displayed on the website can be done in the `json` files under directory `src/assets/`. Please do not rename or move any file. 
 
 ### Publications 
 
@@ -35,7 +37,8 @@ All publications are managed in the file `src/assets/publications.json`. Specifi
 
 **Notes**: 
 - For the `tags`, the website will automatically find all unique tags assigned to all papers listed in `publications.json` and generate the filter options. Please be careful with spelling and cases to avoid duplicates. 
-- For the `links`, the `doi` and `code` should be actual URL links to webpages, if entered. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `public/pdfs/` and `public/slides/`, and enter the corresponding file name in the paper entry in `publications.json` (file name only, no directory). 
+- For the `links`: the `doi` and `code` should be actual URL links to webpages, if entered. If the `pdf` and/or the `slides` options are used, rename and upload the document in the appropriate folder under `public/pdfs/` and `public/slides/`, and enter the corresponding file name in the paper entry in `publications.json` (file name only, no directory). 
+- If additional `links` options need to be added, modifying the corresponding data type in `src/type.ts`. Then, add a corresponding icon to `public/icons/` and define the path in `src/components/PublicationCard.tsx` accordingly. 
 - If an `abstract` is added, double check the content being pasted in `publications.json`. Note that any special typesetting and hyperlinks are currently not supported. 
 
 ### Team Members
@@ -58,8 +61,8 @@ All members, including active members and alumni, are managed in the file `src/a
 **Note**: 
 - If `active` is set to `true`, number entered for `graduationYear` is ignored, but a number is still required for data type consistency. 
 - When an active lab member graduates, simply change `active` to `false` and enter the correct `graduationYear`. 
-- Please rename the headshot image with a meaningful filename for sustainable file management in `public/headshots/`. Crop the image to square to avoid unintended cut off when being presented on the website. 
-- The `description` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). 
+- Please rename the headshot image with a meaningful filename for sustainable file management in `public/headshots/`. Crop the image to square (1:1 aspect ratio) to avoid unintended cut off or scaling when being rendered on the website. 
+- The `description` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used in math mode (i.e., with `$`). 
 - If a `linkedinUrl` or a `googlescholarUrl` is entered, an hyperlinked icon will automatically show up in your profile. If an URL is not available, please remove the field. 
 
 ### News 
@@ -76,8 +79,12 @@ All news are managed in the file `src/assets/news.json`. Specifications of the e
 ```
 
 **Note**:
-- If a new `type` that is not in the currently supported list is needed, modify the corresponding data type in `src/type.tsx`. Then, add a corresponding icon to the new news type under `public/icons/` and define the path in `src/components/NewsCard.tsx` accordingly. 
-- The `content` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used with the math mode (i.e., with `$`). 
+- If a new `type` that is not in the currently supported list is needed, modify the corresponding data type in `src/type.ts`. Then, add a corresponding icon to the new news type under `public/icons/` and define the path in `src/components/NewsCard.tsx` accordingly. 
+- The `content` field should be entered as Markdown text, where hyperlinks may be added (e.g., `[Google](www.google.com)`) and special characters may be used in math mode (i.e., with `$`). 
+
+### Group Photos
+
+To add new group photos to the `Home` page: upload the image under `public/lab_photos/`, and then add the file name under the `lab_photos` list in `src/route/Home.tsx`. Note that the photos will be displayed in the order file names are listed in this list, and ensure the new photo is cropped to similar aspect ratios to avoid unintended scaling. 
 
 ## Setup Guide 
 
@@ -91,19 +98,23 @@ A new folder named `node_modules/` should then be created in your repository's r
 
 ## Local Testing Guide 
 
-After making edits to the code, and before pushing any changes to the cloud, you may launch a development version of the website locally by running the following command in the terminal window: 
+Note: If this is your first time running the website locally on your computer, complete the [Setup Guide](#setup-guide) first. 
+
+After editing the code, and before pushing any changes to the cloud, you may launch a development version of the website locally by running the following command in the terminal window: 
 
 ```
 npm run dev 
 ``` 
 
-The website should now be locally available at the following URL through any web browser: 
+The website should now be locally available at the following URL through any web browser on your computer: 
 
 ```
 http://localhost:5173
 ```
 
-While the local dev version is running, you may still make changes to the code. Every time you save your changes in a file (e.g., `Cmd` + `S` or `Ctrl` + `S`), the webpage will be automatically updated and reloaded with the new changes. 
+While the local dev version is running, you may still make changes to the code. Every time you save your changes in a file (e.g., `Cmd` + `S` or `Ctrl` + `S`), the webpage will be automatically updated and reloaded with the new changes. Sometimes, you may need to manually refresh the page due to browser cache, but you should not need to restart the terminal command. 
+
+Enter `Ctrl` + `C` in the same terminal where you initiated `npm run dev` to end the local runtime. 
 
 ## Deployment Guide 
 
