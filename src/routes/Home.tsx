@@ -168,7 +168,7 @@ export default function Home() {
             </div>
             
             {/* Logos */}
-            <div className="text-4xl font-bold text-center my-20">Affliated with</div>
+            <div className="text-4xl font-bold text-center my-20">Affiliated with</div>
             <div className="flex flex-col lg:flex-row items-center justify-center gap-1 px-5 mt-10">
                 <img src={`/logos/mie_logo.jpg`} alt="MIE Logo" className="w-auto h-16" />
                 <img src={`/logos/fase_logo.jpg`} alt="FASE Logo" className="w-auto h-16" />
