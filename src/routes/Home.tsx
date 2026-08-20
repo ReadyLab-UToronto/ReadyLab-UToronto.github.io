@@ -78,7 +78,13 @@ export default function Home() {
                     <div className="text-lg text-semibold">
                         Alison Olechowski is an Associate Professor in the <a href="https://www.mie.utoronto.ca/" target="_blank" className="text-blue-500 hover:underline">Department of Mechanical & Industrial Engineering</a> and the <a href="https://istep.utoronto.ca/" target="_blank" className="text-blue-500 hover:underline">Institute for Studies in Transdisciplinary Engineering Education and Practice (ISTEP)</a> at the University of Toronto.
                     </div>
-                    <Button variant="outline" className="w-22 h-10 mt-4 border-[#3B57F3] text-[#3B57F3]" onClick={() => navigate(`/team`)}>Read Bio</Button>
+                    <Button 
+                        variant="outline" className="w-22 h-10 mt-4 border-[#3B57F3] text-[#3B57F3]" 
+                        onClick={() => {
+                            window.scrollTo(0, 0); 
+                            navigate(`/team`); 
+                        }}
+                    >Read Bio</Button>
                 </div>
             </div>
 
@@ -127,7 +133,7 @@ export default function Home() {
             </div>
 
             {/* Team Section */}
-            <div className="text-4xl font-bold text-center my-20">Meet the team!</div>
+            <div className="text-4xl font-bold text-center my-20">Meet the Team!</div>
             <div className="px-6 md:px-40">
                 <Carousel className="w-[70%] mx-auto relative">
                     <CarouselContent>
