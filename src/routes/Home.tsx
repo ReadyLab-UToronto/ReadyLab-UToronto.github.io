@@ -26,7 +26,8 @@ const roleOrder = {
     phd: 1, 
     masc: 2, 
     meng: 3, 
-    undergrad: 4, 
+    visiting: 4,
+    undergrad: 5, 
 }
 
 export default function Home() {

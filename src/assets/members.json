@@ -1,12 +1,22 @@
 {
     "members": [
         {
+            "name": "Iris Huić", 
+            "active": true,
+            "graduationYear": 2026,
+            "imageUrl": "iris_huic.jpeg",
+            "role": "visiting",
+            "description": "Iris is a visiting PhD student at the Ready Lab, joining from the Faculty of Mechanical Engineering and Naval Architecture, University of Zagreb, where she is pursuing her doctorate under the supervision of Assoc. Prof. Stanko Škec, PhD. M.E. at the [CAD Lab](https://cadlab.fsb.hr/en). She holds a Master's degree in Mechanical Engineering (Product Design and Development programme, 2024) from the same faculty, where she also completed her bachelor's degree in 2023. During her studies she began researching product development, with a particular focus on methods and approaches in computer-aided design. Her doctoral research examines how information objects, such as CAD models, are created, interpreted, and transformed across different stakeholders in the collaborative design of mass-personalized products, using custom dental implant-prosthetic abutments as an industrial case study.", 
+            "linkedinUrl": "https://www.linkedin.com/in/iris-hui%C4%87-748b682a3/", 
+            "googlescholarUrl": "https://www.researchgate.net/profile/Iris-Huic-3/research"
+        }, 
+        {
             "name": "Dr. Pelin Tanberg",
             "active": true,
             "graduationYear": -1,
             "imageUrl": "pelin_tanberg.jpg", 
             "role": "postdoc", 
-            "description": "Dr. Pelin Tanberg is an NSERC-funded postdoctoral fellow at the Ready Lab. Her research investigates how teams develop transactive memory systems: shared mental maps of who knows what and how they update these maps overtime. A central question in her work is how introducing new human or AI team members affects this collective knowledge structure, collaboration, and idea generation. She received her MSc from Queen’s University in cognitive neuroscience and her PhD from the University of Waterloo in cognitive psychology. She holds a cross-appointment with Dr. Michael Inzlicht in the Department of Psychology, where she studies how effort and memory shape empathy-seeking behaviour and how people seek or delegate emotional support to AI companions.",
+            "description": "Dr. Pelin Tanberg is an NSERC-funded postdoctoral fellow at the Ready Lab. Her research investigates how teams develop transactive memory systems: shared mental maps of who knows what and how they update these maps overtime. A central question in her work is how introducing new human or AI team members affects this collective knowledge structure, collaboration, and idea generation. She received her MSc from Queen's University in cognitive neuroscience and her PhD from the University of Waterloo in cognitive psychology. She holds a cross-appointment with Dr. Michael Inzlicht in the Department of Psychology, where she studies how effort and memory shape empathy-seeking behaviour and how people seek or delegate emotional support to AI companions.",
             "linkedinUrl": "https://www.linkedin.com/in/pelintanberg/",
             "googlescholarUrl": "https://scholar.google.com/citations?user=WAZQ05cAAAAJ&hl=en&oi=ao"
         }, 
@@ -21,9 +31,9 @@
             "googlescholarUrl": "https://scholar.google.ca/citations?user=cwrLbXkAAAAJ&hl=en"
         }, 
         {
-            "name": "Liz DaMaren", 
+            "name": "Dr. Liz DaMaren", 
             "active": true, 
-            "graduationYear": -1, 
+            "graduationYear": 2026, 
             "imageUrl": "liz_damaren.jpg", 
             "role": "phd", 
             "description": "Liz is a PhD candidate at Ready Lab. She holds a Bachelor of Mechatronics Engineering & Society from McMaster University, where she also completed an Interdisciplinary Minor in Sustainability. Her research focuses on team dynamics and gender considerations in computer-aided design group settings, with applications for educators and industry alike. Outside the lab, she loves grabbing a canoe and heading into the Algonquin backcountry or exploring the city and seeing what the latest vegetarian restaurant has in store.", 

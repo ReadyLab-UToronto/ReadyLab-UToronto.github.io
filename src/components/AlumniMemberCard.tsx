@@ -6,7 +6,8 @@ const roleDisplay = {
     phd: "PhD",
     masc: "MASc",
     meng: "MEng",
-    undergrad: "Undergraduate"
+    visiting: "Visiting Student",
+    undergrad: "Undergraduate", 
 }
 
 export default function AlumniMemberCard({ member }: { member: Member }) {

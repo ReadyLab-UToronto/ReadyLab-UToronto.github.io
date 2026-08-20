@@ -51,7 +51,7 @@ All members, including active members and alumni, are managed in the file `src/a
     "active": "required - either true or false", 
     "graduationYear": "a number year is required - any number if active", 
     "imageUrl": "required - file name for the headshot in src/assets/headshots", 
-    "role": "required - one of postdoc, phd, masc, meng, undergrad", 
+    "role": "required - one of postdoc, phd, masc, meng, undergrad, visiting", 
     "description": "required", 
     "linkedinUrl": "optional", 
     "googlescholarUrl": "optional"

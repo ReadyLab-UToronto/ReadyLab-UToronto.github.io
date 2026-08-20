@@ -19,7 +19,7 @@ export type Member = {
     active: boolean;
     graduationYear: number; 
     imageUrl: string; 
-    role: "postdoc" | "phd" | "masc" | "meng" | "undergrad";
+    role: "postdoc" | "phd" | "masc" | "meng" | "undergrad" | "visiting";
     description: string; 
     linkedinUrl?: string; 
     googlescholarUrl?: string;
