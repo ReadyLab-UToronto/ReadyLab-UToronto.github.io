@@ -5,7 +5,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/component
 
 export default function PublicationCard({ publication }: { publication: Publication }) {
     return (
-        <div key={publication.title} className="border rounded-lg border-gray-300 p-4 mb-4 mx-20 shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div key={publication.title} className="border rounded-lg border-gray-300 p-4 mb-4 md:mx-20 mx-10 shadow-md hover:shadow-lg transition-shadow duration-300">
             <h3 className="text-xl font-bold mb-2">{publication.title}</h3>
             <p className="text-gray-700 mb-2">{publication.authors}</p>
             <p className="text-gray-500 mb-2 italic">{publication.venue}</p>

@@ -56,7 +56,7 @@ export default function Home() {
             </div>
 
             {/* Lab description */}
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30">
+            <div className="flex flex-col lg:flex-row items-center justify-center lg:px-30 px-10">
                 <div className="basis-3/5 flex flex-col gap-4">
                     <div className="text-3xl font-semibold">Understanding collaborative engineering design work</div>
                     <div className="text-lg">
@@ -64,11 +64,11 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="basis-2/5 flex justify-center shrink-0">
-                    <img src={`/website_images/rocket-image.png`} alt="Rocket Image" className="w-auto h-100" />
+                    <img src={`/website_images/rocket-image.png`} alt="Rocket Image" className="w-110 h-100" />
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30 mt-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:px-30 px-10 mt-20">
                 <Avatar className="h-70 w-70">
                     <AvatarImage src={`/headshots/alison_olechowski.jpg`} alt="Alison Olechowski" />
                     <AvatarFallback>Alison Olechowski</AvatarFallback>
@@ -88,9 +88,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-30 px-30 mt-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-5 lg:px-30 px-10 mt-20">
                 <div className="basis-2/5 flex justify-center shrink-0">
-                    <img src={`/website_images/sticky-notes.png`} alt="Sticky Notes" className="w-auto h-100" />
+                    <img src={`/website_images/sticky-notes.png`} alt="Sticky Notes" className="w-110 h-100" />
                 </div>
                 <div className="basis-3/5 flex flex-col gap-4">
                     <div className="text-3xl font-semibold">Improving engineering design process and methods</div>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
 
             {/* News Section */}
-            <div className="flex flex-col justify-center lg:px-50 px-20 py-16">
+            <div className="flex flex-col justify-center lg:px-50 md:px-20 px-10 py-16">
                 <div className="flex justify-between items-center mb-6">
                     <h2 className="text-2xl font-bold">
                         Latest News

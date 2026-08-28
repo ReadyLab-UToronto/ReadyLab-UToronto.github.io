@@ -117,7 +117,7 @@ export default function Publications() {
 
                 return (
                     <section key={year} id={`year-${year}`} className="scroll-mt-80">
-                        <h2 className="mt-6 mb-6 text-3xl font-bold px-20">{year}</h2>
+                        <h2 className="mt-6 mb-6 text-3xl font-bold md:px-20 px-10">{year}</h2>
 
                         {yearPublications.map((publication) =>
                             PublicationCard({ publication })

@@ -98,7 +98,7 @@ A new folder named `node_modules/` should then be created in your repository's r
 
 ## Local Testing Guide 
 
-Note: If this is your first time running the website locally on your computer, complete the [Setup Guide](#setup-guide) first. 
+**NOTE**: If this is your first time running the website locally on your computer, complete the [Setup Guide](#setup-guide) first. 
 
 After editing the code, and before pushing any changes to the cloud, you may launch a development version of the website locally by running the following command in the terminal window: 
 
@@ -111,6 +111,8 @@ The website should now be locally available at the following URL through any web
 ```
 http://localhost:5173
 ```
+
+When testing the user interface, using Google Chrome as the browser is recommended. Make sure the window is resized to mobile width to test for responsiveness of the web elements. 
 
 While the local dev version is running, you may still make changes to the code. Every time you save your changes in a file (e.g., `Cmd` + `S` or `Ctrl` + `S`), the webpage will be automatically updated and reloaded with the new changes. Sometimes, you may need to manually refresh the page due to browser cache, but you should not need to restart the terminal command. 
 

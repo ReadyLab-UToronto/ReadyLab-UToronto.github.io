@@ -20,7 +20,7 @@ const monthNames = [
 
 export default function NewsCard({ news }: { news: NewsItem }) {
     return (
-       <div className="flex items-center mx-20 gap-5 py-2 hover:bg-muted/40 transition-colors">
+       <div className="flex items-center md:mx-20 mx-10 gap-5 py-2 hover:bg-muted/40 transition-colors">
             <img src={iconMap[news.type]} alt={news.type} className="h-10 w-10 rounded-full" />
 
             <div className="ml-5 mr-5 shrink-0 text-sm text-muted-foreground">
