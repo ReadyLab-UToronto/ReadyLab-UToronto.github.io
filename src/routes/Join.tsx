@@ -18,7 +18,7 @@ export default function Join() {
             </div>
 
             {/* Section 1: Current opportunities */}
-            <div className="flex flex-col justify-center px-50 gap-6">
+            <div className="flex flex-col justify-center md:px-50 px-10 gap-6">
 
                 {/* Postdoctoral Research Opportunities */}
                 <div className="text-2xl font-bold">Postdoctoral Research Opportunities</div>
@@ -108,7 +108,7 @@ export default function Join() {
             </div>
 
             {/* Diversity statement */}
-            <div className="flex flex-col justify-center px-50 mt-10 mb-20">
+            <div className="flex flex-col justify-center md:px-50 px-10 mt-10 mb-20">
                 <div className="text-lg font-bold">We believe that a diversity of experience and background in lab is an important source of creativity and quality of work, and so we seek applicants from under-represented groups, including those who identify as women, trans or non-binary, Black, racialized, Indigenous, persons with disabilities, and LGBQ2S+ persons.</div>
             </div>
             <Footer />

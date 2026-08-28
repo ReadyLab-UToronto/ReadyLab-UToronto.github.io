@@ -132,8 +132,8 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* Team Section */}
-            <div className="text-4xl font-bold text-center my-20">Meet the Team!</div>
+            {/* Lab Photos */}
+            <div className="text-4xl font-bold text-center my-5">Meet the Team!</div>
             <div className="px-6 md:px-40">
                 <Carousel className="w-[70%] mx-auto relative">
                     <CarouselContent>
@@ -154,7 +154,8 @@ export default function Home() {
                     <CarouselNext className="h-12 w-12 border-[#3B57F3] text-[#3B57F3] hover:bg-[#3B57F3] hover:text-white -right-16" />
                 </Carousel>
             </div>
-
+            
+            {/* Lab Member */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-30 mt-20">
                 {teamMembers
                     .filter((member) => member.active)
@@ -165,7 +166,7 @@ export default function Home() {
                                 <AvatarImage src={`/headshots/${member.imageUrl}`} alt={member.name} />
                                 <AvatarFallback>{member.name}</AvatarFallback>
                             </Avatar>
-                            <h3 className="text-xl font-bold mt-4">{member.name}</h3>
+                            <h3 className="text-xl font-bold mt-4 justify-center">{member.name}</h3>
                         </div>
                     ))}
             </div>

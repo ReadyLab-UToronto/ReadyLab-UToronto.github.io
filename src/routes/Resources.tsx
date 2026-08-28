@@ -48,7 +48,7 @@ export default function Resources() {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center px-50 gap-10">
+            <div className="flex flex-col justify-center md:px-50 px-10 gap-10">
                 <div className="text-2xl font-bold">Research Outputs</div>
                 <div className="text-lg">
                     Artifacts and resources produced from Ready Lab beyond our research publications:
@@ -86,7 +86,7 @@ export default function Resources() {
                 ))}
             </div>
 
-            <div className="flex flex-col justify-center px-50 gap-6 mt-10 mb-20">
+            <div className="flex flex-col justify-center md:px-50 px-10 gap-6 mt-10 mb-20">
                 <div className="text-2xl font-bold">Presentation Recordings</div>
                 <div className="text-lg">
                     Watch our research presentations on{" "}

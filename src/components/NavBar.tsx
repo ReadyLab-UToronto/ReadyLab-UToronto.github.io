@@ -30,7 +30,10 @@ export default function NavBar() {
                         key={link.path}
                         variant="ghost"
                         className={navButtonStyle}
-                        onClick={() => navigate(link.path)}
+                        onClick={() => {
+                            window.scrollTo(0, 0); 
+                            navigate(link.path); 
+                        }}
                     >
                         {link.name}
                     </Button>
@@ -48,7 +51,10 @@ export default function NavBar() {
                                     key={link.path}
                                     variant="ghost"
                                     className="justify-start text-lg"
-                                    onClick={() => navigate(link.path)}
+                                    onClick={() => {
+                                        window.scrollTo(0, 0);
+                                        navigate(link.path);
+                                    }}
                                 >
                                     {link.name}
                                 </Button>

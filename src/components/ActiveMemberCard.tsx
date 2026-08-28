@@ -5,7 +5,7 @@ import type { Member } from "@/type";
 
 export default function ActiveMemberCard({ member }: { member: Member }) {
     return (
-        <div className="flex flex-col md:flex-row h-full px-60" key={member.name}>
+        <div className="flex flex-col md:flex-row h-full md:px-60 px-10" key={member.name}>
                 <Avatar className="h-60 w-60">
                     <AvatarImage src={`/headshots/${member.imageUrl}`} alt={member.name} />
                     <AvatarFallback>{member.name}</AvatarFallback>

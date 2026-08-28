@@ -39,7 +39,7 @@ export default function Team() {
             
             
             {/* Alison's profile */}
-            <div className="flex flex-col md:flex-row h-full px-60">
+            <div className="flex flex-col md:flex-row h-full md:px-60 px-10">
                 <Avatar className="h-60 w-60">
                     <AvatarImage src={`/headshots/alison_olechowski.jpg`} alt="Alison Olechowski" />
                     <AvatarFallback>Alison Olechowski</AvatarFallback>
@@ -85,7 +85,7 @@ export default function Team() {
             </div>
 
             <h2 className="text-2xl font-bold mt-12 mb-12 px-20">In Memoriam</h2>
-            <div className="flex flex-col md:flex-row h-full px-30">
+            <div className="flex flex-col md:flex-row h-full md:px-30 px-10">
                 <Avatar className="h-60 w-60">
                     <AvatarImage src={`/headshots/janice_zhou.jpg`} alt="Janice Zhou" />
                     <AvatarFallback>Janice Zhou</AvatarFallback>

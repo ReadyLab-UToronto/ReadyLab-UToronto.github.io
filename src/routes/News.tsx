@@ -38,24 +38,28 @@ export default function News() {
 
             <div className="sticky top-30 py-4 bg-muted">
                 {/* Year navigation */}
-                <div className="flex w-full justify-center items-center gap-4 mb-4">
-                    {years.map((year) => (
-                        <button
-                            key={year}
-                            onClick={() =>
-                                document
-                                    .getElementById(`year-${year}`)
-                                    ?.scrollIntoView({ behavior: "smooth" })
-                            }
-                            className="
-                                px-5 py-2 rounded-full text-md
-                                bg-secondary hover:bg-secondary/80
-                                transition-transform hover:scale-105
-                            "
-                        >
-                            {year}
-                        </button>
-                    ))}
+                <div className="overflow-x-auto">
+                    <nav className="flex w-max min-w-full justify-center gap-2 px-4">
+                        {years.map((year) => (
+                            <button
+                                key={year}
+                                onClick={() =>
+                                    document
+                                        .getElementById(`year-${year}`)
+                                        ?.scrollIntoView({ behavior: "smooth" })
+                                }
+                                className="
+                                    shrink-0 px-4 py-2 rounded-md
+                                    text-sm font-medium
+                                    text-muted-foreground
+                                    hover:bg-secondary hover:text-foreground
+                                    transition-colors
+                                "
+                            >
+                                {year}
+                            </button>
+                        ))}
+                    </nav>
                 </div>
 
                 {/* Filters */}

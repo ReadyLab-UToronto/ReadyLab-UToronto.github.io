@@ -126,3 +126,10 @@ If new npm packages are installed and the GitHub deployment fails, read the fail
 - Regenerate the lockfile: `npm install` 
 - Test the strict install: `npm ci` 
 - Commit and push all the new changes to GitHub 
+
+The website is being redirected to the MIE-managed domain: `readylab.mie.utoronto.ca`. MIE manages the DNS registration, and we need to make sure this subdomain is recorded in the `CNAME` file and saved in the GitHub repository: "Settings" --> "Pages" --> "Custom domain". The option of "Enforce HTTPS" is also checked to support secure HTTPS connection. 
+
+More instructions on configuring a subdomain can be found [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain), and the DNS CNAME added by MIE is 
+``` 
+readylab.mie.utoronto.ca.   IN      CNAME   readylab-utoronto.github.io.
+```
