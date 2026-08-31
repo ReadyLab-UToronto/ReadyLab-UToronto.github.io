@@ -1,6 +1,16 @@
 {
     "members": [
         {
+            "name": "Heimin Kang", 
+            "active": true,
+            "graduationYear": -1,
+            "imageUrl": "heimin_kang.jpg",
+            "role": "phd",
+            "description": "Heimin is a PhD student at Ready Lab, co-supervised by Professor Chul B. Park. She holds master's degrees in Strategic Product Design from Delft University of Technology and Creative Design Engineering from Ulsan National Institute of Science and Technology. Her previous work explored integrating AI into healthcare systems involving multiple stakeholders, as well as designing interactive technologies to support users' well-being. Her research interests focus on how AI- and data-enabled approaches can support collaboration in engineering design.", 
+            "linkedinUrl": "https://www.linkedin.com/in/heiminkang/", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=ngd0JmoAAAAJ&hl=en&oi=ao"
+        }, 
+        {
             "name": "Iris Huić", 
             "active": true,
             "graduationYear": 2026,
