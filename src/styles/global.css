@@ -126,5 +126,7 @@
     }
   html {
     @apply font-sans;
+    /* Prevent rubber-band overscroll from revealing a hard cut under the footer */
+    overscroll-behavior-y: none;
     }
 }

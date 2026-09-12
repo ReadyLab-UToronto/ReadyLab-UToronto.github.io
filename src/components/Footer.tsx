@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-[#3B57F3] mt-16">
+        <footer className="relative mt-16 bg-[#3B57F3] pb-[env(safe-area-inset-bottom)] shadow-[0_100vh_0_100vh_#3B57F3]">
             <div className="mx-auto grid max-w-7xl gap-8 px-8 py-12 md:grid-cols-2">
 
                 {/* Lab information */}

@@ -26,7 +26,7 @@ export default function Join() {
                 
                 {/* Graduate Research Opportunities */}
                 <div className="text-2xl font-bold">Graduate Research Opportunities</div>
-                    <div className="text-lg">In the next application cycle, we will seek students to apply to the UofT Mechanical & Industrial Engineering graduate program to join our lab. We are looking for strong graduate candidates who might have:</div>
+                    <div className="text-lg">For September 2027 start, we seek students to apply to the UofT Mechanical & Industrial Engineering MASc or PhD programs to join our lab. We are looking for strong candidates who might have:</div>
                     <ul className="list-disc list-inside px-8 space-y-1">
                         <li>Experience with computer-aided design or model-based systems engineering software</li>
                         <li>Interest in engineering design, human-computer interaction and/or systems engineering</li>
@@ -104,7 +104,16 @@ export default function Join() {
 
                     {/* How to apply */}
                     <div className="text-2xl font-bold">How to apply</div>
-                    <div className="text-lg">Please email Prof. Olechowski with your CV and Transcript, and include the phrase “We The North” in the subject.</div>
+                    <div className="text-lg">
+                        <a
+                            href="https://forms.cloud.microsoft/r/he6c3M6iAP"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 hover:underline"
+                        >
+                            Application to Ready Lab (PI Dr. Olechowski) – Fill out form
+                        </a>
+                    </div>
             </div>
 
             {/* Diversity statement */}
