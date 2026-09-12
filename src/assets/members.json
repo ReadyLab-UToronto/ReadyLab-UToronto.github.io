@@ -21,93 +21,6 @@
             "googlescholarUrl": "https://www.researchgate.net/profile/Iris-Huic-3/research"
         }, 
         {
-            "name": "Dr. Pelin Tanberg",
-            "active": true,
-            "graduationYear": -1,
-            "imageUrl": "pelin_tanberg.jpg", 
-            "role": "postdoc", 
-            "description": "Dr. Pelin Tanberg is an NSERC-funded postdoctoral fellow at the Ready Lab. Her research investigates how teams develop transactive memory systems: shared mental maps of who knows what and how they update these maps overtime. A central question in her work is how introducing new human or AI team members affects this collective knowledge structure, collaboration, and idea generation. She received her MSc from Queen's University in cognitive neuroscience and her PhD from the University of Waterloo in cognitive psychology. She holds a cross-appointment with Dr. Michael Inzlicht in the Department of Psychology, where she studies how effort and memory shape empathy-seeking behaviour and how people seek or delegate emotional support to AI companions.",
-            "linkedinUrl": "https://www.linkedin.com/in/pelintanberg/",
-            "googlescholarUrl": "https://scholar.google.com/citations?user=WAZQ05cAAAAJ&hl=en&oi=ao"
-        }, 
-        {
-            "name": "Dr. Kathy Cheng",
-            "active": false,
-            "graduationYear": 2026,
-            "imageUrl": "kathy_cheng.jpg", 
-            "role": "phd", 
-            "description": "Kathy is a PhD candidate at Ready Lab, co-advised by Dr. Shurui Zhou from [FORCOLAB](https://www.eecg.utoronto.ca/~shuruiz/forcolab/index.html). She holds a BASc in Mechanical Engineering from the University of Toronto. She spent an award-winning Professional Experience Year at [Scotiabank](https://www.scotiabank.com/) as a technology consultant, which sparked her interest in human-centred design. Kathy's doctoral research aims to understand and address collaboration challenges with CAD (computer-aided design) tools using software development best practices and insight.",
-            "linkedinUrl": "https://www.linkedin.com/in/kathy-cheng/",
-            "googlescholarUrl": "https://scholar.google.ca/citations?user=cwrLbXkAAAAJ&hl=en"
-        }, 
-        {
-            "name": "Dr. Liz DaMaren", 
-            "active": true, 
-            "graduationYear": 2026, 
-            "imageUrl": "liz_damaren.jpg", 
-            "role": "phd", 
-            "description": "Liz is a PhD candidate at Ready Lab. She holds a Bachelor of Mechatronics Engineering & Society from McMaster University, where she also completed an Interdisciplinary Minor in Sustainability. Her research focuses on team dynamics and gender considerations in computer-aided design group settings, with applications for educators and industry alike. Outside the lab, she loves grabbing a canoe and heading into the Algonquin backcountry or exploring the city and seeing what the latest vegetarian restaurant has in store.", 
-            "linkedinUrl": "https://www.linkedin.com/in/elizabeth-damaren/", 
-            "googlescholarUrl": "https://scholar.google.ca/citations?user=4HV3CFAAAAAJ&hl=en"
-        }, 
-        {
-            "name": "Dr. Chuma Asuzu",
-            "active": false,
-            "graduationYear": 2026,
-            "imageUrl": "chuma_asuzu.jpg", 
-            "role": "phd", 
-            "description": "Chuma is a PhD Student at Ready Lab. His research explores the development of aesthetics in people and how customer data can be used to inform engineering design. Outside of the lab, he can be found watching old TV shows and rom-coms.",
-            "linkedinUrl": "https://ca.linkedin.com/in/chuma-asuzu",
-            "googlescholarUrl": "https://scholar.google.com/citations?user=60FIoRYAAAAJ&hl=en&oi=sra"
-        }, 
-        {
-            "name": "Yuanzhe (Felix) Deng",
-            "active": true,
-            "graduationYear": -1,
-            "imageUrl": "felix_deng.jpg", 
-            "role": "phd", 
-            "description": "Felix is a PhD student at Ready Lab, co-supervised by Prof. Shurui Zhou from [FORCOLAB](https://www.eecg.utoronto.ca/~shuruiz/forcolab/index.html). He holds a BASc in Mechanical Engineering from the University of Toronto. He completed his undergraduate thesis at the [Microrobotics Lab](https://microrobotics.mie.utoronto.ca/), working on magnetically actuated surgical robotics, and previously conducted research at Ready Lab on the efficiency of engineering collaboration in multi-user CAD. Felix's current research focuses on enhancing the human-computer interaction of modern CAD systems with artificial intelligence.",
-            "linkedinUrl": "https://www.linkedin.com/in/felix-deng-b845331b3/",
-            "googlescholarUrl": "https://scholar.google.com/citations?user=NCexN38AAAAJ&hl=en"
-        }, 
-        {
-            "name": "Alden Sova", 
-            "active": true, 
-            "graduationYear": -1, 
-            "imageUrl": "alden_sova.png", 
-            "role": "phd", 
-            "description": "Alden is a PhD candidate at Ready Lab. He holds an honours BS in Industrial Engineering from Oregon State University. His research focuses on designing work environments that stimulate and support creativity in engineering and design teams. Prior to joining U of T, Alden worked in systems engineering and project management roles at Intel and Daimler. Outside of the lab, he enjoys biking, exploring Toronto, STEM outreach, and reading.", 
-            "linkedinUrl": "https://www.linkedin.com/in/alden-sova", 
-            "googlescholarUrl": "https://scholar.google.com/citations?user=5RKciAoAAAAJ&hl=en"
-        }, 
-        {
-            "name": "Marjan Naghshbandi", 
-            "active": true, 
-            "graduationYear": -1, 
-            "imageUrl": "marjan_naghshbandi.jpg", 
-            "role": "masc", 
-            "description": "Marjan is a MASc student at Ready Lab. Funded by NSERC's Canada Graduate Scholarship, her research looks at leveraging social science methods and digital trace data to support remote and hybrid product development teams' innovation processes and collaboration. Marjan works closely with Dr. Sharon Ferguson at the University of Waterloo on this work. Before her Master's, she graduated from the University of Toronto's Industrial Engineering program with certificates in AI and business, and held a Program Manager position at Intel Corporation. She also completed her undergraduate thesis with Ready Lab, on the topic of underrepresented students' persistence in Computer Science.", 
-            "linkedinUrl": "https://www.linkedin.com/in/marjan-nagh/" 
-        }, 
-        {
-            "name": "Kevin Zhang", 
-            "active": true, 
-            "graduationYear": -1, 
-            "imageUrl": "kevin_zhang.jpg", 
-            "role": "masc", 
-            "description": "Kevin is a MASc student at Ready Lab, studying CAD and engineering collaboration. He holds a BASc in Mechanical Engineering from the University of Toronto. His undergraduate thesis was completed with Ready Lab, studying CAD user archetypes based on user data, and has presented his work at the 2024 CAD and IDETC conferences. He has previously completed internships at Pratt and Whitney, Bombardier, and Zebra Technologies, and his current research at Ready Lab focuses on studying CAD interoperability and interdisciplinary collaboration in the engineering design process.", 
-            "linkedinUrl": "https://www.linkedin.com/in/kzhangto/" 
-        }, 
-        {
-            "name": "Sean Huang", 
-            "active": true, 
-            "graduationYear": -1, 
-            "imageUrl": "sean_huang.jpg", 
-            "role": "masc", 
-            "description": "Sean is a MASc student at Ready Lab, studying model-based systems engineering and multidisciplinary design optimization. He hold a BASc in Engineering Science, major in Aerospace Engineering, from the University of Toronto. He previously completed an internship at MDA Space as a Systems Design Student, with a focus on the implementation of MBSE and the management of requirements on the Canadarm3 Project. His future research will focus on how MBSE and MDO can be effectively implemented together in real-world engineering projects.", 
-            "linkedinUrl": "http://www.linkedin.com/in/seanhuang2002" 
-        }, 
-        {
             "name": "Lia Mitsui Campbell", 
             "active": true, 
             "graduationYear": -1, 
@@ -124,6 +37,63 @@
             "role": "undergrad", 
             "description": "Shuo is an undergraduate research student at the READY Lab and a Computer Engineering student at the University of Toronto, focusing on applied artificial intelligence and machine learning. Funded by the Data Sciences Institute, he is currently working on machine learning based feature recommendation for CAD. His interests include software development, applied AI, and computational tools that support engineering design and collaboration.", 
             "linkedinUrl": "https://www.linkedin.com/in/jshuoyin/" 
+        }, 
+        {
+            "name": "Dr. Pelin Tanberg",
+            "active": true,
+            "graduationYear": -1,
+            "imageUrl": "pelin_tanberg.jpg", 
+            "role": "postdoc", 
+            "description": "Dr. Pelin Tanberg is an NSERC-funded postdoctoral fellow at the Ready Lab. Her research investigates how teams develop transactive memory systems: shared mental maps of who knows what and how they update these maps overtime. A central question in her work is how introducing new human or AI team members affects this collective knowledge structure, collaboration, and idea generation. She received her MSc from Queen's University in cognitive neuroscience and her PhD from the University of Waterloo in cognitive psychology. She holds a cross-appointment with Dr. Michael Inzlicht in the Department of Psychology, where she studies how effort and memory shape empathy-seeking behaviour and how people seek or delegate emotional support to AI companions.",
+            "linkedinUrl": "https://www.linkedin.com/in/pelintanberg/",
+            "googlescholarUrl": "https://scholar.google.com/citations?user=WAZQ05cAAAAJ&hl=en&oi=ao"
+        }, 
+        {
+            "name": "Alden Sova", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "alden_sova.png", 
+            "role": "phd", 
+            "description": "Alden is a PhD candidate at Ready Lab. He holds an honours BS in Industrial Engineering from Oregon State University. His research focuses on designing work environments that stimulate and support creativity in engineering and design teams. Prior to joining U of T, Alden worked in systems engineering and project management roles at Intel and Daimler. Outside of the lab, he enjoys biking, exploring Toronto, STEM outreach, and reading.", 
+            "linkedinUrl": "https://www.linkedin.com/in/alden-sova", 
+            "googlescholarUrl": "https://scholar.google.com/citations?user=5RKciAoAAAAJ&hl=en"
+        }, 
+        {
+            "name": "Sean Huang", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "sean_huang.jpg", 
+            "role": "masc", 
+            "description": "Sean is a MASc student at Ready Lab, studying model-based systems engineering and multidisciplinary design optimization. He hold a BASc in Engineering Science, major in Aerospace Engineering, from the University of Toronto. He previously completed an internship at MDA Space as a Systems Design Student, with a focus on the implementation of MBSE and the management of requirements on the Canadarm3 Project. His future research will focus on how MBSE and MDO can be effectively implemented together in real-world engineering projects.", 
+            "linkedinUrl": "http://www.linkedin.com/in/seanhuang2002" 
+        }, 
+        {
+            "name": "Kevin Zhang", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "kevin_zhang.jpg", 
+            "role": "masc", 
+            "description": "Kevin is a MASc student at Ready Lab, studying CAD and engineering collaboration. He holds a BASc in Mechanical Engineering from the University of Toronto. His undergraduate thesis was completed with Ready Lab, studying CAD user archetypes based on user data, and has presented his work at the 2024 CAD and IDETC conferences. He has previously completed internships at Pratt and Whitney, Bombardier, and Zebra Technologies, and his current research at Ready Lab focuses on studying CAD interoperability and interdisciplinary collaboration in the engineering design process.", 
+            "linkedinUrl": "https://www.linkedin.com/in/kzhangto/" 
+        }, 
+        {
+            "name": "Marjan Naghshbandi", 
+            "active": true, 
+            "graduationYear": -1, 
+            "imageUrl": "marjan_naghshbandi.jpg", 
+            "role": "masc", 
+            "description": "Marjan is a MASc student at Ready Lab. Funded by NSERC's Canada Graduate Scholarship, her research looks at leveraging social science methods and digital trace data to support remote and hybrid product development teams' innovation processes and collaboration. Marjan works closely with Dr. Sharon Ferguson at the University of Waterloo on this work. Before her Master's, she graduated from the University of Toronto's Industrial Engineering program with certificates in AI and business, and held a Program Manager position at Intel Corporation. She also completed her undergraduate thesis with Ready Lab, on the topic of underrepresented students' persistence in Computer Science.", 
+            "linkedinUrl": "https://www.linkedin.com/in/marjan-nagh/" 
+        }, 
+        {
+            "name": "Yuanzhe (Felix) Deng",
+            "active": true,
+            "graduationYear": -1,
+            "imageUrl": "felix_deng.jpg", 
+            "role": "phd", 
+            "description": "Felix is a PhD student at Ready Lab, co-supervised by Prof. Shurui Zhou from [FORCOLAB](https://www.eecg.utoronto.ca/~shuruiz/forcolab/index.html). He holds a BASc in Mechanical Engineering from the University of Toronto. He completed his undergraduate thesis at the [Microrobotics Lab](https://microrobotics.mie.utoronto.ca/), working on magnetically actuated surgical robotics, and previously conducted research at Ready Lab on the efficiency of engineering collaboration in multi-user CAD. Felix's current research focuses on enhancing the human-computer interaction of modern CAD systems with artificial intelligence.",
+            "linkedinUrl": "https://www.linkedin.com/in/felix-deng-b845331b3/",
+            "googlescholarUrl": "https://scholar.google.com/citations?user=NCexN38AAAAJ&hl=en"
         }, 
         {
             "name": "Ivy (Jiaying) Zhang", 
@@ -198,6 +168,36 @@
             "description": "", 
             "linkedinUrl": "https://www.linkedin.com/in/elisakwon/", 
             "googlescholarUrl": "https://scholar.google.com/citations?user=K3sddnoAAAAJ"
+        }, 
+        {
+            "name": "Dr. Kathy Cheng",
+            "active": false,
+            "graduationYear": 2026,
+            "imageUrl": "kathy_cheng.jpg", 
+            "role": "phd", 
+            "description": "Kathy is a PhD candidate at Ready Lab, co-advised by Dr. Shurui Zhou from [FORCOLAB](https://www.eecg.utoronto.ca/~shuruiz/forcolab/index.html). She holds a BASc in Mechanical Engineering from the University of Toronto. She spent an award-winning Professional Experience Year at [Scotiabank](https://www.scotiabank.com/) as a technology consultant, which sparked her interest in human-centred design. Kathy's doctoral research aims to understand and address collaboration challenges with CAD (computer-aided design) tools using software development best practices and insight.",
+            "linkedinUrl": "https://www.linkedin.com/in/kathy-cheng/",
+            "googlescholarUrl": "https://scholar.google.ca/citations?user=cwrLbXkAAAAJ&hl=en"
+        }, 
+        {
+            "name": "Dr. Liz DaMaren", 
+            "active": true, 
+            "graduationYear": 2026, 
+            "imageUrl": "liz_damaren.jpg", 
+            "role": "phd", 
+            "description": "Liz is a PhD candidate at Ready Lab. She holds a Bachelor of Mechatronics Engineering & Society from McMaster University, where she also completed an Interdisciplinary Minor in Sustainability. Her research focuses on team dynamics and gender considerations in computer-aided design group settings, with applications for educators and industry alike. Outside the lab, she loves grabbing a canoe and heading into the Algonquin backcountry or exploring the city and seeing what the latest vegetarian restaurant has in store.", 
+            "linkedinUrl": "https://www.linkedin.com/in/elizabeth-damaren/", 
+            "googlescholarUrl": "https://scholar.google.ca/citations?user=4HV3CFAAAAAJ&hl=en"
+        }, 
+        {
+            "name": "Dr. Chuma Asuzu",
+            "active": false,
+            "graduationYear": 2026,
+            "imageUrl": "chuma_asuzu.jpg", 
+            "role": "phd", 
+            "description": "Chuma is a PhD Student at Ready Lab. His research explores the development of aesthetics in people and how customer data can be used to inform engineering design. Outside of the lab, he can be found watching old TV shows and rom-coms.",
+            "linkedinUrl": "https://ca.linkedin.com/in/chuma-asuzu",
+            "googlescholarUrl": "https://scholar.google.com/citations?user=60FIoRYAAAAJ&hl=en&oi=sra"
         }, 
         {
             "name": "Jordan Epp", 

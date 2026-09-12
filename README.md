@@ -1,11 +1,16 @@
 # Ready Lab website 
 
-This webpage was built using the [Vite](https://vite.dev/guide/) build tool as a React JavaScript project. Some UI components (under `src/components/ui/`) were adopted from [Shadcn UI](https://ui.shadcn.com). The website is deployed as a static webpage on GitHub Pages, and then redirected to the MIE domain. 
+This webpage was built using the [Vite](https://vite.dev/guide/) build tool as a React JavaScript project with Tailwind CSS enabled. Some UI components (under `src/components/ui/`) were adopted from [Shadcn UI](https://ui.shadcn.com). The website is deployed as a static webpage on GitHub Pages, and then redirected to the MIE domain. 
 
-- [Maintenance Guide](#maintenance-guide)
-- [Setup Guide](#setup-guide)
-- [Local Testing Guide](#local-testing-guide)
-- [Deployment Guide](#deployment-guide)
+- [Maintenance Guide](#maintenance-guide): guide for updating rendered data 
+    - [Publications](#publications)
+    - [Team Members](#team-members)
+    - [News](#news)
+    - [Group Photos](#group-photos)
+- [Setup Guide](#setup-guide): guide to setting up the local code repository for the first time 
+- [Local Testing Guide](#local-testing-guide): guide to locally test the website rendering before pushing updates to the `main` branch. 
+- [Deployment Guide](#deployment-guide): documentation of the deployment process. 
+- [Code Architecture](#code-architecture): summary of the high-level design of this code repository and a guide for major design modifications to the website. 
 
 **CAUTION**: when changes are made to the website, always [test locally](#local-testing-guide) before pushing your changes to the `main` branch. If you are unsure, push your changes to a branch and have someone else to test it before merging the branch to `main`. 
 
@@ -59,6 +64,7 @@ All members, including active members and alumni, are managed in the file `src/a
 ```
 
 **Note**: 
+- A good convention is to always add new members at the top of the JSON list, so that more senior members show up earlier on the rendered page. 
 - If `active` is set to `true`, number entered for `graduationYear` is ignored, but a number is still required for data type consistency. 
 - When an active lab member graduates, simply change `active` to `false` and enter the correct `graduationYear`. 
 - Please rename the headshot image with a meaningful filename for sustainable file management in `public/headshots/`. Crop the image to square (1:1 aspect ratio) to avoid unintended cut off or scaling when being rendered on the website. 
@@ -135,3 +141,19 @@ More instructions on configuring a subdomain can be found [here](https://docs.gi
 ``` 
 readylab.mie.utoronto.ca.   IN      CNAME   readylab-utoronto.github.io.
 ```
+
+## Code Architecture 
+
+Design of this website has been made as modular as possible: 
+- Each webpage of the website is designed in a separate `.tsx` file under `src/routes/`. 
+- The header (navigation panel) and the footer are consistent across all webpages, and they are designed in `src/components/NavBar.tsx` and `src/components/Footer.tsx`. 
+- Many pages reuse standard components designed in `src/components/`, such as the presentation of each publication, each lab member, and each news. 
+- Many UI components are adopted from [Shadcn UI](https://ui.shadcn.com), and these components are imported from `src/components/ui/`. 
+- The data types of some common data objects that are used across multiple files (e.g., a paper reference, a lab member) are defined in `src/type.ts`. 
+- Structured data for the website that can be organized in JSON files should be stored in `src/assets/`, and other static images should be stored in `public/`. The difference is that resources in `src/assets/` need to be imported at the top of the script before they can be referenced in the code, but images in `public/` can be directly referenced in functions and HTML tags (e.g., `<img>`). 
+
+If a new page is designed: 
+- Create a new `.tsx` file in `src/routes/` following a similar format as other pages. Insert consistent header and footer is appropriate. 
+- Add a link to this new page in `src/main.tsx`, otherwise the page cannot be reached. 
+- If this page should be exposed in the header navigation panel, edit `src/components/NavBar.tsx` to add a link to the new page. 
+- When designing the page, you may reuse any UI components from `src/components/ui/` to keep the repository clean. 

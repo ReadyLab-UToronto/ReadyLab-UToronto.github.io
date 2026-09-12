@@ -68,7 +68,7 @@ export default function Team() {
 
             {/* Active lab members */}
             <div className="flex flex-col space-y-10 py-20">
-                {teamMembers.filter(member => member.active).sort(
+                {teamMembers.filter(member => member.active).reverse().sort(
                     (a, b) => roleOrder[a.role] - roleOrder[b.role]
                     ).map(member => ActiveMemberCard({member}))
                 }

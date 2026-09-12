@@ -158,7 +158,7 @@ export default function Home() {
             {/* Lab Member */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-30 mt-20">
                 {teamMembers
-                    .filter((member) => member.active)
+                    .filter((member) => member.active).reverse()
                     .sort((a, b) => roleOrder[a.role] - roleOrder[b.role])
                     .map((member) => (
                         <div className=" flex flex-col gap-4 justify-center items-center" key={member.name}>
