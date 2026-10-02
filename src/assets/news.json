@@ -2,6 +2,24 @@
     "news": [
         {
             "year": 2026, 
+            "month": 3, 
+            "type": "Award", 
+            "content": "Alison Olechowski won the [Reviewer of the Year Award for ASME Journal of Mechanical Design](https://asmedigitalcollection.asme.org/mechanicaldesign/article/148/5/050201/1232046/Reviewer-s-Recognition)."
+        }, 
+        {
+            "year": 2026, 
+            "month": 7,
+            "type": "Award", 
+            "content": "Kathy Cheng and Alison Olechowski's co-authored paper won the [2024 ASME Journal of Mechanical Design Editor's Choice Paper Award](https://www.asme-dtm.org). "
+        }, 
+        {
+            "year": 2025, 
+            "month": 8, 
+            "type": "Award", 
+            "content": "Meagan Flus and Alison Olechowski's paper was awarded the best paper at [2025 ASME IDETC - Design Theory and Methods Conference](https://www.asme-dtm.org)."
+        }, 
+        {
+            "year": 2026, 
             "month": 8, 
             "type": "Member", 
             "content": "Ready Lab welcomes visiting student Iris Huić from the University of Zagreb"

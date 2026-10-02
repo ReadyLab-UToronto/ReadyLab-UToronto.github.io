@@ -69,8 +69,8 @@
         }, 
         {
             "name": "Kevin Zhang", 
-            "active": true, 
-            "graduationYear": -1, 
+            "active": false, 
+            "graduationYear": 2026, 
             "imageUrl": "kevin_zhang.jpg", 
             "role": "masc", 
             "description": "Kevin is a MASc student at Ready Lab, studying CAD and engineering collaboration. He holds a BASc in Mechanical Engineering from the University of Toronto. His undergraduate thesis was completed with Ready Lab, studying CAD user archetypes based on user data, and has presented his work at the 2024 CAD and IDETC conferences. He has previously completed internships at Pratt and Whitney, Bombardier, and Zebra Technologies, and his current research at Ready Lab focuses on studying CAD interoperability and interdisciplinary collaboration in the engineering design process.", 
@@ -78,8 +78,8 @@
         }, 
         {
             "name": "Marjan Naghshbandi", 
-            "active": true, 
-            "graduationYear": -1, 
+            "active": false, 
+            "graduationYear": 2026, 
             "imageUrl": "marjan_naghshbandi.jpg", 
             "role": "masc", 
             "description": "Marjan is a MASc student at Ready Lab. Funded by NSERC's Canada Graduate Scholarship, her research looks at leveraging social science methods and digital trace data to support remote and hybrid product development teams' innovation processes and collaboration. Marjan works closely with Dr. Sharon Ferguson at the University of Waterloo on this work. Before her Master's, she graduated from the University of Toronto's Industrial Engineering program with certificates in AI and business, and held a Program Manager position at Intel Corporation. She also completed her undergraduate thesis with Ready Lab, on the topic of underrepresented students' persistence in Computer Science.", 
@@ -181,7 +181,7 @@
         }, 
         {
             "name": "Dr. Liz DaMaren", 
-            "active": true, 
+            "active": false, 
             "graduationYear": 2026, 
             "imageUrl": "liz_damaren.jpg", 
             "role": "phd", 
