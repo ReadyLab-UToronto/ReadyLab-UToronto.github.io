@@ -1,6 +1,14 @@
 {
     "members": [
         {
+            "name": "Sonia Kooner", 
+            "active": true, 
+            "graduationYear": 2027, 
+            "imageUrl": "sonia_kooner.jpg", 
+            "role": "undergrad", 
+            "description": "Sonia is an undergraduate thesis student at the Ready Lab and an Energy Systems Engineering student at the University of Toronto's Engineering Science Program, pursuing a certificate in Electric Vehicle Design. Following her PEY in mechanical design and analysis, she developed a strong interest in engineering design, collaboration, and the role of digital tools in supporting design processes. Her interests include mechanical design and analysis, engineering documentation, and human-computer interaction in engineering. Her research focuses on capturing design intent during the design process to support clearer documentation and communication among engineers, enabling more effective collaboration." 
+        }, 
+        {
             "name": "Heimin Kang", 
             "active": true,
             "graduationYear": -1,
